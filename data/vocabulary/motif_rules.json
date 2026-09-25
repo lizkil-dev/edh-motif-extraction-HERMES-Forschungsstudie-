@@ -1,0 +1,3532 @@
+[
+  {
+    "id": "bird_with_branch_1",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_2",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "olive_branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_3",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "palm_branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_4",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_5",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "olive_branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_6",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "palm_branch",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_7",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "tree",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_branch_8",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "tree",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_branch"
+  },
+  {
+    "id": "bird_with_flower_1",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "flower",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_flower"
+  },
+  {
+    "id": "bird_with_flower_2",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "flower",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_flower"
+  },
+  {
+    "id": "bird_with_grapes_1",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "grapes",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_grapes"
+  },
+  {
+    "id": "bird_with_grapes_2",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "grapes",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_grapes"
+  },
+  {
+    "id": "bird_with_wreath_or_garland_1",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "garland",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_wreath_or_garland"
+  },
+  {
+    "id": "bird_with_wreath_or_garland_2",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "garland",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_with_wreath_or_garland"
+  },
+  {
+    "id": "bird_at_or_in_vessel_1",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "vessel",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_2",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "cup",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_3",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "kantharos",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_4",
+    "requires": [
+      {
+        "element": "bird",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "amphora",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_5",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "vessel",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_6",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "cup",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_7",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "kantharos",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "bird_at_or_in_vessel_8",
+    "requires": [
+      {
+        "element": "dove",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "amphora",
+        "min_count": 1
+      }
+    ],
+    "category": "bird_at_or_in_vessel"
+  },
+  {
+    "id": "in_wreath_1",
+    "requires": [
+      {
+        "element": "christogram",
+        "min_count": 1
+      },
+      {
+        "element": "wreath",
+        "min_count": 1
+      }
+    ],
+    "category": "in_wreath"
+  },
+  {
+    "id": "in_wreath_2",
+    "requires": [
+      {
+        "element": "christogram",
+        "min_count": 1
+      },
+      {
+        "element": "corona_vittata",
+        "min_count": 1
+      }
+    ],
+    "category": "in_wreath"
+  },
+  {
+    "id": "daniel_in_the_lions_den_via_daniel",
+    "requires": [
+      {
+        "element": "daniel",
+        "min_count": 1
+      }
+    ],
+    "category": "daniel_in_the_lions_den"
+  },
+  {
+    "id": "daniel_in_the_lions_den_via_lions_den",
+    "requires": [
+      {
+        "element": "lions_den",
+        "min_count": 1
+      }
+    ],
+    "category": "daniel_in_the_lions_den"
+  },
+  {
+    "id": "three_youths_in_the_furnace_via_three_youths_in_the_furnace",
+    "requires": [
+      {
+        "element": "three_youths_in_the_furnace",
+        "min_count": 1
+      }
+    ],
+    "category": "three_youths_in_the_furnace"
+  },
+  {
+    "id": "noah_in_the_ark_via_noah",
+    "requires": [
+      {
+        "element": "noah",
+        "min_count": 1
+      }
+    ],
+    "category": "noah_in_the_ark"
+  },
+  {
+    "id": "noah_in_the_ark_via_noahs_ark",
+    "requires": [
+      {
+        "element": "noahs_ark",
+        "min_count": 1
+      }
+    ],
+    "category": "noah_in_the_ark"
+  },
+  {
+    "id": "jonah_via_jonah",
+    "requires": [
+      {
+        "element": "jonah",
+        "min_count": 1
+      }
+    ],
+    "category": "jonah"
+  },
+  {
+    "id": "raising_of_lazarus_via_lazarus",
+    "requires": [
+      {
+        "element": "lazarus",
+        "min_count": 1
+      }
+    ],
+    "category": "raising_of_lazarus"
+  },
+  {
+    "id": "adam_and_eve_via_adam_eve",
+    "requires": [
+      {
+        "element": "adam",
+        "min_count": 1
+      },
+      {
+        "element": "eve",
+        "min_count": 1
+      }
+    ],
+    "category": "adam_and_eve"
+  },
+  {
+    "id": "moses_striking_the_rock_via_moses_rock",
+    "requires": [
+      {
+        "element": "moses",
+        "min_count": 1
+      },
+      {
+        "element": "rock",
+        "min_count": 1
+      }
+    ],
+    "category": "moses_striking_the_rock"
+  },
+  {
+    "id": "moses_receiving_the_law_via_moses_tablet_of_the_law",
+    "requires": [
+      {
+        "element": "moses",
+        "min_count": 1
+      },
+      {
+        "element": "tablet_of_the_law",
+        "min_count": 1
+      }
+    ],
+    "category": "moses_receiving_the_law"
+  },
+  {
+    "id": "adoration_of_the_magi_via_magi",
+    "requires": [
+      {
+        "element": "magi",
+        "min_count": 1
+      }
+    ],
+    "category": "adoration_of_the_magi"
+  },
+  {
+    "id": "multiplication_of_loaves_via_loaves",
+    "requires": [
+      {
+        "element": "loaves",
+        "min_count": 1
+      }
+    ],
+    "category": "multiplication_of_loaves"
+  },
+  {
+    "id": "multiplication_of_loaves_via_bread_fish",
+    "requires": [
+      {
+        "element": "bread",
+        "min_count": 1
+      },
+      {
+        "element": "fish",
+        "min_count": 1
+      }
+    ],
+    "category": "multiplication_of_loaves"
+  },
+  {
+    "id": "jupiter_ammon",
+    "requires": [
+      {
+        "element": "head",
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "element": "ram_horn",
+        "min_count": 1,
+        "take_all": true
+      }
+    ],
+    "category": "jupiter_ammon"
+  },
+  {
+    "id": "orpheus_with_lyre",
+    "requires": [
+      {
+        "element": "orpheus",
+        "min_count": 1
+      },
+      {
+        "element": "lyre",
+        "min_count": 1
+      }
+    ],
+    "category": "mythological_scenes"
+  },
+  {
+    "id": "selene_and_endymion",
+    "requires": [
+      {
+        "element": "selene",
+        "min_count": 1
+      },
+      {
+        "element": "endymion",
+        "min_count": 1
+      }
+    ],
+    "category": "mythological_scenes"
+  },
+  {
+    "id": "eagle_in_wreath",
+    "requires": [
+      {
+        "element": "eagle",
+        "min_count": 1
+      },
+      {
+        "element": "wreath",
+        "min_count": 1
+      }
+    ],
+    "category": "eagle_in_wreath"
+  },
+  {
+    "id": "wreath_of_laurel",
+    "requires": [
+      {
+        "element": "laurel",
+        "min_count": 1
+      },
+      {
+        "element": "wreath",
+        "min_count": 1
+      }
+    ],
+    "category": "wreaths"
+  },
+  {
+    "id": "wreath_of_olive_branch",
+    "requires": [
+      {
+        "element": "olive_branch",
+        "min_count": 1
+      },
+      {
+        "element": "wreath",
+        "min_count": 1
+      }
+    ],
+    "category": "wreaths"
+  },
+  {
+    "id": "wreath_of_ivy_tendril",
+    "requires": [
+      {
+        "element": "ivy_tendril",
+        "min_count": 1
+      },
+      {
+        "element": "wreath",
+        "min_count": 1
+      }
+    ],
+    "category": "wreaths"
+  },
+  {
+    "id": "animal_scene",
+    "requires": [
+      {
+        "element": "animal",
+        "min_count": 2,
+        "take_all": true
+      }
+    ],
+    "category": "animal_scene"
+  },
+  {
+    "id": "tablet_held_by_putto",
+    "requires": [
+      {
+        "element": "tablet",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "putto",
+        "min_count": 1,
+        "take_all": true
+      }
+    ],
+    "category": "tablet_held_by_erotes"
+  },
+  {
+    "id": "tablet_held_by_genius",
+    "requires": [
+      {
+        "element": "tablet",
+        "min_count": 1,
+        "take_all": true
+      },
+      {
+        "element": "genius",
+        "min_count": 1,
+        "take_all": true
+      }
+    ],
+    "category": "tablet_held_by_erotes"
+  },
+  {
+    "id": "funerary_banquet",
+    "requires": [
+      { "element": "banquet", "min_count": 1, "take_all": true },
+      { "element": "man", "min_count": 0, "take_all": true },
+      { "element": "woman", "min_count": 0, "take_all": true },
+      { "element": "boy", "min_count": 0, "take_all": true },
+      { "element": "girl", "min_count": 0, "take_all": true },
+      { "element": "child", "min_count": 0, "take_all": true },
+      { "element": "person", "min_count": 0, "take_all": true },
+      { "element": "servant", "min_count": 0, "take_all": true }
+    ],
+    "category": "funerary_banquet"
+  },
+  {
+    "id": "field_work_ox_cart",
+    "requires": [
+      { "element": "ox_cart", "min_count": 1, "take_all": true },
+      { "element": "man", "min_count": 0, "take_all": true },
+      { "element": "person", "min_count": 0, "take_all": true }
+    ],
+    "category": "field_work"
+  },
+  {
+    "id": "boy_with_ball",
+    "requires": [
+      { "element": "boy", "min_count": 1 },
+      { "element": "ball", "min_count": 1 }
+    ],
+    "category": "boy_with_ball"
+  },
+  {
+    "id": "hunting_scene_animal",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "animal", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_bat",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "bat", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_beetle",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "beetle", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_bird",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "bird", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_boar",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "boar", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_bull",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "bull", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_butterfly",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "butterfly", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_capricorn",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "capricorn", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_chick",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "chick", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_chicken",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "chicken", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_cow",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "cow", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_deer",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "deer", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_dog",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "dog", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_dolphin",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "dolphin", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_donkey",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "donkey", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_dove",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "dove", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_dragon",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "dragon", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_duck",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "duck", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_eagle",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "eagle", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_fish",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "fish", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_goat",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "goat", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_goose",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "goose", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_griffin",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "griffin", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_hare",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "hare", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_hen",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "hen", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_hippocamp",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "hippocamp", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_hoopoe",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "hoopoe", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_horse",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "horse", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_leopard",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "leopard", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_lion",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "lion", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_livestock",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "livestock", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_monster",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "monster", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_mouse",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "mouse", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_octopus",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "octopus", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_ostrich",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "ostrich", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_owl",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "owl", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_panther",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "panther", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_partridge",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "partridge", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_peacock",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "peacock", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_phoenix",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "phoenix", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_pig",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "pig", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_ram",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "ram", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_ram_horn",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "ram_horn", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_rooster",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "rooster", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_sea_creature",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "sea_creature", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_sheep",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "sheep", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_snail",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "snail", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_snake",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "snake", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_stork",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "stork", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_swan",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "swan", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "hunting_scene_whale",
+    "requires": [
+      { "element": "hunt", "min_count": 1, "take_all": true },
+      { "element": "whale", "min_count": 1, "take_all": true }
+    ],
+    "category": "hunting_scene"
+  },
+  {
+    "id": "couple_with_tripod_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "tripod", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 0, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "orant", "min_count": 0, "shared": true },
+      { "element": "full_figure", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "couple_with_tripod"
+  },
+  {
+    "id": "couple_with_tripod_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "tripod", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 0, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "orant", "min_count": 0, "shared": true },
+      { "element": "full_figure", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "couple_with_tripod"
+  },
+  {
+    "id": "dextrarum_iunctio_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "dextrarum_iunctio", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 0, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "orant", "min_count": 0, "shared": true },
+      { "element": "full_figure", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_dextrarum_iunctio"
+  },
+  {
+    "id": "dextrarum_iunctio_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "dextrarum_iunctio", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 0, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "orant", "min_count": 0, "shared": true },
+      { "element": "full_figure", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_dextrarum_iunctio"
+  },
+  {
+    "id": "portrait_clipeus_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_clipeus_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_clipeus_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_clipeus_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_clipeus_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_clipeus_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_clipeus_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_clipeus_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_clipeus_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_clipeus_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_clipeus_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_clipeus_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_clipeus_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_clipeus_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_clipeus_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_clipeus_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_clipeus_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_clipeus_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_clipeus_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_clipeus_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_clipeus_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_clipeus_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "bust", "min_count": 0, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_clipeus_one_unsexed",
+    "requires": [
+      { "element": "bust", "min_count": 1, "max_count": 1 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_clipeus_couple_two_unsexed",
+    "requires": [
+      { "element": "bust", "min_count": 2, "max_count": 2 },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_clipeus_group_unsexed",
+    "requires": [
+      { "element": "bust", "min_count": 3, "take_all": true },
+      { "element": "clipeus", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_bust_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_bust_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_bust_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_bust_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_bust_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_bust_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_bust_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_bust_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_bust_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_bust_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_bust_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_bust_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_bust_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_bust_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_bust_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_bust_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_bust_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "bust", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_bust_couple_two_unsexed",
+    "requires": [
+      { "element": "bust", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_bust_group_unsexed",
+    "requires": [
+      { "element": "bust", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_orant_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_orant_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_orant_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_orant_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_orant_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_orant_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_orant_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_orant_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_orant_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_orant_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_orant_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_orant_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_orant_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_orant_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_orant_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_orant_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_orant_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "orant", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_orant_couple_two_unsexed",
+    "requires": [
+      { "element": "orant", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_orant_group_unsexed",
+    "requires": [
+      { "element": "orant", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_full_figure_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_full_figure_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_full_figure_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_full_figure_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_full_figure_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_full_figure_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_full_figure_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_full_figure_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_full_figure_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_full_figure_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_full_figure_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_full_figure_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_full_figure_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_full_figure_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_full_figure_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_full_figure_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_full_figure_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "full_figure", "min_count": 1, "shared": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_full_figure_couple_two_unsexed",
+    "requires": [
+      { "element": "full_figure", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_full_figure_group_unsexed",
+    "requires": [
+      { "element": "full_figure", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 0, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_head_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_head_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_head_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_head_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_head_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_head_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_head_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_head_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_head_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_head_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_head_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_head_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_head_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_head_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_head_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_head_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_head_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "head", "min_count": 1, "shared": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_head_couple_two_unsexed",
+    "requires": [
+      { "element": "head", "min_count": 2, "max_count": 2 },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_head_group_unsexed",
+    "requires": [
+      { "element": "head", "min_count": 3, "take_all": true },
+      { "element": "portrait", "min_count": 0, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_family_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_child_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_boy_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_girl_via_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_child",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_child",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_boy",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_boy",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_girl",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_girl",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_group_men_and_women",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_man_and_women",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_men",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_women",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_couple_man_woman",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_men",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_women",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_persons",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_group_persons",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_man",
+    "requires": [
+      { "element": "man", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_man"
+  },
+  {
+    "id": "portrait_unspecified_woman",
+    "requires": [
+      { "element": "woman", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_woman"
+  },
+  {
+    "id": "portrait_unspecified_boy",
+    "requires": [
+      { "element": "boy", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_boy"
+  },
+  {
+    "id": "portrait_unspecified_girl",
+    "requires": [
+      { "element": "girl", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_girl"
+  },
+  {
+    "id": "portrait_unspecified_child",
+    "requires": [
+      { "element": "child", "min_count": 1, "take_all": true },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_child"
+  },
+  {
+    "id": "portrait_unspecified_person",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "portrait", "min_count": 1, "shared": true }
+    ],
+    "category": "portrait_person"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_unsexed",
+    "requires": [
+      { "element": "portrait", "min_count": 2, "max_count": 2 }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_group_unsexed",
+    "requires": [
+      { "element": "portrait", "min_count": 3, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "animal_head_animal",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "animal", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_bat",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "bat", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_beetle",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "beetle", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_bird",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "bird", "min_count": 1, "take_all": true }
+    ],
+    "category": "birds_general"
+  },
+  {
+    "id": "animal_head_boar",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "boar", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_bull",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "bull", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_butterfly",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "butterfly", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_capricorn",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "capricorn", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_chick",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "chick", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_chicken",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "chicken", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_cow",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "cow", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_deer",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "deer", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_dog",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "dog", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_dolphin",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "dolphin", "min_count": 1, "take_all": true }
+    ],
+    "category": "dolphins"
+  },
+  {
+    "id": "animal_head_donkey",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "donkey", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_dove",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "dove", "min_count": 1, "take_all": true }
+    ],
+    "category": "doves"
+  },
+  {
+    "id": "animal_head_dragon",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "dragon", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_duck",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "duck", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_eagle",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "eagle", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_fish",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "fish", "min_count": 1, "take_all": true }
+    ],
+    "category": "fish_general"
+  },
+  {
+    "id": "animal_head_goat",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "goat", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_goose",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "goose", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_griffin",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "griffin", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_hare",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "hare", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_hen",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "hen", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_hippocamp",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "hippocamp", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_hoopoe",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "hoopoe", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_horse",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "horse", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_leopard",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "leopard", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_lion",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "lion", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_livestock",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "livestock", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_monster",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "monster", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_mouse",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "mouse", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_octopus",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "octopus", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_fish"
+  },
+  {
+    "id": "animal_head_ostrich",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "ostrich", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_owl",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "owl", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_panther",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "panther", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_partridge",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "partridge", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_peacock",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "peacock", "min_count": 1, "take_all": true }
+    ],
+    "category": "peacock"
+  },
+  {
+    "id": "animal_head_phoenix",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "phoenix", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_pig",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "pig", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_ram",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "ram", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_ram_horn",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "ram_horn", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_rooster",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "rooster", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_sea_creature",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "sea_creature", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_sheep",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "sheep", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_snail",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "snail", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_snake",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "snake", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_animals"
+  },
+  {
+    "id": "animal_head_stork",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "stork", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_swan",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "swan", "min_count": 1, "take_all": true }
+    ],
+    "category": "other_birds"
+  },
+  {
+    "id": "animal_head_whale",
+    "requires": [
+      { "element": "head", "min_count": 1, "max_count": 1 },
+      { "element": "whale", "min_count": 1, "take_all": true }
+    ],
+    "category": "whale"
+  },
+  {
+    "id": "portrait_unspecified_family_child_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_child_via_two_persons_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "child", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_boy_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_boy_via_two_persons_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "boy", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_girl_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_family_girl_via_two_persons_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 },
+      { "element": "girl", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_family"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_child_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_child_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "child", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_boy_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_boy_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "boy", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_man_with_child_girl_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_man_with_child"
+  },
+  {
+    "id": "portrait_unspecified_person_with_child_girl_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 1, "max_count": 1 },
+      { "element": "girl", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_person_with_child"
+  },
+  {
+    "id": "portrait_unspecified_group_men_and_women_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 2, "take_all": true },
+      { "element": "woman", "min_count": 1, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_man_and_women_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 2, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_men_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 3, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_group_women_no_form_word",
+    "requires": [
+      { "element": "woman", "min_count": 3, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "portrait_unspecified_couple_man_woman_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 1, "max_count": 1 },
+      { "element": "woman", "min_count": 1, "max_count": 1 }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_men_no_form_word",
+    "requires": [
+      { "element": "man", "min_count": 2, "max_count": 2 }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_women_no_form_word",
+    "requires": [
+      { "element": "woman", "min_count": 2, "max_count": 2 }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_couple_two_persons_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 2, "max_count": 2 }
+    ],
+    "category": "portrait_couple"
+  },
+  {
+    "id": "portrait_unspecified_group_persons_no_form_word",
+    "requires": [
+      { "element": "person", "min_count": 3, "take_all": true }
+    ],
+    "category": "portrait_group"
+  },
+  {
+    "id": "architecture_altar_flame",
+    "requires": [
+      {
+        "element": "altar",
+        "min_count": 1
+      },
+      {
+        "element": "flame",
+        "min_count": 1
+      }
+    ],
+    "category": "architecture"
+  },
+  {
+    "id": "putto_with_garland",
+    "requires": [
+      {
+        "element": "putto",
+        "min_count": 1
+      },
+      {
+        "element": "garland",
+        "min_count": 1
+      }
+    ],
+    "category": "putto_with_garland"
+  }
+]

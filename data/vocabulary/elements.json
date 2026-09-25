@@ -1,0 +1,1887 @@
+{
+  "bird": {
+    "label": "bird",
+    "iconclass_notation": "25F3",
+    "category": "birds_general"
+  },
+  "dove": {
+    "label": "dove",
+    "iconclass_notation": "25F36",
+    "category": "doves"
+  },
+  "peacock": {
+    "label": "peacock",
+    "iconclass_notation": "25F35(PEACOCK)",
+    "category": "peacock"
+  },
+  "rooster": {
+    "label": "rooster",
+    "iconclass_notation": "25F38(COCK)",
+    "category": "other_birds"
+  },
+  "hen": {
+    "label": "hen",
+    "iconclass_notation": "25F38(COCK)",
+    "category": "other_birds"
+  },
+  "chicken": {
+    "label": "chicken",
+    "iconclass_notation": "25F38(COCK)",
+    "category": "other_birds"
+  },
+  "chick": {
+    "label": "chick",
+    "iconclass_notation": "25F38(COCK)",
+    "category": "other_birds"
+  },
+  "stork": {
+    "label": "stork",
+    "iconclass_notation": "25F37(STORK)",
+    "category": "other_birds"
+  },
+  "hoopoe": {
+    "label": "hoopoe",
+    "iconclass_notation": "25F37(HOOPOE)",
+    "category": "other_birds"
+  },
+  "ostrich": {
+    "label": "ostrich",
+    "iconclass_notation": "25F38(OSTRICH)",
+    "category": "other_birds"
+  },
+  "eagle": {
+    "label": "eagle",
+    "iconclass_notation": "25F33(EAGLE)",
+    "category": "other_birds"
+  },
+  "partridge": {
+    "label": "partridge",
+    "iconclass_notation": "25F38(PARTRIDGE)",
+    "category": "other_birds"
+  },
+  "branch": {
+    "label": "branch",
+    "iconclass_notation": null,
+    "category": "branches_and_fronds"
+  },
+  "olive_branch": {
+    "label": "olive branch",
+    "iconclass_notation": "25G3(OLIVE)",
+    "category": "branches_and_fronds"
+  },
+  "palm_branch": {
+    "label": "palm branch",
+    "iconclass_notation": "25G3(PALM)",
+    "category": "branches_and_fronds"
+  },
+  "laurel": {
+    "label": "laurel",
+    "iconclass_notation": "25G3(LAUREL)",
+    "category": "branches_and_fronds"
+  },
+  "leaf": {
+    "label": "leaf",
+    "iconclass_notation": null,
+    "category": "leaves"
+  },
+  "vine": {
+    "label": "vine",
+    "iconclass_notation": "25G3(VINE)",
+    "category": "branches_and_fronds"
+  },
+  "brambles": {
+    "label": "brambles",
+    "iconclass_notation": null,
+    "category": "branches_and_fronds"
+  },
+  "shrub": {
+    "label": "shrub",
+    "iconclass_notation": null,
+    "category": "trees"
+  },
+  "tree": {
+    "label": "tree",
+    "iconclass_notation": "25G3",
+    "category": "trees"
+  },
+  "grass": {
+    "label": "grass",
+    "iconclass_notation": null,
+    "category": "other_plants"
+  },
+  "grapes": {
+    "label": "grapes",
+    "iconclass_notation": "25G3(GRAPE)",
+    "category": "fruits"
+  },
+  "gourd": {
+    "label": "gourd",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "berry": {
+    "label": "berry",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "onion": {
+    "label": "onion",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "turnip": {
+    "label": "turnip",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "grain": {
+    "label": "grain",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "ear_of_grain": {
+    "label": "ear of grain",
+    "iconclass_notation": "25G4(WHEAT)",
+    "category": "fruits"
+  },
+  "bread": {
+    "label": "bread",
+    "iconclass_notation": null,
+    "category": "food"
+  },
+  "loaves": {
+    "label": "loaves",
+    "iconclass_notation": null,
+    "category": "food"
+  },
+  "flower": {
+    "label": "flower",
+    "iconclass_notation": "25G41",
+    "category": "flowers"
+  },
+  "rose": {
+    "label": "rose",
+    "iconclass_notation": "25G41",
+    "category": "flowers"
+  },
+  "wreath": {
+    "label": "wreath",
+    "iconclass_notation": "48C1511",
+    "category": "wreaths"
+  },
+  "garland": {
+    "label": "garlands",
+    "iconclass_notation": "48C1511",
+    "category": "wreaths"
+  },
+  "corona_vittata": {
+    "label": "corona vittata",
+    "iconclass_notation": "48C1511",
+    "category": "wreaths"
+  },
+  "vessel": {
+    "label": "vessel",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "two_handled_vessel": {
+    "label": "two-handled vessel",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "kantharos": {
+    "label": "kantharos",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "amphora": {
+    "label": "amphora",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "cup": {
+    "label": "cup",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "jug": {
+    "label": "jug",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "bucket": {
+    "label": "bucket",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "ladle": {
+    "label": "ladle",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "storage_jar": {
+    "label": "storage jar",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "flask": {
+    "label": "flask",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "alabastron": {
+    "label": "alabastron",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "bowl": {
+    "label": "bowl",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "pot": {
+    "label": "pot",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "funnel": {
+    "label": "funnel",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "guttus": {
+    "label": "guttus",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "basket": {
+    "label": "basket",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "cage": {
+    "label": "cage",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "pouch": {
+    "label": "pouch",
+    "iconclass_notation": null,
+    "category": "everyday_objects",
+    "attribute": true
+  },
+  "chest": {
+    "label": "chest",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "alpha_and_omega": {
+    "label": "alpha and omega",
+    "iconclass_notation": "11D111",
+    "category": "alpha_and_omega"
+  },
+  "alpha": {
+    "label": "alpha",
+    "iconclass_notation": null,
+    "category": "alpha_and_omega"
+  },
+  "omega": {
+    "label": "omega",
+    "iconclass_notation": null,
+    "category": "alpha_and_omega"
+  },
+  "star": {
+    "label": "star",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "pentagram": {
+    "label": "pentagram",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "menorah": {
+    "label": "menorah",
+    "iconclass_notation": null,
+    "category": "jewish_symbols"
+  },
+  "shofar": {
+    "label": "shofar",
+    "iconclass_notation": null,
+    "category": "jewish_symbols"
+  },
+  "lulav": {
+    "label": "lulav",
+    "iconclass_notation": null,
+    "category": "jewish_symbols"
+  },
+  "table": {
+    "label": "table",
+    "iconclass_notation": null,
+    "category": "furniture"
+  },
+  "chair": {
+    "label": "chair",
+    "iconclass_notation": null,
+    "category": "furniture"
+  },
+  "tripod": {
+    "label": "tripod",
+    "iconclass_notation": null,
+    "category": "furniture"
+  },
+  "tablet": {
+    "label": "tablet",
+    "iconclass_notation": "49M31",
+    "category": "other"
+  },
+  "writing_tablet": {
+    "label": "writing tablet",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "book": {
+    "label": "book",
+    "iconclass_notation": null,
+    "category": "other",
+    "attribute": true
+  },
+  "tablet_of_the_law": {
+    "label": "tablet of the law",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "rock": {
+    "label": "rock",
+    "iconclass_notation": null,
+    "category": "miscellaneous"
+  },
+  "column": {
+    "label": "column",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "pilaster": {
+    "label": "pilaster",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "arch": {
+    "label": "arch",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "abacus": {
+    "label": "abacus",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "altar": {
+    "label": "altar",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "temple": {
+    "label": "temple",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "brush": {
+    "label": "brush",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "circle": {
+    "label": "circle",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "wheel": {
+    "label": "wheel",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "scales": {
+    "label": "scales",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "veil": {
+    "label": "veil",
+    "iconclass_notation": null,
+    "category": "fabrics"
+  },
+  "sandal": {
+    "label": "sandal",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "comb": {
+    "label": "comb",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "window": {
+    "label": "window",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "mirror": {
+    "label": "mirror",
+    "iconclass_notation": null,
+    "category": "other",
+    "attribute": true
+  },
+  "flame": {
+    "label": "flame",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "arrow": {
+    "label": "arrow",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "spear": {
+    "label": "spear",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "fasces": {
+    "label": "fasces",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "trophy": {
+    "label": "trophy",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "needle": {
+    "label": "needle",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "spoon": {
+    "label": "spoon",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "shoe": {
+    "label": "shoe",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "lampstand": {
+    "label": "lampstand",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "torch": {
+    "label": "torch",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "sheep": {
+    "label": "sheep",
+    "iconclass_notation": "25F24(SHEEP)",
+    "category": "other_animals"
+  },
+  "fish": {
+    "label": "fish",
+    "iconclass_notation": null,
+    "category": "fish_general"
+  },
+  "whale": {
+    "label": "whale",
+    "iconclass_notation": null,
+    "category": "whale"
+  },
+  "anchor": {
+    "label": "anchor",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "hammer": {
+    "label": "hammer",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "anvil": {
+    "label": "anvil",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "spade": {
+    "label": "spade",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "compass": {
+    "label": "compass",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "shears": {
+    "label": "shears",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "saw": {
+    "label": "saw",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "probe": {
+    "label": "probe",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "awl": {
+    "label": "awl",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "stylus": {
+    "label": "stylus",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "christogram": {
+    "label": "christogram",
+    "iconclass_notation": "11D112",
+    "category": "christogram"
+  },
+  "cross": {
+    "label": "cross",
+    "iconclass_notation": null,
+    "category": "cross"
+  },
+  "tau_cross": {
+    "label": "tau cross",
+    "iconclass_notation": null,
+    "category": "tau_cross"
+  },
+  "stauros": {
+    "label": "stauros",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "theta_nigrum": {
+    "label": "theta nigrum",
+    "iconclass_notation": null,
+    "category": "pagan_symbols"
+  },
+  "orant": {
+    "label": "orant",
+    "iconclass_notation": null,
+    "category": "portrait_person"
+  },
+  "shepherd": {
+    "label": "shepherd",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "portrait": {
+    "label": "portrait",
+    "iconclass_notation": null,
+    "category": "portrait_person"
+  },
+  "herm": {
+    "label": "herm",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "head": {
+    "label": "head",
+    "iconclass_notation": null,
+    "category": "portrait_person"
+  },
+  "putto": {
+    "label": "putto",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "lazarus": {
+    "label": "Lazarus",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "genius": {
+    "label": "genius",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "mythological_figure": {
+    "label": "mythological figure",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "gorgon": {
+    "label": "gorgon",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "ascia": {
+    "label": "ascia",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "scalprum": {
+    "label": "scalprum",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "dolabra": {
+    "label": "dolabra",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "foot_rule": {
+    "label": "foot rule",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "knife": {
+    "label": "knife",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "sickle": {
+    "label": "sickle",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "tongs": {
+    "label": "tongs",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "tweezers": {
+    "label": "tweezers",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "level": {
+    "label": "level",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "modius": {
+    "label": "modius",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "ship": {
+    "label": "ship",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "lighthouse": {
+    "label": "lighthouse",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "horse": {
+    "label": "horse",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "dog": {
+    "label": "dog",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "lion": {
+    "label": "lion",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "hare": {
+    "label": "hare",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "panther": {
+    "label": "panther",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "leopard": {
+    "label": "leopard",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "ram": {
+    "label": "ram",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "dolphin": {
+    "label": "dolphin",
+    "iconclass_notation": null,
+    "category": "dolphins"
+  },
+  "deer": {
+    "label": "deer",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "dragon": {
+    "label": "dragon",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "snail": {
+    "label": "snail",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "livestock": {
+    "label": "livestock",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "mouse": {
+    "label": "mouse",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "key": {
+    "label": "key",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "hoe": {
+    "label": "hoe",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "set_square": {
+    "label": "set square",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "ruler": {
+    "label": "ruler",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "distaff": {
+    "label": "distaff",
+    "iconclass_notation": null,
+    "category": "tools",
+    "attribute": true
+  },
+  "spatula": {
+    "label": "spatula",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "groma": {
+    "label": "groma",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "axe": {
+    "label": "axe",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "spindle": {
+    "label": "spindle",
+    "iconclass_notation": null,
+    "category": "tools",
+    "attribute": true
+  },
+  "trident": {
+    "label": "trident",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "lyre": {
+    "label": "lyre",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "seal": {
+    "label": "seal",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "whip": {
+    "label": "whip",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "lantern": {
+    "label": "lantern",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "ornament": {
+    "label": "ornament",
+    "iconclass_notation": null,
+    "category": "ornament"
+  },
+  "volute": {
+    "label": "volute",
+    "iconclass_notation": null,
+    "category": "ornament"
+  },
+  "oil_lamp": {
+    "label": "oil lamp",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "dish": {
+    "label": "dish",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "tooth": {
+    "label": "tooth",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "moon": {
+    "label": "moon",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "boat": {
+    "label": "boat",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "fossor": {
+    "label": "fossor",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "artichoke": {
+    "label": "artichoke",
+    "iconclass_notation": null,
+    "category": "plants"
+  },
+  "rosette": {
+    "label": "rosette",
+    "iconclass_notation": null,
+    "category": "rosettes"
+  },
+  "gaming_board": {
+    "label": "gaming board",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "ball": {
+    "label": "ball",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "daniel": {
+    "label": "Daniel",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "three_youths_in_the_furnace": {
+    "label": "three youths in the furnace",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "noah": {
+    "label": "Noah",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "jonah": {
+    "label": "Jonah",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "greek_cross": {
+    "label": "greek cross",
+    "iconclass_notation": null,
+    "category": "greek_cross"
+  },
+  "latin_cross": {
+    "label": "latin cross",
+    "iconclass_notation": null,
+    "category": "latin_cross"
+  },
+  "gamma_cross": {
+    "label": "gamma cross",
+    "iconclass_notation": null,
+    "category": "gamma_cross"
+  },
+  "ankh_cross": {
+    "label": "ankh cross",
+    "iconclass_notation": null,
+    "category": "ankh_cross"
+  },
+  "staurogram": {
+    "label": "staurogram",
+    "iconclass_notation": null,
+    "category": "staurogram"
+  },
+  "chi_rho": {
+    "label": "chi-rho",
+    "iconclass_notation": null,
+    "category": "chi_rho"
+  },
+  "staurogram_in_circle": {
+    "label": "staurogram in circle",
+    "iconclass_notation": null,
+    "category": "staurogram_in_circle"
+  },
+  "man": {
+    "label": "man",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "girl": {
+    "label": "girl",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "boy": {
+    "label": "boy",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "child": {
+    "label": "child",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "lions_den": {
+    "label": "lion's den",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "moses": {
+    "label": "Moses",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "noahs_ark": {
+    "label": "Noah's ark",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "samaritan_woman": {
+    "label": "Samaritan woman",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "magi": {
+    "label": "magi",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "mary": {
+    "label": "Mary",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "adam": {
+    "label": "Adam",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "eve": {
+    "label": "Eve",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "paul": {
+    "label": "Paul",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "peter": {
+    "label": "Peter",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "shoemaker": {
+    "label": "shoemaker",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "sheep_bearer": {
+    "label": "sheep bearer",
+    "iconclass_notation": null,
+    "category": "shepherd_carrying_sheep"
+  },
+  "craftsman": {
+    "label": "craftsman",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "carpenter": {
+    "label": "carpenter",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "mason": {
+    "label": "mason",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "blacksmith": {
+    "label": "blacksmith",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "baker": {
+    "label": "baker",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "military_figure": {
+    "label": "military figure",
+    "iconclass_notation": null,
+    "category": "military_figures"
+  },
+  "hunter": {
+    "label": "hunter",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "gladiator": {
+    "label": "gladiator",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "equestrian": {
+    "label": "equestrian",
+    "iconclass_notation": null,
+    "category": "military_figures"
+  },
+  "loom": {
+    "label": "loom",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "bellows": {
+    "label": "bellows",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "goose": {
+    "label": "goose",
+    "iconclass_notation": null,
+    "category": "other_birds"
+  },
+  "duck": {
+    "label": "duck",
+    "iconclass_notation": null,
+    "category": "other_birds"
+  },
+  "goat": {
+    "label": "goat",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "capricorn": {
+    "label": "capricorn",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "pig": {
+    "label": "pig",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "bull": {
+    "label": "bull",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "cow": {
+    "label": "cow",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "donkey": {
+    "label": "donkey",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "butterfly": {
+    "label": "butterfly",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "olive_tree": {
+    "label": "olive tree",
+    "iconclass_notation": null,
+    "category": "trees"
+  },
+  "palm_tree": {
+    "label": "palm tree",
+    "iconclass_notation": null,
+    "category": "trees"
+  },
+  "vine_tendril": {
+    "label": "vine tendril",
+    "iconclass_notation": null,
+    "category": "vegetal_ornament"
+  },
+  "ivy_tendril": {
+    "label": "ivy tendril",
+    "iconclass_notation": null,
+    "category": "vegetal_ornament"
+  },
+  "palmette": {
+    "label": "palmette",
+    "iconclass_notation": null,
+    "category": "vegetal_ornament"
+  },
+  "wineskin": {
+    "label": "wineskin",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "krater": {
+    "label": "krater",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "cornucopia": {
+    "label": "cornucopia",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "rattle": {
+    "label": "rattle",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "feather": {
+    "label": "feather",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "quill": {
+    "label": "quill",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "scroll": {
+    "label": "scroll",
+    "iconclass_notation": null,
+    "category": "other",
+    "attribute": true
+  },
+  "hoop": {
+    "label": "hoop",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "cittern": {
+    "label": "cittern",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "organ_hydraulis": {
+    "label": "organ (hydraulis)",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "fruit": {
+    "label": "fruit",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "apple": {
+    "label": "apple",
+    "iconclass_notation": null,
+    "category": "fruits"
+  },
+  "sail": {
+    "label": "sail",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "oar": {
+    "label": "oar",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "sun": {
+    "label": "sun",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "crescent_moon": {
+    "label": "crescent moon",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "cloud": {
+    "label": "cloud",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "acanthus": {
+    "label": "acanthus",
+    "iconclass_notation": null,
+    "category": "vegetal_ornament"
+  },
+  "pine_cone": {
+    "label": "pine cone",
+    "iconclass_notation": null,
+    "category": "other_plants"
+  },
+  "ox_cart": {
+    "label": "ox cart",
+    "iconclass_notation": null,
+    "category": "field_work"
+  },
+  "cart": {
+    "label": "cart",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "sea_creature": {
+    "label": "sea creature",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "plant_ornament": {
+    "label": "plant ornament",
+    "iconclass_notation": null,
+    "category": "vegetal_ornament"
+  },
+  "hippocamp": {
+    "label": "hippocamp",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "griffin": {
+    "label": "griffin",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "dextrarum_iunctio": {
+    "label": "dextrarum iunctio",
+    "iconclass_notation": null,
+    "category": "portrait_dextrarum_iunctio"
+  },
+  "couple": {
+    "label": "couple",
+    "iconclass_notation": null,
+    "category": "portrait_couple",
+    "group": "person"
+  },
+  "servant": {
+    "label": "servant",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "young_man": {
+    "label": "young man",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "woman": {
+    "label": "woman",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "the_deceased_leaning_on_a_staff": {
+    "label": "the deceased leaning on a staff",
+    "iconclass_notation": null,
+    "category": "portrait"
+  },
+  "foot": {
+    "label": "foot",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "hand_pulling_an_ear": {
+    "label": "hand pulling an ear",
+    "iconclass_notation": null,
+    "category": "secular_figures"
+  },
+  "aaron": {
+    "label": "Aaron",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "christ": {
+    "label": "Christ",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "martha": {
+    "label": "Martha",
+    "iconclass_notation": null,
+    "category": "biblical_figures"
+  },
+  "bethlehem": {
+    "label": "Bethlehem",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "jerusalem": {
+    "label": "Jerusalem",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "tower_of_babel": {
+    "label": "Tower of Babel",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "the_sower": {
+    "label": "the sower",
+    "iconclass_notation": null,
+    "category": "biblical_scenes"
+  },
+  "banquet": {
+    "label": "banquet",
+    "iconclass_notation": null,
+    "category": "funerary_banquet"
+  },
+  "fishmonger": {
+    "label": "fishmonger",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "fisherman": {
+    "label": "fisherman",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "sculptor": {
+    "label": "sculptor",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "water_carrier": {
+    "label": "water carrier",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "mule_driver": {
+    "label": "mule driver",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "runner": {
+    "label": "runner",
+    "iconclass_notation": null,
+    "category": "crafts_and_work"
+  },
+  "plumb_line": {
+    "label": "plumb line",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "mallet": {
+    "label": "mallet",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "die": {
+    "label": "die",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "dice_box": {
+    "label": "dice box",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "toy": {
+    "label": "toy",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "discus": {
+    "label": "discus",
+    "iconclass_notation": null,
+    "category": "games"
+  },
+  "coin": {
+    "label": "coin",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "sling": {
+    "label": "sling",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "bow": {
+    "label": "bow",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "fishing_rod": {
+    "label": "fishing rod",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "rudder": {
+    "label": "rudder",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "waves": {
+    "label": "waves",
+    "iconclass_notation": null,
+    "category": "nautical"
+  },
+  "inkwell": {
+    "label": "inkwell",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "pen_case": {
+    "label": "pen case",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "bat": {
+    "label": "bat",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "beetle": {
+    "label": "beetle",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "snake": {
+    "label": "snake",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "boar": {
+    "label": "boar",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "monster": {
+    "label": "monster",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "phoenix": {
+    "label": "phoenix",
+    "iconclass_notation": null,
+    "category": "other_birds"
+  },
+  "octopus": {
+    "label": "octopus",
+    "iconclass_notation": null,
+    "category": "other_fish"
+  },
+  "razor": {
+    "label": "razor",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "file": {
+    "label": "file",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "small_rake": {
+    "label": "small rake",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "wedge": {
+    "label": "wedge",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "millstone": {
+    "label": "millstone",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "weighing_table": {
+    "label": "weighing table",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "winnowing_fan": {
+    "label": "winnowing fan",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "clyster": {
+    "label": "clyster",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "strainer": {
+    "label": "strainer",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "rhyton": {
+    "label": "rhyton",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "pyxis": {
+    "label": "pyxis",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "hydria": {
+    "label": "hydria",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "unguent_jar": {
+    "label": "unguent jar",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "drinking_horn": {
+    "label": "drinking horn",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "water_trough": {
+    "label": "water trough",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "two_handled_jar": {
+    "label": "two-handled jar",
+    "iconclass_notation": null,
+    "category": "vessels"
+  },
+  "candle": {
+    "label": "candle",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "bell": {
+    "label": "bell",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "clock": {
+    "label": "clock",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "thyrsus": {
+    "label": "thyrsus",
+    "iconclass_notation": null,
+    "category": "pagan_symbols"
+  },
+  "hexagram": {
+    "label": "hexagram",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "gordian_knot": {
+    "label": "Gordian knot",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "amulet": {
+    "label": "amulet",
+    "iconclass_notation": null,
+    "category": "other_symbols"
+  },
+  "etrog": {
+    "label": "etrog",
+    "iconclass_notation": null,
+    "category": "jewish_symbols"
+  },
+  "decussis": {
+    "label": "decussis",
+    "iconclass_notation": null,
+    "category": "saltire_cross"
+  },
+  "tower": {
+    "label": "tower",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "buildings": {
+    "label": "buildings",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "hut": {
+    "label": "hut",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "roof": {
+    "label": "roof",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "well": {
+    "label": "well",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "fountain": {
+    "label": "fountain",
+    "iconclass_notation": null,
+    "category": "architecture"
+  },
+  "net": {
+    "label": "net",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "stake": {
+    "label": "stake",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "medicine_box": {
+    "label": "medicine box",
+    "iconclass_notation": null,
+    "category": "everyday_objects"
+  },
+  "pan_pipes": {
+    "label": "pan pipes",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "small_cake": {
+    "label": "small cake",
+    "iconclass_notation": null,
+    "category": "food"
+  },
+  "chaff": {
+    "label": "chaff",
+    "iconclass_notation": null,
+    "category": "other_plants"
+  },
+  "the_seven_planets": {
+    "label": "the seven planets",
+    "iconclass_notation": null,
+    "category": "celestial_bodies"
+  },
+  "bench": {
+    "label": "bench",
+    "iconclass_notation": null,
+    "category": "furniture"
+  },
+  "caliga": {
+    "label": "caliga",
+    "iconclass_notation": null,
+    "category": "military_figures"
+  },
+  "fillet": {
+    "label": "fillet",
+    "iconclass_notation": null,
+    "category": "fabrics"
+  },
+  "hercules": {
+    "label": "Hercules",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "apollo": {
+    "label": "Apollo",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "diana": {
+    "label": "Diana",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "hebe": {
+    "label": "Hebe",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "attis": {
+    "label": "Attis",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "satyr": {
+    "label": "satyr",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "season_personification": {
+    "label": "season personification",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "bust": {
+    "label": "bust",
+    "iconclass_notation": null,
+    "category": "portrait_person"
+  },
+  "clipeus": {
+    "label": "clipeus",
+    "iconclass_notation": null,
+    "category": "framing_other"
+  },
+  "full_figure": {
+    "label": "full figure",
+    "iconclass_notation": null,
+    "category": "portrait_person"
+  },
+  "person": {
+    "label": "person",
+    "iconclass_notation": null,
+    "category": "figure_unspecified",
+    "group": "person"
+  },
+  "ram_horn": {
+    "label": "ram horn",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "ram_bearer": {
+    "label": "ram bearer",
+    "iconclass_notation": null,
+    "category": "ram_bearer"
+  },
+  "unidentified": {
+    "label": "unidentified",
+    "iconclass_notation": null,
+    "category": "unidentified"
+  },
+  "chi_rho_radial": {
+    "label": "chi-rho, radial",
+    "iconclass_notation": null,
+    "category": "chi_rho_radial"
+  },
+  "christogram_in_circle": {
+    "label": "christogram in circle",
+    "iconclass_notation": null,
+    "category": "christogram_in_circle"
+  },
+  "wheel_radiate": {
+    "label": "wheel, radiate",
+    "iconclass_notation": null,
+    "category": "wheel_radiate"
+  },
+  "swan": {
+    "label": "swan",
+    "iconclass_notation": null,
+    "category": "other_birds"
+  },
+  "shield": {
+    "label": "shield",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "pelta": {
+    "label": "pelta",
+    "iconclass_notation": null,
+    "category": "weapons"
+  },
+  "radiate_crown": {
+    "label": "radiate crown",
+    "iconclass_notation": null,
+    "category": "wreaths"
+  },
+  "victoria": {
+    "label": "Victoria",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "alcestis": {
+    "label": "Alcestis",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "hunt": {
+    "label": "hunt",
+    "iconclass_notation": null,
+    "category": "hunting_scene"
+  },
+  "sacrifice": {
+    "label": "sacrifice",
+    "iconclass_notation": null,
+    "category": "sacrifice_scene"
+  },
+  "animal": {
+    "label": "animal",
+    "iconclass_notation": null,
+    "category": "other_animals"
+  },
+  "tool": {
+    "label": "tool",
+    "iconclass_notation": null,
+    "category": "tools"
+  },
+  "owl": {
+    "label": "owl",
+    "iconclass_notation": null,
+    "category": "other_birds"
+  },
+  "maenad": {
+    "label": "maenad",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "orpheus": {
+    "label": "Orpheus",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "selene": {
+    "label": "Selene",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "endymion": {
+    "label": "Endymion",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "actaeon": {
+    "label": "Actaeon",
+    "iconclass_notation": null,
+    "category": "mythological_figures"
+  },
+  "mask": {
+    "label": "mask",
+    "iconclass_notation": null,
+    "category": "other"
+  },
+  "torques": {
+    "label": "torques",
+    "iconclass_notation": null,
+    "category": "jewelry",
+    "attribute": true
+  },
+  "bracelet": {
+    "label": "bracelet",
+    "iconclass_notation": null,
+    "category": "jewelry",
+    "attribute": true
+  },
+  "checkerboard": {
+    "label": "checkerboard pattern",
+    "iconclass_notation": null,
+    "category": "patterns"
+  },
+  "pattern": {
+    "label": "pattern",
+    "iconclass_notation": null,
+    "category": "patterns"
+  }
+}

@@ -1,0 +1,4391 @@
+{
+  "bird": {
+    "de": [
+      "Vogel",
+      "Vögel"
+    ],
+    "la": [
+      "avis",
+      "volatile",
+      "avicula"
+    ],
+    "en": [
+      "bird"
+    ]
+  },
+  "dove": {
+    "de": [
+      "Taube"
+    ],
+    "la": [
+      "columba",
+      "turtur"
+    ],
+    "en": [
+      "dove"
+    ]
+  },
+  "peacock": {
+    "de": [
+      "Pfau"
+    ],
+    "la": [
+      "pavo",
+      "pavones",
+      "pavonis"
+    ],
+    "en": [
+      "peacock"
+    ]
+  },
+  "rooster": {
+    "de": [
+      "Hahn"
+    ],
+    "la": [
+      "gallus"
+    ],
+    "en": [
+      "rooster"
+    ]
+  },
+  "hen": {
+    "de": [
+      "Henne"
+    ],
+    "la": [
+      "gallina"
+    ],
+    "en": [
+      "hen"
+    ]
+  },
+  "chicken": {
+    "de": [
+      "Huhn",
+      "Henne"
+    ],
+    "la": [
+      "pullus"
+    ],
+    "en": [
+      "chicken"
+    ]
+  },
+  "chick": {
+    "de": [
+      "Küken"
+    ],
+    "la": [],
+    "en": [
+      "chick"
+    ]
+  },
+  "stork": {
+    "de": [
+      "Storch"
+    ],
+    "la": [
+      "ciconia"
+    ],
+    "en": [
+      "stork"
+    ]
+  },
+  "hoopoe": {
+    "de": [
+      "Wiedehopf"
+    ],
+    "la": [
+      "upupa"
+    ],
+    "en": [
+      "hoopoe"
+    ]
+  },
+  "ostrich": {
+    "de": [
+      "Strauß",
+      "Vogel Strauß"
+    ],
+    "la": [
+      "struthio",
+      "struthiocamelus"
+    ],
+    "en": [
+      "ostrich"
+    ]
+  },
+  "eagle": {
+    "de": [
+      "Adler"
+    ],
+    "la": [
+      "aquila",
+      "aquilae"
+    ],
+    "en": [
+      "eagle"
+    ]
+  },
+  "partridge": {
+    "de": [
+      "Rebhuhn"
+    ],
+    "la": [
+      "perdix",
+      "pedrix"
+    ],
+    "en": [
+      "partridge"
+    ]
+  },
+  "branch": {
+    "de": [
+      "Zweig",
+      "Zweiglein"
+    ],
+    "la": [
+      "ramus",
+      "frons",
+      "ramulus",
+      "palmes",
+      "ramusculus"
+    ],
+    "en": [
+      "branch"
+    ]
+  },
+  "olive_branch": {
+    "de": [
+      "Ölzweig",
+      "Olivenast"
+    ],
+    "la": [
+      "olea",
+      "oleae ramus"
+    ],
+    "en": [
+      "olive branch"
+    ]
+  },
+  "palm_branch": {
+    "de": [
+      "Palmblatt",
+      "Palmzweig",
+      "Palmwedel"
+    ],
+    "la": [
+      "palma",
+      "palmula",
+      "palmae ramus"
+    ],
+    "en": [
+      "palm branch"
+    ]
+  },
+  "laurel": {
+    "de": [
+      "Lorbeer"
+    ],
+    "la": [
+      "laurus"
+    ],
+    "en": [
+      "laurel"
+    ]
+  },
+  "leaf": {
+    "de": [
+      "Blatt",
+      "Blattornament"
+    ],
+    "la": [
+      "folium"
+    ],
+    "en": [
+      "leaf"
+    ]
+  },
+  "vine": {
+    "de": [
+      "Weinstock",
+      "Weinrebe",
+      "Rebe"
+    ],
+    "la": [
+      "vitis"
+    ],
+    "en": [
+      "vine"
+    ]
+  },
+  "brambles": {
+    "de": [
+      "Dornen",
+      "Dornenranke",
+      "Gestrüpp"
+    ],
+    "la": [
+      "vepres"
+    ],
+    "en": [
+      "brambles"
+    ]
+  },
+  "shrub": {
+    "de": [
+      "Strauch",
+      "Busch"
+    ],
+    "la": [
+      "frutex",
+      "frutices",
+      "virgulta"
+    ],
+    "en": [
+      "shrub"
+    ]
+  },
+  "tree": {
+    "de": [
+      "Baum"
+    ],
+    "la": [
+      "arbor",
+      "arbuscula",
+      "arbusculus",
+      "arbustum"
+    ],
+    "en": [
+      "tree"
+    ]
+  },
+  "grass": {
+    "de": [
+      "Gras"
+    ],
+    "la": [],
+    "en": [
+      "grass"
+    ]
+  },
+  "grapes": {
+    "de": [
+      "Traube"
+    ],
+    "la": [
+      "uva",
+      "racemus"
+    ],
+    "en": [
+      "grapes"
+    ]
+  },
+  "gourd": {
+    "de": [
+      "Kürbis"
+    ],
+    "la": [
+      "cucurbita",
+      "cucurbitula",
+      "cucurbitella"
+    ],
+    "en": [
+      "gourd"
+    ]
+  },
+  "berry": {
+    "de": [
+      "Beere"
+    ],
+    "la": [],
+    "en": [
+      "berry"
+    ]
+  },
+  "onion": {
+    "de": [
+      "Zwiebel"
+    ],
+    "la": [
+      "cepa"
+    ],
+    "en": [
+      "onion"
+    ]
+  },
+  "turnip": {
+    "de": [
+      "Rübe"
+    ],
+    "la": [
+      "rapa"
+    ],
+    "en": [
+      "turnip"
+    ]
+  },
+  "grain": {
+    "de": [
+      "Getreide",
+      "Korn"
+    ],
+    "la": [],
+    "en": [
+      "grain"
+    ]
+  },
+  "ear_of_grain": {
+    "de": [
+      "Ähre"
+    ],
+    "la": [
+      "spica"
+    ],
+    "en": [
+      "ear of grain"
+    ]
+  },
+  "bread": {
+    "de": [
+      "Brot"
+    ],
+    "la": [
+      "panis"
+    ],
+    "en": [
+      "bread"
+    ]
+  },
+  "loaves": {
+    "de": [
+      "Brotlaibe"
+    ],
+    "la": [
+      "panes tres",
+      "panes quattuor",
+      "panes quinque",
+      "panes sex",
+      "panes septem",
+      "panes hexablomi quinque"
+    ],
+    "en": [
+      "loaves"
+    ]
+  },
+  "flower": {
+    "de": [
+      "Blume"
+    ],
+    "la": [
+      "flos",
+      "florem",
+      "flosculus",
+      "flosculi"
+    ],
+    "en": [
+      "flower"
+    ]
+  },
+  "rose": {
+    "de": [
+      "Rose"
+    ],
+    "la": [
+      "rosula",
+      "rosa"
+    ],
+    "en": [
+      "rose"
+    ]
+  },
+  "wreath": {
+    "de": [
+      "Kranz"
+    ],
+    "la": [
+      "corona"
+    ],
+    "en": [
+      "wreath"
+    ]
+  },
+  "garland": {
+    "de": [
+      "Girlande",
+      "girlandentragend"
+    ],
+    "la": [
+      "sertum"
+    ],
+    "en": [
+      "garlands"
+    ]
+  },
+  "corona_vittata": {
+    "de": [
+      "Kranz mit Tänien"
+    ],
+    "la": [
+      "corona vittata",
+      "corona taeniata",
+      "corona lemniscata"
+    ],
+    "en": [
+      "corona vittata"
+    ]
+  },
+  "vessel": {
+    "de": [
+      "Gefäß",
+      "Vase"
+    ],
+    "la": [
+      "vas",
+      "vasculum",
+      "vaseulum",
+      "calyx vel cantharus",
+      "vasa duo",
+      "vasis vestigia",
+      "vasis pars",
+      "pars vasis",
+      "vestigia vasculi"
+    ],
+    "en": [
+      "vessel"
+    ]
+  },
+  "two_handled_vessel": {
+    "de": [
+      "Gefäß mit zwei Henkeln"
+    ],
+    "la": [
+      "contenitore biansato"
+    ],
+    "en": [
+      "two-handled vessel"
+    ]
+  },
+  "kantharos": {
+    "de": [
+      "Kantharos"
+    ],
+    "la": [
+      "cantharus",
+      "cantharum"
+    ],
+    "en": [
+      "kantharos"
+    ]
+  },
+  "amphora": {
+    "de": [
+      "Amphore"
+    ],
+    "la": [
+      "amphora",
+      "anphora"
+    ],
+    "en": [
+      "amphora"
+    ]
+  },
+  "cup": {
+    "de": [
+      "Becher",
+      "Glas"
+    ],
+    "la": [
+      "calix",
+      "calyx",
+      "poculum",
+      "pocula",
+      "poculus"
+    ],
+    "en": [
+      "cup"
+    ]
+  },
+  "jug": {
+    "de": [
+      "Krug"
+    ],
+    "la": [
+      "urceus"
+    ],
+    "en": [
+      "jug"
+    ]
+  },
+  "bucket": {
+    "de": [
+      "Eimer",
+      "Situla"
+    ],
+    "la": [
+      "situla"
+    ],
+    "en": [
+      "bucket"
+    ]
+  },
+  "ladle": {
+    "de": [
+      "Schöpfkelle"
+    ],
+    "la": [
+      "trulla",
+      "cyathus"
+    ],
+    "en": [
+      "ladle"
+    ]
+  },
+  "storage_jar": {
+    "de": [
+      "Fass"
+    ],
+    "la": [
+      "dolium",
+      "doliolum"
+    ],
+    "en": [
+      "storage jar"
+    ]
+  },
+  "flask": {
+    "de": [
+      "Flasche",
+      "Ampulle"
+    ],
+    "la": [
+      "lagoena",
+      "ampulla",
+      "laguncula",
+      "lagona"
+    ],
+    "en": [
+      "flask"
+    ]
+  },
+  "alabastron": {
+    "de": [
+      "Alabastron"
+    ],
+    "la": [
+      "alabastrum",
+      "alabaster",
+      "alabrum"
+    ],
+    "en": [
+      "alabastron"
+    ]
+  },
+  "bowl": {
+    "de": [
+      "Schüssel"
+    ],
+    "la": [
+      "scutellae"
+    ],
+    "en": [
+      "bowl"
+    ]
+  },
+  "pot": {
+    "de": [
+      "Topf"
+    ],
+    "la": [
+      "olla",
+      "cacabus",
+      "caccabus"
+    ],
+    "en": [
+      "pot"
+    ]
+  },
+  "funnel": {
+    "de": [
+      "Trichter"
+    ],
+    "la": [
+      "infundibulum"
+    ],
+    "en": [
+      "funnel"
+    ]
+  },
+  "guttus": {
+    "de": [
+      "Guttus"
+    ],
+    "la": [
+      "guttus"
+    ],
+    "en": [
+      "guttus"
+    ]
+  },
+  "basket": {
+    "de": [
+      "Korb"
+    ],
+    "la": [
+      "canistrum",
+      "calathus",
+      "canistra"
+    ],
+    "en": [
+      "basket"
+    ]
+  },
+  "cage": {
+    "de": [
+      "Käfig"
+    ],
+    "la": [],
+    "en": [
+      "cage"
+    ]
+  },
+  "pouch": {
+    "de": [
+      "Beutel"
+    ],
+    "la": [
+      "crumena",
+      "pera"
+    ],
+    "en": [
+      "pouch"
+    ]
+  },
+  "chest": {
+    "de": [
+      "Truhe",
+      "Kästchen"
+    ],
+    "la": [
+      "arca",
+      "cista",
+      "theca",
+      "capsella",
+      "arcula",
+      "arculae"
+    ],
+    "en": [
+      "chest"
+    ]
+  },
+  "alpha_and_omega": {
+    "de": [
+      "Alpha und Omega",
+      "A und Ω",
+      "Α und Ω",
+      "Ω und Α"
+    ],
+    "la": [
+      "alpha et omega",
+      "omega et alpha"
+    ],
+    "en": [
+      "alpha and omega"
+    ]
+  },
+  "alpha": {
+    "de": [
+      "Alpha"
+    ],
+    "la": [
+      "alpha",
+      "a versum",
+      "a versa cum decusse"
+    ],
+    "en": [
+      "alpha"
+    ]
+  },
+  "omega": {
+    "de": [
+      "Omega"
+    ],
+    "la": [
+      "omega"
+    ],
+    "en": [
+      "omega"
+    ]
+  },
+  "star": {
+    "de": [
+      "Stern"
+    ],
+    "la": [
+      "stella",
+      "aster",
+      "stellula sex radiorum",
+      "stellula octo radiorum",
+      "sidera",
+      "sidus"
+    ],
+    "en": [
+      "star"
+    ]
+  },
+  "pentagram": {
+    "de": [
+      "Pentagramm",
+      "Drudenfuß"
+    ],
+    "la": [
+      "pentalpha"
+    ],
+    "en": [
+      "pentagram"
+    ]
+  },
+  "menorah": {
+    "de": [
+      "Menora",
+      "Menorah",
+      "siebenarmiger Leuchter"
+    ],
+    "la": [
+      "menorah",
+      "heptalychnus"
+    ],
+    "en": [
+      "menorah"
+    ]
+  },
+  "shofar": {
+    "de": [
+      "Schofar"
+    ],
+    "la": [
+      "shofar"
+    ],
+    "en": [
+      "shofar"
+    ]
+  },
+  "lulav": {
+    "de": [
+      "Lulav"
+    ],
+    "la": [
+      "lulav",
+      "lulab",
+      "loulab"
+    ],
+    "en": [
+      "lulav"
+    ]
+  },
+  "table": {
+    "de": [
+      "Tisch"
+    ],
+    "la": [],
+    "en": [
+      "table"
+    ]
+  },
+  "chair": {
+    "de": [
+      "Kathedra"
+    ],
+    "la": [
+      "cathedra",
+      "cathedra dorsum"
+    ],
+    "en": [
+      "chair"
+    ]
+  },
+  "tripod": {
+    "de": [
+      "Dreifuß"
+    ],
+    "la": [
+      "tripus"
+    ],
+    "en": [
+      "tripod"
+    ]
+  },
+  "tablet": {
+    "de": [
+      "Tafel"
+    ],
+    "la": [
+      "tabella"
+    ],
+    "en": [
+      "tablet"
+    ]
+  },
+  "writing_tablet": {
+    "de": [
+      "Schreibtafel",
+      "Polyptychon"
+    ],
+    "la": [
+      "pugillares"
+    ],
+    "en": [
+      "writing tablet"
+    ]
+  },
+  "book": {
+    "de": [
+      "Codex",
+      "Kodex",
+      "Buch"
+    ],
+    "la": [
+      "codex"
+    ],
+    "en": [
+      "book"
+    ]
+  },
+  "tablet_of_the_law": {
+    "de": [
+      "Gesetzestafel"
+    ],
+    "la": [
+      "lex",
+      "tabula legis"
+    ],
+    "en": [
+      "tablet of the law"
+    ]
+  },
+  "rock": {
+    "de": [
+      "Fels"
+    ],
+    "la": [
+      "petra",
+      "rupes",
+      "saxum"
+    ],
+    "en": [
+      "rock"
+    ]
+  },
+  "column": {
+    "de": [
+      "Säule",
+      "Halbsäule"
+    ],
+    "la": [
+      "columna"
+    ],
+    "en": [
+      "column"
+    ]
+  },
+  "pilaster": {
+    "de": [
+      "Pilaster"
+    ],
+    "la": [],
+    "en": [
+      "pilaster"
+    ]
+  },
+  "arch": {
+    "de": [
+      "Bogen"
+    ],
+    "la": [],
+    "en": [
+      "arch"
+    ]
+  },
+  "abacus": {
+    "de": [
+      "Abakus"
+    ],
+    "la": [],
+    "en": [
+      "abacus"
+    ]
+  },
+  "altar": {
+    "de": [
+      "Altar"
+    ],
+    "la": [
+      "ara"
+    ],
+    "en": [
+      "altar"
+    ]
+  },
+  "temple": {
+    "de": [
+      "Tempel"
+    ],
+    "la": [
+      "aedes",
+      "templum",
+      "aedicula"
+    ],
+    "en": [
+      "temple"
+    ]
+  },
+  "brush": {
+    "de": [
+      "Pinsel"
+    ],
+    "la": [
+      "penicillus",
+      "penicilli"
+    ],
+    "en": [
+      "brush"
+    ]
+  },
+  "circle": {
+    "de": [
+      "Kreis"
+    ],
+    "la": [
+      "circulus",
+      "circuli",
+      "circulum",
+      "circulos"
+    ],
+    "en": [
+      "circle"
+    ]
+  },
+  "wheel": {
+    "de": [
+      "Rad"
+    ],
+    "la": [
+      "rota",
+      "rotas"
+    ],
+    "en": [
+      "wheel"
+    ]
+  },
+  "scales": {
+    "de": [
+      "Waage"
+    ],
+    "la": [
+      "libra",
+      "trutina",
+      "statera"
+    ],
+    "en": [
+      "scales"
+    ]
+  },
+  "veil": {
+    "de": [
+      "Schleier"
+    ],
+    "la": [],
+    "en": [
+      "veil"
+    ]
+  },
+  "sandal": {
+    "de": [
+      "Sandale"
+    ],
+    "la": [
+      "solea"
+    ],
+    "en": [
+      "sandal"
+    ]
+  },
+  "comb": {
+    "de": [
+      "Kamm"
+    ],
+    "la": [
+      "pecten",
+      "pectinem"
+    ],
+    "en": [
+      "comb"
+    ]
+  },
+  "window": {
+    "de": [
+      "Fenster"
+    ],
+    "la": [
+      "fenestra"
+    ],
+    "en": [
+      "window"
+    ]
+  },
+  "mirror": {
+    "de": [
+      "Spiegel"
+    ],
+    "la": [
+      "speculum"
+    ],
+    "en": [
+      "mirror"
+    ]
+  },
+  "flame": {
+    "de": [
+      "Flamme"
+    ],
+    "la": [
+      "flamma"
+    ],
+    "en": [
+      "flame"
+    ]
+  },
+  "arrow": {
+    "de": [
+      "Pfeil"
+    ],
+    "la": [
+      "sagitta"
+    ],
+    "en": [
+      "arrow"
+    ]
+  },
+  "spear": {
+    "de": [
+      "Lanze",
+      "Beneficiarierlanze"
+    ],
+    "la": [
+      "lancea",
+      "hasta",
+      "lanceola",
+      "lancia"
+    ],
+    "en": [
+      "spear"
+    ]
+  },
+  "fasces": {
+    "de": [
+      "Rutenbündel"
+    ],
+    "la": [
+      "fasces",
+      "fascis"
+    ],
+    "en": [
+      "fasces"
+    ]
+  },
+  "trophy": {
+    "de": [
+      "Tropaion"
+    ],
+    "la": [
+      "tropaeum",
+      "signum triumphale"
+    ],
+    "en": [
+      "trophy"
+    ]
+  },
+  "needle": {
+    "de": [
+      "Nadel"
+    ],
+    "la": [
+      "acus"
+    ],
+    "en": [
+      "needle"
+    ]
+  },
+  "spoon": {
+    "de": [
+      "Löffel"
+    ],
+    "la": [
+      "coclear"
+    ],
+    "en": [
+      "spoon"
+    ]
+  },
+  "shoe": {
+    "de": [
+      "Schuh",
+      "Schuhwerk"
+    ],
+    "la": [
+      "calceus",
+      "calcei",
+      "calceum"
+    ],
+    "en": [
+      "shoe"
+    ]
+  },
+  "lampstand": {
+    "de": [
+      "Kandelaber",
+      "Leuchter"
+    ],
+    "la": [
+      "candelabrum",
+      "candelabra"
+    ],
+    "en": [
+      "lampstand"
+    ]
+  },
+  "torch": {
+    "de": [
+      "Fackel"
+    ],
+    "la": [
+      "fax"
+    ],
+    "en": [
+      "torch"
+    ]
+  },
+  "sheep": {
+    "de": [
+      "Schaf",
+      "Lamm"
+    ],
+    "la": [
+      "ovis",
+      "agnus",
+      "agus"
+    ],
+    "en": [
+      "sheep"
+    ]
+  },
+  "fish": {
+    "de": [
+      "Fisch"
+    ],
+    "la": [
+      "piscis",
+      "pisciculus",
+      "pisciculus erectus"
+    ],
+    "en": [
+      "fish"
+    ]
+  },
+  "whale": {
+    "de": [
+      "Wal"
+    ],
+    "la": [
+      "cetus",
+      "pistrix",
+      "pristis"
+    ],
+    "en": [
+      "whale"
+    ]
+  },
+  "anchor": {
+    "de": [
+      "Anker"
+    ],
+    "la": [
+      "ancora"
+    ],
+    "en": [
+      "anchor"
+    ]
+  },
+  "hammer": {
+    "de": [
+      "Hammer"
+    ],
+    "la": [
+      "malleus"
+    ],
+    "en": [
+      "hammer"
+    ]
+  },
+  "anvil": {
+    "de": [
+      "Amboss"
+    ],
+    "la": [
+      "incus"
+    ],
+    "en": [
+      "anvil"
+    ]
+  },
+  "spade": {
+    "de": [
+      "Spaten"
+    ],
+    "la": [
+      "pala"
+    ],
+    "en": [
+      "spade"
+    ]
+  },
+  "compass": {
+    "de": [
+      "Zirkel"
+    ],
+    "la": [
+      "circinus"
+    ],
+    "en": [
+      "compass"
+    ]
+  },
+  "shears": {
+    "de": [
+      "Schere"
+    ],
+    "la": [
+      "forfices",
+      "forfex",
+      "cesoia"
+    ],
+    "en": [
+      "shears"
+    ]
+  },
+  "saw": {
+    "de": [
+      "Säge"
+    ],
+    "la": [
+      "serra"
+    ],
+    "en": [
+      "saw"
+    ]
+  },
+  "probe": {
+    "de": [
+      "Sonde"
+    ],
+    "la": [
+      "specillum"
+    ],
+    "en": [
+      "probe"
+    ]
+  },
+  "awl": {
+    "de": [
+      "Ahle"
+    ],
+    "la": [
+      "subula"
+    ],
+    "en": [
+      "awl"
+    ]
+  },
+  "stylus": {
+    "de": [
+      "Griffel",
+      "Stilus"
+    ],
+    "la": [
+      "stilus",
+      "calamus",
+      "calamorum"
+    ],
+    "en": [
+      "stylus"
+    ]
+  },
+  "christogram": {
+    "de": [
+      "Christogramm",
+      "Christusmonogramm",
+      "Christmon",
+      "Christogram"
+    ],
+    "la": [
+      "monogramma Christi",
+      "monogrammachristi",
+      "monogr. christi",
+      "christo",
+      "christi",
+      "chr",
+      "χρ",
+      "χρισ"
+    ],
+    "en": [
+      "christogram"
+    ]
+  },
+  "cross": {
+    "de": [
+      "Kreuz",
+      "Kreuzzeichen",
+      "Kreuzzeichnung"
+    ],
+    "la": [
+      "crux"
+    ],
+    "en": [
+      "cross"
+    ]
+  },
+  "tau_cross": {
+    "de": [
+      "Tau-Kreuz"
+    ],
+    "la": [
+      "t"
+    ],
+    "en": [
+      "tau cross"
+    ]
+  },
+  "stauros": {
+    "de": [
+      "stauros"
+    ],
+    "la": [
+      "stauros"
+    ],
+    "en": [
+      "stauros"
+    ]
+  },
+  "theta_nigrum": {
+    "de": [
+      "Theta nigrum"
+    ],
+    "la": [
+      "theta nigrum"
+    ],
+    "en": [
+      "theta nigrum"
+    ]
+  },
+  "orant": {
+    "de": [
+      "Orans"
+    ],
+    "la": [
+      "orans",
+      "manibus passis",
+      "orantes"
+    ],
+    "en": [
+      "orant"
+    ]
+  },
+  "shepherd": {
+    "de": [
+      "Hirte",
+      "Schäfer"
+    ],
+    "la": [
+      "pastor"
+    ],
+    "en": [
+      "shepherd"
+    ]
+  },
+  "portrait": {
+    "de": [
+      "Porträt",
+      "Portrait"
+    ],
+    "la": [
+      "imago defuncti",
+      "defunctus"
+    ],
+    "en": [
+      "portrait"
+    ]
+  },
+  "herm": {
+    "de": [
+      "Herme"
+    ],
+    "la": [
+      "herma",
+      "figura in hermam desinens"
+    ],
+    "en": [
+      "herm"
+    ]
+  },
+  "head": {
+    "de": [
+      "Kopf"
+    ],
+    "la": [
+      "caput"
+    ],
+    "en": [
+      "head"
+    ]
+  },
+  "putto": {
+    "de": [
+      "Putto",
+      "Eros",
+      "Eroten",
+      "Erot"
+    ],
+    "de_note": "\"Erot\" is not a real German word - Stanza's German model lemmatizes the plural \"Eroten\" to \"Erot\" (mistakes the -en ending for a German plural suffix, same quirk as \"Stauros\"->\"Stauro\" in docs/edh_methoden.md), so the endswith() suffix match against \"Eroten\" alone would miss it; matched 2026-09-22.",
+    "la": [],
+    "en": [
+      "putto"
+    ]
+  },
+  "lazarus": {
+    "de": [
+      "Lazarus"
+    ],
+    "la": [
+      "lazarus",
+      "lazarum",
+      "lazari"
+    ],
+    "en": [
+      "Lazarus"
+    ]
+  },
+  "genius": {
+    "de": [
+      "Genius",
+      "Trauergenius",
+      "Genien"
+    ],
+    "la": [
+      "genius"
+    ],
+    "en": [
+      "genius"
+    ]
+  },
+  "mythological_figure": {
+    "de": [
+      "mythologische Figur"
+    ],
+    "la": [],
+    "en": [
+      "mythological figure"
+    ]
+  },
+  "gorgon": {
+    "de": [
+      "Gorgone",
+      "Gorgoneion",
+      "Gorgoneien",
+      "Medusa",
+      "Medusenkopf",
+      "Medusakopf",
+      "Medusenhaupt",
+      "Gorgonenhaupt"
+    ],
+    "la": [
+      "gorgoneion"
+    ],
+    "en": [
+      "gorgon"
+    ]
+  },
+  "ascia": {
+    "de": [
+      "Dechsel",
+      "Ascia"
+    ],
+    "la": [
+      "ascia",
+      "ascis"
+    ],
+    "en": [
+      "ascia",
+      "adze"
+    ]
+  },
+  "scalprum": {
+    "de": [
+      "Meißel"
+    ],
+    "la": [
+      "scalprum",
+      "scalpellum",
+      "scalpelli"
+    ],
+    "en": [
+      "scalprum"
+    ]
+  },
+  "dolabra": {
+    "de": [
+      "Dolabra"
+    ],
+    "la": [
+      "dolabra"
+    ],
+    "en": [
+      "dolabra"
+    ]
+  },
+  "foot_rule": {
+    "de": [
+      "Meßlatte",
+      "Messlatte"
+    ],
+    "la": [
+      "pes",
+      "pes mensorius",
+      "pes mensorum",
+      "pes in palmos digitosque divisus",
+      "pes romanum"
+    ],
+    "en": [
+      "foot rule"
+    ]
+  },
+  "knife": {
+    "de": [
+      "Messer"
+    ],
+    "la": [
+      "culter",
+      "cultrum",
+      "culer",
+      "cultelli medici",
+      "cultrum sutorium"
+    ],
+    "en": [
+      "knife"
+    ]
+  },
+  "sickle": {
+    "de": [
+      "Sichel"
+    ],
+    "la": [
+      "falx"
+    ],
+    "en": [
+      "sickle"
+    ]
+  },
+  "tongs": {
+    "de": [
+      "Zange"
+    ],
+    "la": [
+      "forceps"
+    ],
+    "en": [
+      "tongs"
+    ]
+  },
+  "tweezers": {
+    "de": [
+      "Pinzette"
+    ],
+    "la": [
+      "vulsella",
+      "volsella"
+    ],
+    "en": [
+      "tweezers"
+    ]
+  },
+  "level": {
+    "de": [
+      "Lot"
+    ],
+    "la": [
+      "libella"
+    ],
+    "en": [
+      "level"
+    ]
+  },
+  "modius": {
+    "de": [
+      "Scheffel"
+    ],
+    "la": [
+      "modius"
+    ],
+    "en": [
+      "modius"
+    ]
+  },
+  "ship": {
+    "de": [
+      "Schiff"
+    ],
+    "la": [
+      "navis",
+      "navicula"
+    ],
+    "en": [
+      "ship"
+    ]
+  },
+  "lighthouse": {
+    "de": [
+      "Leuchtturm"
+    ],
+    "la": [
+      "pharus",
+      "pharia turris"
+    ],
+    "en": [
+      "lighthouse"
+    ]
+  },
+  "horse": {
+    "de": [
+      "Pferd"
+    ],
+    "la": [
+      "equus"
+    ],
+    "en": [
+      "horse"
+    ]
+  },
+  "dog": {
+    "de": [
+      "Hund"
+    ],
+    "la": [
+      "canis",
+      "catulus"
+    ],
+    "en": [
+      "dog"
+    ]
+  },
+  "lion": {
+    "de": [
+      "Löwe",
+      "Löwenkopf"
+    ],
+    "la": [
+      "leo",
+      "leones"
+    ],
+    "en": [
+      "lion"
+    ]
+  },
+  "hare": {
+    "de": [
+      "Hase"
+    ],
+    "la": [
+      "lepus"
+    ],
+    "en": [
+      "hare"
+    ]
+  },
+  "panther": {
+    "de": [
+      "Panther"
+    ],
+    "la": [
+      "panthera"
+    ],
+    "en": [
+      "panther"
+    ]
+  },
+  "leopard": {
+    "de": [
+      "Leopard"
+    ],
+    "la": [
+      "leopardus",
+      "pardus"
+    ],
+    "en": [
+      "leopard"
+    ]
+  },
+  "ram": {
+    "de": [
+      "Widder",
+      "Widderkopf"
+    ],
+    "la": [
+      "aries"
+    ],
+    "en": [
+      "ram"
+    ]
+  },
+  "dolphin": {
+    "de": [
+      "Delfin",
+      "Delphin"
+    ],
+    "la": [
+      "delphinus",
+      "delphinum",
+      "delphinii"
+    ],
+    "en": [
+      "dolphin"
+    ]
+  },
+  "deer": {
+    "de": [
+      "Hirsch"
+    ],
+    "la": [
+      "cervus",
+      "capreola",
+      "capreolus"
+    ],
+    "en": [
+      "deer"
+    ]
+  },
+  "dragon": {
+    "de": [
+      "Drache"
+    ],
+    "la": [
+      "draco"
+    ],
+    "en": [
+      "dragon"
+    ]
+  },
+  "snail": {
+    "de": [
+      "Schnecke"
+    ],
+    "la": [
+      "cochlea"
+    ],
+    "en": [
+      "snail"
+    ]
+  },
+  "livestock": {
+    "de": [
+      "Vieh"
+    ],
+    "la": [
+      "pecus"
+    ],
+    "en": [
+      "livestock"
+    ]
+  },
+  "mouse": {
+    "de": [
+      "Maus"
+    ],
+    "la": [
+      "mus"
+    ],
+    "en": [
+      "mouse"
+    ]
+  },
+  "key": {
+    "de": [
+      "Schlüssel"
+    ],
+    "la": [
+      "clavis"
+    ],
+    "en": [
+      "key"
+    ]
+  },
+  "hoe": {
+    "de": [
+      "Hacke"
+    ],
+    "la": [
+      "ligo"
+    ],
+    "en": [
+      "hoe"
+    ]
+  },
+  "set_square": {
+    "de": [
+      "Winkelmaß"
+    ],
+    "la": [
+      "norma"
+    ],
+    "en": [
+      "set square"
+    ]
+  },
+  "ruler": {
+    "de": [
+      "Lineal"
+    ],
+    "la": [
+      "regula"
+    ],
+    "en": [
+      "ruler"
+    ]
+  },
+  "distaff": {
+    "de": [
+      "Spinnrocken"
+    ],
+    "la": [
+      "colus"
+    ],
+    "en": [
+      "distaff"
+    ]
+  },
+  "spatula": {
+    "de": [
+      "Spatel"
+    ],
+    "la": [
+      "spatula",
+      "spathula"
+    ],
+    "en": [
+      "spatula"
+    ]
+  },
+  "groma": {
+    "de": [
+      "Groma"
+    ],
+    "la": [
+      "groma"
+    ],
+    "en": [
+      "groma"
+    ]
+  },
+  "axe": {
+    "de": [
+      "Beil"
+    ],
+    "la": [
+      "securis",
+      "securem"
+    ],
+    "en": [
+      "axe"
+    ]
+  },
+  "spindle": {
+    "de": [
+      "Spindel"
+    ],
+    "la": [
+      "fusus",
+      "fusum",
+      "pensum lanae cum filo et fuso"
+    ],
+    "en": [
+      "spindle"
+    ]
+  },
+  "trident": {
+    "de": [
+      "Dreizack"
+    ],
+    "la": [
+      "tridens"
+    ],
+    "en": [
+      "trident"
+    ]
+  },
+  "lyre": {
+    "de": [
+      "Lyra",
+      "Leier"
+    ],
+    "la": [
+      "lyra"
+    ],
+    "en": [
+      "lyre"
+    ]
+  },
+  "seal": {
+    "de": [
+      "Siegel"
+    ],
+    "la": [
+      "sigillum",
+      "sigilla"
+    ],
+    "en": [
+      "seal"
+    ]
+  },
+  "whip": {
+    "de": [
+      "Geißel"
+    ],
+    "la": [
+      "flagellum",
+      "flagrum"
+    ],
+    "en": [
+      "whip"
+    ]
+  },
+  "lantern": {
+    "de": [
+      "Laterne"
+    ],
+    "la": [
+      "lanterna"
+    ],
+    "en": [
+      "lantern"
+    ]
+  },
+  "ornament": {
+    "de": [
+      "Ornament"
+    ],
+    "la": [],
+    "en": [
+      "ornament"
+    ]
+  },
+  "volute": {
+    "de": [
+      "Volute",
+      "Volutenmotiv",
+      "Volutenornament",
+      "Volutendekor",
+      "Volutenband"
+    ],
+    "la": [
+      "voluta"
+    ],
+    "en": [
+      "volute"
+    ]
+  },
+  "oil_lamp": {
+    "de": [
+      "Öllampe",
+      "Lampe",
+      "Lucerna"
+    ],
+    "la": [
+      "lucerna"
+    ],
+    "en": [
+      "oil lamp"
+    ]
+  },
+  "dish": {
+    "de": [
+      "Patera",
+      "Schale",
+      "Teller"
+    ],
+    "la": [
+      "patera",
+      "patina",
+      "phiala"
+    ],
+    "en": [
+      "dish"
+    ]
+  },
+  "tooth": {
+    "de": [
+      "Zahn"
+    ],
+    "la": [
+      "dens"
+    ],
+    "en": [
+      "tooth"
+    ]
+  },
+  "moon": {
+    "de": [
+      "Mond"
+    ],
+    "la": [
+      "luna"
+    ],
+    "en": [
+      "moon"
+    ]
+  },
+  "boat": {
+    "de": [
+      "Boot"
+    ],
+    "la": [
+      "linter",
+      "cymba"
+    ],
+    "en": [
+      "boat"
+    ]
+  },
+  "fossor": {
+    "de": [
+      "Fossor",
+      "Totengräber"
+    ],
+    "la": [
+      "fossor"
+    ],
+    "en": [
+      "fossor"
+    ]
+  },
+  "artichoke": {
+    "de": [
+      "Artischocke"
+    ],
+    "la": [
+      "cynara",
+      "cinara"
+    ],
+    "en": [
+      "artichoke"
+    ]
+  },
+  "rosette": {
+    "de": [
+      "Rosette"
+    ],
+    "la": [],
+    "en": [
+      "rosette"
+    ]
+  },
+  "gaming_board": {
+    "de": [
+      "Spielbrett",
+      "Spielfeld",
+      "tabula lusoria"
+    ],
+    "la": [
+      "tabula lusoria",
+      "quadratum punctorum novem"
+    ],
+    "en": [
+      "gaming board"
+    ]
+  },
+  "ball": {
+    "de": [
+      "Ball"
+    ],
+    "la": [],
+    "en": [
+      "ball"
+    ]
+  },
+  "daniel": {
+    "de": [
+      "Daniel"
+    ],
+    "la": [
+      "daniel"
+    ],
+    "en": [
+      "Daniel"
+    ]
+  },
+  "three_youths_in_the_furnace": {
+    "de": [
+      "Drei Jünglinge im Feuerofen"
+    ],
+    "la": [
+      "tres pueri in fornace",
+      "tres pueri"
+    ],
+    "en": [
+      "three youths in the furnace"
+    ]
+  },
+  "noah": {
+    "de": [
+      "Noah"
+    ],
+    "la": [
+      "noe"
+    ],
+    "en": [
+      "Noah"
+    ]
+  },
+  "jonah": {
+    "de": [
+      "Jonas"
+    ],
+    "la": [
+      "ionas",
+      "ionam",
+      "iona"
+    ],
+    "en": [
+      "Jonah"
+    ]
+  },
+  "greek_cross": {
+    "de": [
+      "griechisches Kreuz"
+    ],
+    "la": [
+      "quadrata"
+    ],
+    "en": [
+      "greek cross"
+    ]
+  },
+  "latin_cross": {
+    "de": [
+      "lateinisches Kreuz"
+    ],
+    "la": [
+      "immissa"
+    ],
+    "en": [
+      "latin cross"
+    ]
+  },
+  "gamma_cross": {
+    "de": [
+      "Hakenkreuz"
+    ],
+    "la": [
+      "gammata"
+    ],
+    "en": [
+      "gamma cross"
+    ]
+  },
+  "ankh_cross": {
+    "de": [
+      "Henkelkreuz"
+    ],
+    "la": [
+      "ansata"
+    ],
+    "en": [
+      "ankh cross"
+    ]
+  },
+  "staurogram": {
+    "de": [
+      "Staurogramm"
+    ],
+    "la": [
+      "in crucem translatum",
+      "in crucem transl."
+    ],
+    "en": [
+      "staurogram"
+    ]
+  },
+  "chi_rho": {
+    "de": [
+      "Chi-Rho",
+      "Chi Rho",
+      "Chirho"
+    ],
+    "la": [
+      "decussatum"
+    ],
+    "en": [
+      "chi-rho"
+    ]
+  },
+  "staurogram_in_circle": {
+    "de": [
+      "Staurogramm im Kreis"
+    ],
+    "la": [
+      "in crucem translatum in circulo"
+    ],
+    "en": [
+      "staurogram in circle"
+    ]
+  },
+  "man": {
+    "de": [
+      "männlich",
+      "Mann",
+      "Gespannführer"
+    ],
+    "la": [
+      "viri",
+      "vir",
+      "homo"
+    ],
+    "en": [
+      "man"
+    ]
+  },
+  "girl": {
+    "de": [
+      "Mädchen"
+    ],
+    "la": [
+      "puella"
+    ],
+    "en": [
+      "girl"
+    ]
+  },
+  "boy": {
+    "de": [
+      "Knabe",
+      "Junge"
+    ],
+    "la": [
+      "puer"
+    ],
+    "en": [
+      "boy"
+    ]
+  },
+  "child": {
+    "de": [
+      "Kind"
+    ],
+    "la": [],
+    "en": [
+      "child"
+    ]
+  },
+  "lions_den": {
+    "de": [
+      "Löwengrube"
+    ],
+    "la": [],
+    "en": [
+      "lion's den"
+    ]
+  },
+  "moses": {
+    "de": [
+      "Moses"
+    ],
+    "la": [
+      "moses",
+      "moyses",
+      "moises"
+    ],
+    "en": [
+      "Moses"
+    ]
+  },
+  "noahs_ark": {
+    "de": [
+      "Arche Noah",
+      "Arche"
+    ],
+    "la": [
+      "arca noe",
+      "arca noetica"
+    ],
+    "en": [
+      "Noah's ark"
+    ]
+  },
+  "samaritan_woman": {
+    "de": [
+      "Samariterin"
+    ],
+    "la": [],
+    "en": [
+      "Samaritan woman"
+    ]
+  },
+  "magi": {
+    "de": [
+      "Heilige Drei Könige"
+    ],
+    "la": [
+      "magi",
+      "tres magi"
+    ],
+    "en": [
+      "magi"
+    ]
+  },
+  "mary": {
+    "de": [
+      "Maria"
+    ],
+    "la": [
+      "maria"
+    ],
+    "en": [
+      "Mary"
+    ]
+  },
+  "adam": {
+    "de": [
+      "Adam"
+    ],
+    "la": [
+      "adam",
+      "adamus"
+    ],
+    "en": [
+      "Adam"
+    ]
+  },
+  "eve": {
+    "de": [
+      "Eva"
+    ],
+    "la": [
+      "eva"
+    ],
+    "en": [
+      "Eve"
+    ]
+  },
+  "paul": {
+    "de": [
+      "Paulus"
+    ],
+    "la": [
+      "paulus",
+      "paulus apostolus"
+    ],
+    "en": [
+      "Paul"
+    ]
+  },
+  "peter": {
+    "de": [
+      "Petrus"
+    ],
+    "la": [
+      "petrus"
+    ],
+    "en": [
+      "Peter"
+    ]
+  },
+  "shoemaker": {
+    "de": [
+      "Schuster"
+    ],
+    "la": [],
+    "en": [
+      "shoemaker"
+    ]
+  },
+  "sheep_bearer": {
+    "de": [
+      "Schafträger",
+      "Lammträger"
+    ],
+    "la": [],
+    "en": [
+      "sheep bearer"
+    ]
+  },
+  "craftsman": {
+    "de": [
+      "Handwerker"
+    ],
+    "la": [
+      "operarius"
+    ],
+    "en": [
+      "craftsman"
+    ]
+  },
+  "carpenter": {
+    "de": [
+      "Zimmermann"
+    ],
+    "la": [],
+    "en": [
+      "carpenter"
+    ]
+  },
+  "mason": {
+    "de": [
+      "Maurer"
+    ],
+    "la": [],
+    "en": [
+      "mason"
+    ]
+  },
+  "blacksmith": {
+    "de": [
+      "Schmied"
+    ],
+    "la": [
+      "faber ferrarius",
+      "faber ferrum mollit in fornace",
+      "ferrum igne mollit"
+    ],
+    "en": [
+      "blacksmith"
+    ]
+  },
+  "baker": {
+    "de": [
+      "Bäcker"
+    ],
+    "la": [],
+    "en": [
+      "baker"
+    ]
+  },
+  "military_figure": {
+    "de": [
+      "Soldat",
+      "Krieger",
+      "Beneficiarier",
+      "Beneficiarius"
+    ],
+    "la": [],
+    "en": [
+      "military figure"
+    ]
+  },
+  "hunter": {
+    "de": [
+      "Jäger"
+    ],
+    "la": [],
+    "en": [
+      "hunter"
+    ]
+  },
+  "gladiator": {
+    "de": [
+      "Gladiator"
+    ],
+    "la": [
+      "gladiator"
+    ],
+    "en": [
+      "gladiator"
+    ]
+  },
+  "equestrian": {
+    "de": [
+      "Reiter"
+    ],
+    "la": [],
+    "en": [
+      "equestrian"
+    ]
+  },
+  "loom": {
+    "de": [
+      "Webrahmen"
+    ],
+    "la": [
+      "iugum textorii",
+      "iugum textrinum",
+      "telarium"
+    ],
+    "en": [
+      "loom"
+    ]
+  },
+  "bellows": {
+    "de": [
+      "Blasebalg"
+    ],
+    "la": [],
+    "en": [
+      "bellows"
+    ]
+  },
+  "goose": {
+    "de": [
+      "Gans"
+    ],
+    "la": [],
+    "en": [
+      "goose"
+    ]
+  },
+  "duck": {
+    "de": [
+      "Ente"
+    ],
+    "la": [],
+    "en": [
+      "duck"
+    ]
+  },
+  "goat": {
+    "de": [
+      "Ziege",
+      "Bock"
+    ],
+    "la": [
+      "hircus",
+      "caper",
+      "capra",
+      "haedus",
+      "haedo"
+    ],
+    "en": [
+      "goat"
+    ]
+  },
+  "capricorn": {
+    "de": [
+      "Steinbock"
+    ],
+    "la": [
+      "capricornus"
+    ],
+    "en": [
+      "capricorn"
+    ]
+  },
+  "pig": {
+    "de": [
+      "Schwein"
+    ],
+    "la": [],
+    "en": [
+      "pig"
+    ]
+  },
+  "bull": {
+    "de": [
+      "Stier"
+    ],
+    "la": [
+      "bos"
+    ],
+    "en": [
+      "bull"
+    ]
+  },
+  "cow": {
+    "de": [
+      "Kuh"
+    ],
+    "la": [],
+    "en": [
+      "cow"
+    ]
+  },
+  "donkey": {
+    "de": [
+      "Esel"
+    ],
+    "la": [
+      "asinus",
+      "asellus"
+    ],
+    "en": [
+      "donkey"
+    ]
+  },
+  "butterfly": {
+    "de": [
+      "Schmetterling"
+    ],
+    "la": [],
+    "en": [
+      "butterfly"
+    ]
+  },
+  "olive_tree": {
+    "de": [
+      "Olivenbaum"
+    ],
+    "la": [],
+    "en": [
+      "olive tree"
+    ]
+  },
+  "palm_tree": {
+    "de": [
+      "Palme"
+    ],
+    "la": [],
+    "en": [
+      "palm tree"
+    ]
+  },
+  "vine_tendril": {
+    "de": [
+      "Weinranke",
+      "Ranke"
+    ],
+    "la": [],
+    "en": [
+      "vine tendril"
+    ]
+  },
+  "ivy_tendril": {
+    "de": [
+      "Efeuranke"
+    ],
+    "la": [],
+    "en": [
+      "ivy tendril"
+    ]
+  },
+  "palmette": {
+    "de": [
+      "Palmette"
+    ],
+    "la": [],
+    "en": [
+      "palmette"
+    ]
+  },
+  "wineskin": {
+    "de": [
+      "Schlauch"
+    ],
+    "la": [
+      "uter",
+      "utris",
+      "utre"
+    ],
+    "en": [
+      "wineskin"
+    ]
+  },
+  "krater": {
+    "de": [
+      "Krater"
+    ],
+    "la": [],
+    "en": [
+      "krater"
+    ]
+  },
+  "cornucopia": {
+    "de": [
+      "Füllhorn"
+    ],
+    "la": [
+      "cornucopiae"
+    ],
+    "en": [
+      "cornucopia"
+    ]
+  },
+  "rattle": {
+    "de": [
+      "Rassel"
+    ],
+    "la": [],
+    "en": [
+      "rattle"
+    ]
+  },
+  "feather": {
+    "de": [
+      "Feder"
+    ],
+    "la": [],
+    "en": [
+      "feather"
+    ]
+  },
+  "quill": {
+    "de": [
+      "Schreibfeder"
+    ],
+    "la": [
+      "penna"
+    ],
+    "en": [
+      "quill"
+    ]
+  },
+  "scroll": {
+    "de": [
+      "Schriftrolle",
+      "Buchrolle",
+      "Papyrusrolle"
+    ],
+    "la": [
+      "volumen",
+      "volumina"
+    ],
+    "en": [
+      "scroll"
+    ]
+  },
+  "hoop": {
+    "de": [
+      "Reifen"
+    ],
+    "la": [
+      "trochus"
+    ],
+    "en": [
+      "hoop"
+    ]
+  },
+  "cittern": {
+    "de": [
+      "Zitter"
+    ],
+    "la": [],
+    "en": [
+      "cittern"
+    ]
+  },
+  "organ_hydraulis": {
+    "de": [
+      "Orgel"
+    ],
+    "la": [
+      "organum",
+      "hydraulis",
+      "hydralus"
+    ],
+    "en": [
+      "organ (hydraulis)"
+    ]
+  },
+  "fruit": {
+    "de": [
+      "Frucht",
+      "Obst"
+    ],
+    "la": [
+      "pomum"
+    ],
+    "en": [
+      "fruit"
+    ]
+  },
+  "apple": {
+    "de": [
+      "Apfel"
+    ],
+    "la": [],
+    "en": [
+      "apple"
+    ]
+  },
+  "sail": {
+    "de": [
+      "Segel"
+    ],
+    "la": [],
+    "en": [
+      "sail"
+    ]
+  },
+  "oar": {
+    "de": [
+      "Ruder"
+    ],
+    "la": [],
+    "en": [
+      "oar"
+    ]
+  },
+  "sun": {
+    "de": [
+      "Sonne"
+    ],
+    "la": [
+      "sol"
+    ],
+    "en": [
+      "sun"
+    ]
+  },
+  "crescent_moon": {
+    "de": [
+      "Halbmond",
+      "Mondsichel",
+      "Sichelmond"
+    ],
+    "la": [],
+    "en": [
+      "crescent moon"
+    ]
+  },
+  "cloud": {
+    "de": [
+      "Wolke"
+    ],
+    "la": [],
+    "en": [
+      "cloud"
+    ]
+  },
+  "acanthus": {
+    "de": [
+      "Akanthus",
+      "Akanthusdreipass"
+    ],
+    "la": [
+      "acanthus"
+    ],
+    "en": [
+      "acanthus"
+    ]
+  },
+  "pine_cone": {
+    "de": [
+      "Pinienzapfen"
+    ],
+    "la": [],
+    "en": [
+      "pine cone"
+    ]
+  },
+  "ox_cart": {
+    "de": [
+      "Ochsenkarren"
+    ],
+    "la": [],
+    "en": [
+      "ox cart"
+    ]
+  },
+  "cart": {
+    "de": [
+      "Wagen"
+    ],
+    "la": [
+      "carrus",
+      "plostellum",
+      "plaustrum"
+    ],
+    "en": [
+      "cart"
+    ]
+  },
+  "sea_creature": {
+    "de": [
+      "Meerestier",
+      "Seeungeheuer",
+      "Meerwesen"
+    ],
+    "la": [
+      "monstrum marinum",
+      "monstra marina"
+    ],
+    "en": [
+      "sea creature"
+    ]
+  },
+  "plant_ornament": {
+    "de": [
+      "Pflanzenornament",
+      "floral Ornament",
+      "floral Dekor",
+      "vegetabil Ornament",
+      "vegetabil Dekor",
+      "vegetabil Schmuck",
+      "vegetabil Fries"
+    ],
+    "de_note": "multi-word forms are written with the bare adjective stem (\"floral Ornament\", not \"florales Ornament\"): every word of a multi-word form but the last matches as a word prefix, so the stem covers all inflections (\"floralen Ornamenten\", \"vegetabilem Schmuck\"), see matching.find_phrases(). Added 2026-09-24.",
+    "la": [],
+    "en": [
+      "plant ornament"
+    ]
+  },
+  "hippocamp": {
+    "de": [
+      "Hippokamp",
+      "Hippocamp",
+      "Hippocampen",
+      "Hippokampen",
+      "Hippokampe"
+    ],
+    "la": [
+      "hippocampus"
+    ],
+    "en": [
+      "hippocamp"
+    ]
+  },
+  "griffin": {
+    "de": [
+      "Greif"
+    ],
+    "la": [
+      "gryps",
+      "gryphus"
+    ],
+    "en": [
+      "griffin"
+    ]
+  },
+  "dextrarum_iunctio": {
+    "de": [
+      "Dextrarum iunctio"
+    ],
+    "la": [
+      "dextrarum iunctio"
+    ],
+    "en": [
+      "dextrarum iunctio"
+    ]
+  },
+  "couple": {
+    "de": [
+      "Ehepaar"
+    ],
+    "la": [
+      "coniuges"
+    ],
+    "en": [
+      "couple"
+    ]
+  },
+  "servant": {
+    "de": [
+      "Diener"
+    ],
+    "la": [
+      "servus"
+    ],
+    "en": [
+      "servant"
+    ]
+  },
+  "young_man": {
+    "de": [
+      "Jüngling"
+    ],
+    "la": [
+      "adulescens"
+    ],
+    "en": [
+      "young man"
+    ]
+  },
+  "woman": {
+    "de": [
+      "weiblich",
+      "Frau"
+    ],
+    "la": [
+      "mulier",
+      "femina"
+    ],
+    "en": [
+      "woman"
+    ]
+  },
+  "the_deceased_leaning_on_a_staff": {
+    "de": [
+      "der Verstorbene auf einen Stab gestützt"
+    ],
+    "la": [
+      "defunctus baculo nixus"
+    ],
+    "en": [
+      "the deceased leaning on a staff"
+    ]
+  },
+  "foot": {
+    "de": [
+      "Fuß"
+    ],
+    "la": [
+      "pedes duo",
+      "pedes figurae"
+    ],
+    "en": [
+      "foot"
+    ]
+  },
+  "hand_pulling_an_ear": {
+    "de": [
+      "Hand zieht am Ohr"
+    ],
+    "la": [
+      "aurem manus vellit"
+    ],
+    "en": [
+      "hand pulling an ear"
+    ]
+  },
+  "aaron": {
+    "de": [
+      "Aaron"
+    ],
+    "la": [
+      "aron"
+    ],
+    "en": [
+      "Aaron"
+    ]
+  },
+  "christ": {
+    "de": [
+      "Christus"
+    ],
+    "la": [
+      "christus",
+      "christum",
+      "iesus",
+      "dominus loquitur",
+      "dominus suscitat"
+    ],
+    "en": [
+      "Christ"
+    ]
+  },
+  "martha": {
+    "de": [
+      "Martha"
+    ],
+    "la": [
+      "marta"
+    ],
+    "en": [
+      "Martha"
+    ]
+  },
+  "bethlehem": {
+    "de": [
+      "Bethlehem"
+    ],
+    "la": [
+      "betlehem"
+    ],
+    "en": [
+      "Bethlehem"
+    ]
+  },
+  "jerusalem": {
+    "de": [
+      "Jerusalem"
+    ],
+    "la": [
+      "hierusalem"
+    ],
+    "en": [
+      "Jerusalem"
+    ]
+  },
+  "tower_of_babel": {
+    "de": [
+      "Turm zu Babel"
+    ],
+    "la": [
+      "turris babelis"
+    ],
+    "en": [
+      "Tower of Babel"
+    ]
+  },
+  "the_sower": {
+    "de": [
+      "der Sämann"
+    ],
+    "la": [
+      "seminator spargens semina"
+    ],
+    "en": [
+      "the sower"
+    ]
+  },
+  "banquet": {
+    "de": [
+      "Gastmahl",
+      "Mahlszene",
+      "Totenmahl",
+      "cena funebris"
+    ],
+    "la": [
+      "convivium virorum quinque"
+    ],
+    "en": [
+      "banquet"
+    ]
+  },
+  "fishmonger": {
+    "de": [
+      "Fischhändler"
+    ],
+    "la": [
+      "piscem venditor praebet"
+    ],
+    "en": [
+      "fishmonger"
+    ]
+  },
+  "fisherman": {
+    "de": [
+      "Fischer"
+    ],
+    "la": [
+      "piscator"
+    ],
+    "en": [
+      "fisherman"
+    ]
+  },
+  "sculptor": {
+    "de": [
+      "Bildhauer"
+    ],
+    "la": [
+      "sculptor"
+    ],
+    "en": [
+      "sculptor"
+    ]
+  },
+  "water_carrier": {
+    "de": [
+      "Wasserträger"
+    ],
+    "la": [
+      "aquator"
+    ],
+    "en": [
+      "water carrier"
+    ]
+  },
+  "mule_driver": {
+    "de": [
+      "Maultiertreiber"
+    ],
+    "la": [
+      "mulio"
+    ],
+    "en": [
+      "mule driver"
+    ]
+  },
+  "runner": {
+    "de": [
+      "Läufer"
+    ],
+    "la": [
+      "cursor"
+    ],
+    "en": [
+      "runner"
+    ]
+  },
+  "plumb_line": {
+    "de": [
+      "Senklot"
+    ],
+    "la": [
+      "glomus fili cum plumbo",
+      "squadra con filo a piombo"
+    ],
+    "en": [
+      "plumb line"
+    ]
+  },
+  "mallet": {
+    "de": [
+      "Schlegel"
+    ],
+    "la": [
+      "tuditem"
+    ],
+    "en": [
+      "mallet"
+    ]
+  },
+  "die": {
+    "de": [
+      "Würfel"
+    ],
+    "la": [
+      "talus",
+      "tali",
+      "talus cum quattuor punctis"
+    ],
+    "en": [
+      "die"
+    ]
+  },
+  "dice_box": {
+    "de": [
+      "Würfelbecher"
+    ],
+    "la": [
+      "fritillus",
+      "fritilli"
+    ],
+    "en": [
+      "dice box"
+    ]
+  },
+  "toy": {
+    "de": [
+      "Spielzeug"
+    ],
+    "la": [
+      "ludicrum",
+      "ludicrum puerile"
+    ],
+    "en": [
+      "toy"
+    ]
+  },
+  "discus": {
+    "de": [
+      "Diskus"
+    ],
+    "la": [
+      "discus"
+    ],
+    "en": [
+      "discus"
+    ]
+  },
+  "coin": {
+    "de": [
+      "Münze"
+    ],
+    "la": [
+      "as",
+      "asses"
+    ],
+    "en": [
+      "coin"
+    ]
+  },
+  "sling": {
+    "de": [
+      "Schleuder"
+    ],
+    "la": [
+      "funda cum lapide"
+    ],
+    "en": [
+      "sling"
+    ]
+  },
+  "bow": {
+    "de": [
+      "Bogen (Waffe)"
+    ],
+    "la": [
+      "arcus"
+    ],
+    "en": [
+      "bow"
+    ]
+  },
+  "fishing_rod": {
+    "de": [
+      "Angel"
+    ],
+    "la": [
+      "arundo piscatoria cum hamo"
+    ],
+    "en": [
+      "fishing rod"
+    ]
+  },
+  "rudder": {
+    "de": [
+      "Ruder"
+    ],
+    "la": [
+      "gubernaculum"
+    ],
+    "en": [
+      "rudder"
+    ]
+  },
+  "waves": {
+    "de": [
+      "Wellen"
+    ],
+    "la": [
+      "fluctus"
+    ],
+    "en": [
+      "waves"
+    ]
+  },
+  "inkwell": {
+    "de": [
+      "Tintenfass"
+    ],
+    "la": [
+      "atramentaria",
+      "atramentarium"
+    ],
+    "en": [
+      "inkwell"
+    ]
+  },
+  "pen_case": {
+    "de": [
+      "Federkasten"
+    ],
+    "la": [
+      "theca calamaria"
+    ],
+    "en": [
+      "pen case"
+    ]
+  },
+  "bat": {
+    "de": [
+      "Fledermaus"
+    ],
+    "la": [
+      "noctula"
+    ],
+    "en": [
+      "bat"
+    ]
+  },
+  "beetle": {
+    "de": [
+      "Käfer"
+    ],
+    "la": [
+      "scarabaeus"
+    ],
+    "en": [
+      "beetle"
+    ]
+  },
+  "snake": {
+    "de": [
+      "Schlange"
+    ],
+    "la": [
+      "anguis"
+    ],
+    "en": [
+      "snake"
+    ]
+  },
+  "boar": {
+    "de": [
+      "Wildschwein"
+    ],
+    "la": [
+      "aper"
+    ],
+    "en": [
+      "boar"
+    ]
+  },
+  "monster": {
+    "de": [
+      "Untier",
+      "Monster"
+    ],
+    "la": [
+      "belva",
+      "monstrum"
+    ],
+    "en": [
+      "monster"
+    ]
+  },
+  "phoenix": {
+    "de": [
+      "Phönix"
+    ],
+    "la": [
+      "phoenix"
+    ],
+    "en": [
+      "phoenix"
+    ]
+  },
+  "octopus": {
+    "de": [
+      "Krake"
+    ],
+    "la": [
+      "polypus"
+    ],
+    "en": [
+      "octopus"
+    ]
+  },
+  "razor": {
+    "de": [
+      "Rasiermesser"
+    ],
+    "la": [
+      "novacula",
+      "novaculae",
+      "duae novaculae"
+    ],
+    "en": [
+      "razor"
+    ]
+  },
+  "file": {
+    "de": [
+      "Feile"
+    ],
+    "la": [
+      "lima"
+    ],
+    "en": [
+      "file"
+    ]
+  },
+  "small_rake": {
+    "de": [
+      "kleine Harke"
+    ],
+    "la": [
+      "rutellum"
+    ],
+    "en": [
+      "small rake"
+    ]
+  },
+  "wedge": {
+    "de": [
+      "Keil"
+    ],
+    "la": [
+      "cuneus"
+    ],
+    "en": [
+      "wedge"
+    ]
+  },
+  "millstone": {
+    "de": [
+      "Mühlstein"
+    ],
+    "la": [
+      "mola"
+    ],
+    "en": [
+      "millstone"
+    ]
+  },
+  "weighing_table": {
+    "de": [
+      "Waagetisch"
+    ],
+    "la": [
+      "mensa ponderaria"
+    ],
+    "en": [
+      "weighing table"
+    ]
+  },
+  "winnowing_fan": {
+    "de": [
+      "Worfschwinge"
+    ],
+    "la": [
+      "vannus"
+    ],
+    "en": [
+      "winnowing fan"
+    ]
+  },
+  "clyster": {
+    "de": [
+      "Klistierspritze"
+    ],
+    "la": [
+      "clyster"
+    ],
+    "en": [
+      "clyster"
+    ]
+  },
+  "strainer": {
+    "de": [
+      "Sieb"
+    ],
+    "la": [
+      "colum"
+    ],
+    "en": [
+      "strainer"
+    ]
+  },
+  "rhyton": {
+    "de": [
+      "Rhyton"
+    ],
+    "la": [
+      "rhyton"
+    ],
+    "en": [
+      "rhyton"
+    ]
+  },
+  "pyxis": {
+    "de": [
+      "Pyxis"
+    ],
+    "la": [
+      "pyxis"
+    ],
+    "en": [
+      "pyxis"
+    ]
+  },
+  "hydria": {
+    "de": [
+      "Hydria"
+    ],
+    "la": [
+      "hydria"
+    ],
+    "en": [
+      "hydria"
+    ]
+  },
+  "unguent_jar": {
+    "de": [
+      "Salbgefäß"
+    ],
+    "la": [
+      "unguentarium"
+    ],
+    "en": [
+      "unguent jar"
+    ]
+  },
+  "drinking_horn": {
+    "de": [
+      "Trinkhorn"
+    ],
+    "la": [
+      "cornu potorium"
+    ],
+    "en": [
+      "drinking horn"
+    ]
+  },
+  "water_trough": {
+    "de": [
+      "Wassertrog"
+    ],
+    "la": [
+      "alveus quadratus aquae plenus"
+    ],
+    "en": [
+      "water trough"
+    ]
+  },
+  "two_handled_jar": {
+    "de": [
+      "zweihenkliges Gefäß"
+    ],
+    "la": [
+      "diota"
+    ],
+    "en": [
+      "two-handled jar"
+    ]
+  },
+  "candle": {
+    "de": [
+      "Kerze"
+    ],
+    "la": [
+      "cereus",
+      "cerus incensus",
+      "cereus incensus",
+      "candela",
+      "candela flammans"
+    ],
+    "en": [
+      "candle"
+    ]
+  },
+  "bell": {
+    "de": [
+      "Glocke"
+    ],
+    "la": [
+      "tintinnabulum",
+      "campanula"
+    ],
+    "en": [
+      "bell"
+    ]
+  },
+  "clock": {
+    "de": [
+      "Uhr"
+    ],
+    "la": [
+      "horologium",
+      "clepsydra"
+    ],
+    "en": [
+      "clock"
+    ]
+  },
+  "thyrsus": {
+    "de": [
+      "Thyrsos"
+    ],
+    "la": [
+      "thyrsus taeniatus"
+    ],
+    "en": [
+      "thyrsus"
+    ]
+  },
+  "hexagram": {
+    "de": [
+      "Hexagramm"
+    ],
+    "la": [
+      "hexalpha"
+    ],
+    "en": [
+      "hexagram"
+    ]
+  },
+  "gordian_knot": {
+    "de": [
+      "Gordischer Knoten"
+    ],
+    "la": [
+      "nodus gordianus"
+    ],
+    "en": [
+      "Gordian knot"
+    ]
+  },
+  "amulet": {
+    "de": [
+      "Amulett"
+    ],
+    "la": [
+      "amuletum"
+    ],
+    "en": [
+      "amulet"
+    ]
+  },
+  "etrog": {
+    "de": [
+      "Etrog"
+    ],
+    "la": [
+      "ethrog"
+    ],
+    "en": [
+      "etrog"
+    ]
+  },
+  "decussis": {
+    "de": [
+      "Andreaskreuz",
+      "Schrägkreuz"
+    ],
+    "la": [
+      "decusses",
+      "quattuor decusses",
+      "decussata"
+    ],
+    "en": [
+      "decussis"
+    ]
+  },
+  "tower": {
+    "de": [
+      "Turm"
+    ],
+    "la": [
+      "turris"
+    ],
+    "en": [
+      "tower"
+    ]
+  },
+  "buildings": {
+    "de": [
+      "Gebäude"
+    ],
+    "la": [
+      "aedificia"
+    ],
+    "en": [
+      "buildings"
+    ]
+  },
+  "hut": {
+    "de": [
+      "Hütte"
+    ],
+    "la": [
+      "casula"
+    ],
+    "en": [
+      "hut"
+    ]
+  },
+  "roof": {
+    "de": [
+      "Dach"
+    ],
+    "la": [
+      "tectum aedifici cuiusdam",
+      "tectus",
+      "tignum"
+    ],
+    "en": [
+      "roof"
+    ]
+  },
+  "well": {
+    "de": [
+      "Brunnen"
+    ],
+    "la": [
+      "puteus"
+    ],
+    "en": [
+      "well"
+    ]
+  },
+  "fountain": {
+    "de": [
+      "Springbrunnen"
+    ],
+    "la": [
+      "fons"
+    ],
+    "en": [
+      "fountain"
+    ]
+  },
+  "net": {
+    "de": [
+      "Netz"
+    ],
+    "la": [
+      "reticulum"
+    ],
+    "en": [
+      "net"
+    ]
+  },
+  "stake": {
+    "de": [
+      "Pfahl"
+    ],
+    "la": [
+      "palus"
+    ],
+    "en": [
+      "stake"
+    ]
+  },
+  "medicine_box": {
+    "de": [
+      "Arzneikästchen"
+    ],
+    "la": [
+      "pharmacotheca"
+    ],
+    "en": [
+      "medicine box"
+    ]
+  },
+  "pan_pipes": {
+    "de": [
+      "Panflöte"
+    ],
+    "la": [
+      "syrinx"
+    ],
+    "en": [
+      "pan pipes"
+    ]
+  },
+  "small_cake": {
+    "de": [
+      "Küchlein"
+    ],
+    "la": [
+      "pastillus"
+    ],
+    "en": [
+      "small cake"
+    ]
+  },
+  "chaff": {
+    "de": [
+      "Spreu"
+    ],
+    "la": [
+      "palea"
+    ],
+    "en": [
+      "chaff"
+    ]
+  },
+  "the_seven_planets": {
+    "de": [
+      "die sieben Planeten"
+    ],
+    "la": [
+      "terra cum septem planetis"
+    ],
+    "en": [
+      "the seven planets"
+    ]
+  },
+  "bench": {
+    "de": [
+      "Bank"
+    ],
+    "la": [
+      "subsellium"
+    ],
+    "en": [
+      "bench"
+    ]
+  },
+  "caliga": {
+    "de": [
+      "Caligae",
+      "Militärschuhwerk"
+    ],
+    "la": [
+      "caligae duae",
+      "caligae"
+    ],
+    "en": [
+      "caliga"
+    ]
+  },
+  "fillet": {
+    "de": [
+      "Binde"
+    ],
+    "la": [
+      "vitta"
+    ],
+    "en": [
+      "fillet"
+    ]
+  },
+  "hercules": {
+    "de": [
+      "Herkules"
+    ],
+    "en": [
+      "Hercules"
+    ]
+  },
+  "apollo": {
+    "de": [
+      "Apoll"
+    ],
+    "en": [
+      "Apollo"
+    ]
+  },
+  "diana": {
+    "de": [
+      "Diana"
+    ],
+    "en": [
+      "Diana"
+    ]
+  },
+  "hebe": {
+    "de": [
+      "Hebe"
+    ],
+    "en": [
+      "Hebe"
+    ]
+  },
+  "attis": {
+    "de": [
+      "Attis"
+    ],
+    "en": [
+      "Attis"
+    ]
+  },
+  "satyr": {
+    "de": [
+      "Satyr"
+    ],
+    "en": [
+      "satyr"
+    ]
+  },
+  "season_personification": {
+    "de": [
+      "Jahreszeit-Personifikation",
+      "Personifikation der Jahreszeit"
+    ],
+    "en": [
+      "season personification"
+    ]
+  },
+  "bust": {
+    "de": [
+      "Büste",
+      "Brustbild",
+      "Bruststück",
+      "Halbfigur",
+      "Bildniskopf",
+      "Porträtkopf",
+      "Porträtbüste"
+    ],
+    "la": [
+      "protome",
+      "os viri",
+      "viri os",
+      "os pueri",
+      "os defuncti",
+      "os infantis"
+    ],
+    "en": [
+      "bust"
+    ]
+  },
+  "clipeus": {
+    "de": [
+      "Clipeus",
+      "Klipeus",
+      "Medaillon",
+      "Porträtmedaillon"
+    ],
+    "la": [
+      "clipeus",
+      "imago clipeata"
+    ],
+    "en": [
+      "clipeus"
+    ]
+  },
+  "full_figure": {
+    "de": [
+      "Figur",
+      "Ganzfigur",
+      "stehend",
+      "ganzfigurig"
+    ],
+    "la": [],
+    "en": [
+      "full figure"
+    ]
+  },
+  "person": {
+    "de": [
+      "Person",
+      "Erwachsene",
+      "Erwachsener",
+      "figürlich Darstellung"
+    ],
+    "la": [
+      "persona"
+    ],
+    "en": [
+      "person"
+    ]
+  },
+  "ram_horn": {
+    "de": [
+      "Widderhorn",
+      "Widderhörner"
+    ],
+    "la": [],
+    "en": [
+      "ram horn"
+    ]
+  },
+  "ram_bearer": {
+    "de": [
+      "Widderträger"
+    ],
+    "la": [
+      "criophorus"
+    ],
+    "en": [
+      "ram bearer"
+    ]
+  },
+  "unidentified": {
+    "de": [
+      "unbestimmt",
+      "unbestimmbar",
+      "unidentifiziert",
+      "unidentifizierbar"
+    ],
+    "la": [
+      "signum ignotum",
+      "signa ignota",
+      "signum incognitum",
+      "litterae incognitae",
+      "litterae ignotae",
+      "anaglyphum incognitum",
+      "anaglyphum",
+      "ornamentum",
+      "imago",
+      "monogramma",
+      "signum",
+      "nomen monogrammate expressum",
+      "delineamentum incertum",
+      "delineamenta incerta",
+      "characteres",
+      "litterae inexplicabiles",
+      "littera incognita",
+      "litterae quae adgnosci non possunt",
+      "littera r retrograda",
+      "littera claudiana",
+      "linea recta",
+      "tres litterae",
+      "monogrammata nominum",
+      "figura incerta",
+      "anaglyptum ignotum",
+      "litterae variae",
+      "symbola",
+      "tres linea transversa",
+      "in circulo: supra, littera v",
+      "in medio, mensura",
+      "infra, littera m",
+      "ψ",
+      "instrumentum"
+    ],
+    "en": [
+      "unidentified",
+      "unidentified object",
+      "unidentified decoration"
+    ]
+  },
+  "chi_rho_radial": {
+    "de": [
+      "strahlenförmig Christogramm"
+    ],
+    "la": [
+      "radiatum"
+    ],
+    "en": [
+      "chi-rho, radial"
+    ]
+  },
+  "christogram_in_circle": {
+    "de": [
+      "Christogramm im Kreis",
+      "Christogram im Kreis",
+      "Kreis eingeschrieben Christogramm",
+      "Christogram in einem Kreis"
+    ],
+    "la": [
+      "in circulo"
+    ],
+    "en": [
+      "christogram in circle"
+    ]
+  },
+  "wheel_radiate": {
+    "de": [
+      "Speichenrad"
+    ],
+    "la": [
+      "radiata"
+    ],
+    "en": [
+      "wheel, radiate"
+    ]
+  },
+  "swan": {
+    "de": [
+      "Schwan"
+    ],
+    "la": [
+      "cygnus"
+    ],
+    "en": [
+      "swan"
+    ]
+  },
+  "shield": {
+    "de": [
+      "Schild",
+      "Rundschild"
+    ],
+    "la": [
+      "scutum",
+      "clipeus militaris"
+    ],
+    "en": [
+      "shield"
+    ]
+  },
+  "pelta": {
+    "de": [
+      "Pelta",
+      "Pelte",
+      "Peltenschild"
+    ],
+    "la": [
+      "pelta"
+    ],
+    "en": [
+      "pelta"
+    ]
+  },
+  "radiate_crown": {
+    "de": [
+      "Strahlenkrone"
+    ],
+    "la": [
+      "corona radiata"
+    ],
+    "en": [
+      "radiate crown"
+    ]
+  },
+  "victoria": {
+    "de": [
+      "Victoria",
+      "Viktoria",
+      "Siegesgöttin",
+      "geflügelt Göttin"
+    ],
+    "la": [
+      "victoria"
+    ],
+    "en": [
+      "Victoria"
+    ]
+  },
+  "alcestis": {
+    "de": [
+      "Alkestis",
+      "Alcestis"
+    ],
+    "la": [
+      "alcestis"
+    ],
+    "en": [
+      "Alcestis"
+    ]
+  },
+  "hunt": {
+    "de": [
+      "Jagd",
+      "Jagdszene",
+      "Jagdfries"
+    ],
+    "la": [
+      "venatio"
+    ],
+    "en": [
+      "hunt",
+      "hunting scene"
+    ]
+  },
+  "sacrifice": {
+    "de": [
+      "Opfer",
+      "Opferszene",
+      "Opferfries",
+      "Opfertisch",
+      "Opfergabe"
+    ],
+    "la": [
+      "sacrificium"
+    ],
+    "en": [
+      "sacrifice",
+      "sacrifice scene"
+    ]
+  },
+  "animal": {
+    "de": [
+      "Tier"
+    ],
+    "la": [
+      "animal",
+      "animalia"
+    ],
+    "en": [
+      "animal"
+    ]
+  },
+  "tool": {
+    "de": [
+      "Werkzeug"
+    ],
+    "la": [
+      "instrumentum"
+    ],
+    "en": [
+      "tool"
+    ]
+  },
+  "owl": {
+    "de": [
+      "Eule"
+    ],
+    "la": [
+      "noctua"
+    ],
+    "en": [
+      "owl"
+    ]
+  },
+  "maenad": {
+    "de": [
+      "Mänade"
+    ],
+    "la": [
+      "maenas"
+    ],
+    "en": [
+      "maenad"
+    ]
+  },
+  "orpheus": {
+    "de": [
+      "Orpheus"
+    ],
+    "la": [
+      "Orpheus"
+    ],
+    "en": [
+      "Orpheus"
+    ]
+  },
+  "selene": {
+    "de": [
+      "Selene"
+    ],
+    "la": [
+      "Selene"
+    ],
+    "en": [
+      "Selene"
+    ]
+  },
+  "endymion": {
+    "de": [
+      "Endymion"
+    ],
+    "la": [
+      "Endymion"
+    ],
+    "en": [
+      "Endymion"
+    ]
+  },
+  "actaeon": {
+    "de": [
+      "Aktaion"
+    ],
+    "la": [
+      "Actaeon"
+    ],
+    "en": [
+      "Actaeon"
+    ]
+  },
+  "mask": {
+    "de": [
+      "Maske",
+      "Theatermaske"
+    ],
+    "la": [],
+    "en": [
+      "mask"
+    ]
+  },
+  "torques": {
+    "de": [
+      "Torques"
+    ],
+    "la": [
+      "torques"
+    ],
+    "en": [
+      "torc"
+    ]
+  },
+  "bracelet": {
+    "de": [
+      "Armreif"
+    ],
+    "la": [
+      "armilla"
+    ],
+    "en": [
+      "bracelet"
+    ]
+  },
+  "checkerboard": {
+    "de": [
+      "Schachbrettmuster"
+    ],
+    "la": [],
+    "en": [
+      "checkerboard pattern"
+    ]
+  },
+  "pattern": {
+    "de": [
+      "Muster",
+      "Netzmuster",
+      "Rautenmuster"
+    ],
+    "la": [],
+    "en": [
+      "pattern"
+    ]
+  }
+}

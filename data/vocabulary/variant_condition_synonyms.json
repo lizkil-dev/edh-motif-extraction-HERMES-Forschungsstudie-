@@ -1,0 +1,209 @@
+{
+  "reversed": {
+    "la": [
+      "reversum",
+      "inversum",
+      "reversa",
+      "inversa",
+      "reversus"
+    ],
+    "en": [
+      "reversed"
+    ]
+  },
+  "partial": {
+    "la": [
+      "pars"
+    ],
+    "en": [
+      "partial"
+    ]
+  },
+  "fluted": {
+    "de": [
+      "kanneliert"
+    ],
+    "en": [
+      "fluted"
+    ]
+  },
+  "bearded": {
+    "de": [
+      "bärtig"
+    ],
+    "en": [
+      "bearded"
+    ],
+    "la": [
+      "barbatus"
+    ]
+  },
+  "horned": {
+    "de": [
+      "mit Widderhörnern"
+    ],
+    "en": [
+      "horned"
+    ]
+  },
+  "noric_pannonian": {
+    "de": [
+      "norisch-pannonisch"
+    ],
+    "en": [
+      "Noric-Pannonian"
+    ]
+  },
+  "six_rayed": {
+    "de": [
+      "sechsstrahlig"
+    ],
+    "la": [
+      "stellula sex radiorum"
+    ],
+    "en": [
+      "six-rayed"
+    ]
+  },
+  "mourning": {
+    "de": [
+      "trauernd"
+    ],
+    "en": [
+      "mourning"
+    ]
+  },
+  "raised": {
+    "de": [
+      "erhoben"
+    ],
+    "en": [
+      "raised"
+    ]
+  },
+  "facing_left": {
+    "de": [
+      "nach links"
+    ],
+    "en": [
+      "facing left"
+    ]
+  },
+  "lying": {
+    "de": [
+      "liegend"
+    ],
+    "en": [
+      "lying"
+    ]
+  },
+  "standing": {
+    "de": [
+      "stehend"
+    ],
+    "en": [
+      "standing"
+    ]
+  },
+  "facing_right": {
+    "de": [
+      "nach rechts"
+    ],
+    "en": [
+      "facing right"
+    ]
+  },
+  "sitting": {
+    "de": [
+      "sitzend"
+    ],
+    "en": [
+      "sitting"
+    ]
+  },
+  "bust": {
+    "de": [
+      "Büste",
+      "Brustbild",
+      "Halbfigur"
+    ],
+    "en": [
+      "bust"
+    ]
+  },
+  "clipeus": {
+    "de": [
+      "Clipeus",
+      "Medaillon"
+    ],
+    "en": [
+      "clipeus"
+    ]
+  },
+  "orant": {
+    "de": [
+      "Orant"
+    ],
+    "en": [
+      "orant"
+    ]
+  },
+  "full_figure": {
+    "de": [
+      "Ganzfigur",
+      "stehend"
+    ],
+    "en": [
+      "full figure"
+    ]
+  },
+  "head": {
+    "de": [
+      "Kopf"
+    ],
+    "en": [
+      "head"
+    ]
+  },
+  "dancing": {
+    "de": [
+      "tanzend"
+    ],
+    "en": [
+      "dancing"
+    ]
+  },
+  "nude": {
+    "de": [
+      "nackt"
+    ],
+    "en": [
+      "nude"
+    ]
+  },
+  "running": {
+    "de": [
+      "laufend"
+    ],
+    "en": [
+      "running"
+    ]
+  },
+  "framing": {
+    "de": [
+      "rahmend"
+    ],
+    "en": [
+      "framing"
+    ]
+  },
+  "noric_costume": {
+    "de": [
+      "norische Tracht",
+      "norische Haube"
+    ],
+    "en": [
+      "Noric costume"
+    ]
+  }
+}

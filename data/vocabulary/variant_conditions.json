@@ -1,0 +1,74 @@
+{
+  "reversed": {
+    "label": "reversed"
+  },
+  "partial": {
+    "label": "partial"
+  },
+  "fluted": {
+    "label": "fluted"
+  },
+  "bearded": {
+    "label": "bearded"
+  },
+  "horned": {
+    "label": "horned"
+  },
+  "noric_pannonian": {
+    "label": "Noric-Pannonian"
+  },
+  "six_rayed": {
+    "label": "six-rayed"
+  },
+  "mourning": {
+    "label": "mourning"
+  },
+  "raised": {
+    "label": "raised"
+  },
+  "facing_left": {
+    "label": "facing left"
+  },
+  "lying": {
+    "label": "lying"
+  },
+  "standing": {
+    "label": "standing"
+  },
+  "facing_right": {
+    "label": "facing right"
+  },
+  "sitting": {
+    "label": "sitting"
+  },
+  "bust": {
+    "label": "bust"
+  },
+  "clipeus": {
+    "label": "clipeus"
+  },
+  "orant": {
+    "label": "orant"
+  },
+  "full_figure": {
+    "label": "full figure"
+  },
+  "head": {
+    "label": "head"
+  },
+  "dancing": {
+    "label": "dancing"
+  },
+  "nude": {
+    "label": "nude"
+  },
+  "running": {
+    "label": "running"
+  },
+  "framing": {
+    "label": "framing"
+  },
+  "noric_costume": {
+    "label": "Noric costume"
+  }
+}

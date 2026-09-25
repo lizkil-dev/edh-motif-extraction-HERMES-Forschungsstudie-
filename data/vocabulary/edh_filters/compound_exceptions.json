@@ -1,0 +1,30 @@
+{
+  "no_modifier": [
+    {
+      "word": "volutenkrater",
+      "reason": "\"Volutenkrater\" is a vessel shape, no volute is depicted"
+    },
+    {
+      "word": "blattkandelaber",
+      "reason": "\"Blattkandelaber\" is a candelabrum type, the leaves are part of the object"
+    },
+    {
+      "word": "schafschere",
+      "reason": "\"Schafschere\" (sheep shears) is a tool, no sheep is depicted"
+    },
+    {
+      "word": "glasschale",
+      "reason": "\"Glas\" names the material, not a cup"
+    }
+  ],
+  "modifier_replaces_head": [
+    {
+      "modifier": "acanthus",
+      "heads": [
+        "vine_tendril",
+        "leaf"
+      ],
+      "reason": "\"Akanthusranke\", \"Akanthusblatt\" are acanthus only, not also a tendril or a leaf"
+    }
+  ]
+}

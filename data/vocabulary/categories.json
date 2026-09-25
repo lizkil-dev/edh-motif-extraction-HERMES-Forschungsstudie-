@@ -1,0 +1,685 @@
+{
+  "symbols": {
+    "label": "symbols",
+    "iconclass_notation": null,
+    "children": {
+      "christian_symbols": {
+        "label": "christian symbols",
+        "iconclass_notation": null,
+        "children": {
+          "cross": {
+            "label": "cross",
+            "iconclass_notation": "11D121",
+            "children": {
+              "greek_cross": {
+                "label": "greek cross",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "latin_cross": {
+                "label": "latin cross",
+                "iconclass_notation": null,
+                "children": {
+                  "latin_cross_reversed": {
+                    "label": "latin cross, reversed",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "gamma_cross": {
+                "label": "gamma cross",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "saltire_cross": {
+                "label": "saltire cross",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "ankh_cross": {
+                "label": "ankh cross",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "tau_cross": {
+                "label": "tau cross",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "cross_reversed": {
+                "label": "cross, reversed",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "christogram": {
+            "label": "christogram",
+            "iconclass_notation": "11D112",
+            "children": {
+              "chi_rho": {
+                "label": "chi-rho",
+                "iconclass_notation": "11D112",
+                "children": {
+                  "chi_rho_radial": {
+                    "label": "chi-rho, radial",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "staurogram": {
+                "label": "staurogram",
+                "iconclass_notation": "11D112",
+                "children": {
+                  "staurogram_reversed": {
+                    "label": "staurogram, reversed",
+                    "iconclass_notation": "11D112",
+                    "children": {}
+                  }
+                }
+              },
+              "staurogram_in_circle": {
+                "label": "staurogram in circle",
+                "iconclass_notation": "11D112",
+                "children": {}
+              },
+              "in_wreath": {
+                "label": "in wreath",
+                "iconclass_notation": "11D112",
+                "children": {}
+              },
+              "christogram_reversed": {
+                "label": "christogram, reversed",
+                "iconclass_notation": "11D112",
+                "children": {}
+              },
+              "christogram_in_circle": {
+                "label": "christogram in circle",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "alpha_and_omega": {
+            "label": "alpha and omega",
+            "iconclass_notation": "11D111",
+            "children": {}
+          }
+        }
+      },
+      "jewish_symbols": {
+        "label": "jewish symbols",
+        "iconclass_notation": "12A8",
+        "children": {}
+      },
+      "pagan_symbols": {
+        "label": "pagan symbols",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "other_symbols": {
+        "label": "other symbols",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "animals": {
+    "label": "animals",
+    "iconclass_notation": null,
+    "children": {
+      "birds": {
+        "label": "birds",
+        "iconclass_notation": "25F3",
+        "children": {
+          "birds_general": {
+            "label": "birds, general",
+            "iconclass_notation": null,
+            "children": {
+              "bird_with_branch": {
+                "label": "bird with branch",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_at_or_in_vessel": {
+                "label": "bird at or in vessel",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_with_grapes": {
+                "label": "bird with grapes",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_with_wreath_or_garland": {
+                "label": "bird with wreath or garland",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_with_flower": {
+                "label": "bird with flower",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_in_chest": {
+                "label": "bird in chest",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_enclosed": {
+                "label": "bird, enclosed",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_with_veil": {
+                "label": "bird with veil",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_partial": {
+                "label": "bird, partial",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_other": {
+                "label": "bird, other",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "bird_reversed": {
+                "label": "bird, reversed",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "eagle_in_wreath": {
+                "label": "eagle in wreath",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "doves": {
+            "label": "doves",
+            "iconclass_notation": null,
+            "children": {}
+          },
+          "peacock": {
+            "label": "peacock",
+            "iconclass_notation": null,
+            "children": {}
+          },
+          "other_birds": {
+            "label": "other birds",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      },
+      "fish": {
+        "label": "fish",
+        "iconclass_notation": null,
+        "children": {
+          "fish_general": {
+            "label": "fish, general",
+            "iconclass_notation": null,
+            "children": {}
+          },
+          "dolphins": {
+            "label": "dolphins",
+            "iconclass_notation": null,
+            "children": {}
+          },
+          "whale": {
+            "label": "whale",
+            "iconclass_notation": null,
+            "children": {}
+          },
+          "other_fish": {
+            "label": "other fish",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      },
+      "other_animals": {
+        "label": "other animals",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "animal_scene": {
+        "label": "animal scene",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "plants": {
+    "label": "plants",
+    "iconclass_notation": null,
+    "children": {
+      "branches_and_fronds": {
+        "label": "branches and fronds",
+        "iconclass_notation": null,
+        "children": {
+          "branch_reversed": {
+            "label": "branch, reversed",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      },
+      "leaves": {
+        "label": "leaves",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "trees": {
+        "label": "trees",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "fruits": {
+        "label": "fruits",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "flowers": {
+        "label": "flowers",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "other_plants": {
+        "label": "other plants",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "ornament": {
+    "label": "ornament",
+    "iconclass_notation": null,
+    "children": {
+      "wreaths": {
+        "label": "wreaths & garlands",
+        "iconclass_notation": null,
+        "children": {
+          "putto_with_garland": {
+            "label": "putto with garlands",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      },
+      "rosettes": {
+        "label": "rosettes",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "vegetal_ornament": {
+        "label": "vegetal ornament",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "tablet_held_by_erotes": {
+        "label": "tablet held by erotes",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "patterns": {
+        "label": "patterns",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "everyday_objects": {
+    "label": "everyday objects",
+    "iconclass_notation": null,
+    "children": {
+      "vessels": {
+        "label": "vessels",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "tools": {
+        "label": "tools",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "other": {
+        "label": "other",
+        "iconclass_notation": null,
+        "children": {
+          "wheel_radiate": {
+            "label": "wheel, radiate",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      },
+      "games": {
+        "label": "games",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "furniture": {
+        "label": "furniture",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "fabrics": {
+        "label": "fabrics",
+        "iconclass_notation": null,
+        "children": {}
+      },
+      "jewelry": {
+        "label": "jewelry",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "food": {
+    "label": "food",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "nautical": {
+    "label": "nautical",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "celestial_bodies": {
+    "label": "celestial bodies",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "architecture": {
+    "label": "architecture",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "weapons": {
+    "label": "weapons",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "miscellaneous": {
+    "label": "miscellaneous",
+    "iconclass_notation": null,
+    "children": {
+      "unidentified": {
+        "label": "unidentified",
+        "iconclass_notation": null,
+        "children": {}
+      }
+    }
+  },
+  "framing": {
+    "label": "framing",
+    "iconclass_notation": null,
+    "children": {}
+  },
+  "people_and_scenes": {
+    "label": "people and scenes",
+    "iconclass_notation": null,
+    "children": {
+      "biblical": {
+        "label": "biblical",
+        "iconclass_notation": null,
+        "children": {
+          "biblical_figures": {
+            "label": "biblical figures",
+            "iconclass_notation": null,
+            "children": {
+              "shepherd_carrying_sheep": {
+                "label": "shepherd carrying sheep",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "biblical_scenes": {
+            "label": "biblical scenes",
+            "iconclass_notation": null,
+            "children": {
+              "daniel_in_the_lions_den": {
+                "label": "Daniel in the lions' den",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "jonah": {
+                "label": "Jonah",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "noah_in_the_ark": {
+                "label": "Noah in the ark",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "three_youths_in_the_furnace": {
+                "label": "three youths in the furnace",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "raising_of_lazarus": {
+                "label": "Raising of Lazarus",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "adoration_of_the_magi": {
+                "label": "Adoration of the Magi",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "moses_striking_the_rock": {
+                "label": "Moses striking the rock",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "moses_receiving_the_law": {
+                "label": "Moses receiving the Law",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "adam_and_eve": {
+                "label": "Adam and Eve",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "multiplication_of_loaves": {
+                "label": "multiplication of loaves",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          }
+        }
+      },
+      "secular": {
+        "label": "secular",
+        "iconclass_notation": null,
+        "children": {
+          "secular_figures": {
+            "label": "secular figures",
+            "iconclass_notation": null,
+            "children": {
+              "crafts_and_work": {
+                "label": "craft and work",
+                "iconclass_notation": null,
+                "children": {
+                  "field_work": {
+                    "label": "field work",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "military_figures": {
+                "label": "military figures",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "portrait": {
+                "label": "portrait",
+                "iconclass_notation": null,
+                "children": {
+                  "portrait_man": {
+                    "label": "portrait, man",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_woman": {
+                    "label": "portrait, woman",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_boy": {
+                    "label": "portrait, boy",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_girl": {
+                    "label": "portrait, girl",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_child": {
+                    "label": "portrait, child",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_person": {
+                    "label": "portrait, person",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_couple": {
+                    "label": "portrait, couple",
+                    "iconclass_notation": null,
+                    "children": {
+                      "couple_with_tripod": {
+                        "label": "couple with tripod",
+                        "iconclass_notation": null,
+                        "children": {}
+                      }
+                    }
+                  },
+                  "portrait_family": {
+                    "label": "portrait, family",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_man_with_child": {
+                    "label": "portrait, man with child",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_person_with_child": {
+                    "label": "portrait, person with child",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_group": {
+                    "label": "portrait, group",
+                    "iconclass_notation": null,
+                    "children": {}
+                  },
+                  "portrait_dextrarum_iunctio": {
+                    "label": "portrait, dextrarum iunctio",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "figure_unspecified": {
+                "label": "figure, unspecified",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "secular_scenes": {
+            "label": "secular scenes",
+            "iconclass_notation": null,
+            "children": {
+              "wrestling_scenes": {
+                "label": "wrestling scenes",
+                "iconclass_notation": null,
+                "children": {
+                  "wrestling_scene": {
+                    "label": "wrestling scene",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "hunting_scenes": {
+                "label": "hunting scenes",
+                "iconclass_notation": null,
+                "children": {
+                  "hunting_scene": {
+                    "label": "hunting scene",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              },
+              "funerary_banquet": {
+                "label": "funerary banquet",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "sacrifice_scene": {
+                "label": "sacrifice scene",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "game_scenes": {
+                "label": "game scenes",
+                "iconclass_notation": null,
+                "children": {
+                  "boy_with_ball": {
+                    "label": "boy with ball",
+                    "iconclass_notation": null,
+                    "children": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "mythological": {
+        "label": "mythological",
+        "iconclass_notation": null,
+        "children": {
+          "mythological_figures": {
+            "label": "mythological figures",
+            "iconclass_notation": null,
+            "children": {
+              "ram_bearer": {
+                "label": "ram bearer",
+                "iconclass_notation": null,
+                "children": {}
+              },
+              "jupiter_ammon": {
+                "label": "Jupiter Ammon",
+                "iconclass_notation": null,
+                "children": {}
+              }
+            }
+          },
+          "mythological_scenes": {
+            "label": "mythological scenes",
+            "iconclass_notation": null,
+            "children": {}
+          }
+        }
+      }
+    }
+  }
+}
