@@ -104,7 +104,7 @@ def build_stoplist_meta(stoplist):
 
 def sentence_components(sentence):
     """word id -> connected-component id, via dependency edges other than
-    NON_CONNECTING_DEPREL (see module docstring, "Motiv-Gruppierung")."""
+    NON_CONNECTING_DEPREL (see module docstring, "motifs")."""
     parent = {w.id: w.id for w in sentence.words}
 
     def find(x):

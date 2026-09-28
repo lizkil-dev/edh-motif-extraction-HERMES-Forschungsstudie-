@@ -5,10 +5,13 @@ comparison uses seeds 42, 43 and 44).
 
 Training data, silver standard and all settings are those of bert.py; seed 42
 is bert.py's own run (EDH_BERT_MODEL, results in results/testset/bert.json)
-and is not repeated here. Per run: model -> EDH_BERT_RUNS_MODELS/seed<N>/, results ->
-EDH_BERT_RUNS_RESULTS/seed<N>.json, checksums of model and silver standard
-plus the duration -> EDH_BERT_RUNS_RESULTS/runs.json. Runs whose result file
-already exists are skipped, so an interrupted call can simply be restarted.
+and is not repeated here. Per run:
+  - model -> EDH_BERT_RUNS_MODELS/seed<N>/
+  - results on the test set -> EDH_BERT_RUNS_RESULTS/seed<N>.json
+  - checksums of model and silver standard, training time
+    -> EDH_BERT_RUNS_RESULTS/runs.json
+Runs whose result file already exists are skipped, so an interrupted call
+can simply be restarted.
 
 Usage:
     python src/bert_runs.py            # seeds 43 and 44

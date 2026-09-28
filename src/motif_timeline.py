@@ -30,8 +30,8 @@ import matplotlib.pyplot as plt  # noqa: E402
 from paths import CATEGORIES, EDH_RESULT_NLP_LEMMA, EDH_COMMENTS, FIGURES  # noqa: E402
 
 START, END, STEP = 150, 600, 50
-# (key, German label, English label, category path prefix); colours: the
-# dataviz reference palette's first three slots, validated all-pairs (light)
+# (key, German label, English label, category path prefix, line colour); the
+# three colours stay distinguishable from each other on a white background
 GROUPS = [
     ('portraits', 'Porträts und Figuren', 'Portraits and figures', ['people_and_scenes', 'secular'], '#2a78d6'),
     ('christian', 'Christliche Symbole', 'Christian symbols', ['symbols', 'christian_symbols'], '#eb6834'),

@@ -6,7 +6,8 @@ Every file path in one place; no script has a hard-coded path.
     data/vocabulary/edh_filters/
                          EDH-specific search settings: signal words, stoplist,
                          false friends, compound exceptions
-    data/annotations/    hand-annotated goldstandard and test sets
+    data/annotations/    hand-annotated comments (goldstandard): development
+                         data and held-out test data
     data/edh/            EDH comment texts with dating (input of every method)
     results/             method output, models, figures - generated, not in git
 """
