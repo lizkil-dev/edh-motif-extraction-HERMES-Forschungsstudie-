@@ -1,5 +1,5 @@
 """
-Evaluates one EDH method against the goldstandard or the test set. One call
+Evaluates one EDH method against the goldstandard or a test set. One call
 = one method.
 
 Three independently evaluated levels:
@@ -15,8 +15,10 @@ Three independently evaluated levels:
      annotated motif).
 
 Usage:
-    python src/evaluate.py regex
-    python src/evaluate.py regex --test   (against the test set instead)
+    python src/evaluate.py regex                 against the goldstandard
+    python src/evaluate.py regex --test          against the test set, with the
+                                                 results of measure_testset.py
+    python src/evaluate.py regex --former-test   against the former test set
 """
 
 import argparse
@@ -26,8 +28,8 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from paths import (ELEMENTS, EDH_GOLDSTANDARD, EDH_TESTSET, EDH_RESULT_REGEX, EDH_RESULT_NLP_LEMMA,
-                   EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT)
+from paths import (ELEMENTS, EDH_GOLDSTANDARD, EDH_TESTSET, EDH_FORMER_TESTSET, EDH_RESULT_REGEX,
+                   EDH_RESULT_NLP_LEMMA, EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT, EDH_RESULTS_TESTSET)
 
 RESULT_FILES = {
     'regex': EDH_RESULT_REGEX,
@@ -135,13 +137,20 @@ def evaluate_motifs(gold, pred, ids):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('method', choices=sorted(RESULT_FILES))
+    parser.add_argument('--former-test', action='store_true',
+                        help='evaluate against the former test set (edh_former_testset.json)')
     parser.add_argument('--test', action='store_true',
-                        help='evaluate against the test sample (edh_teststandard.json)')
+                        help='evaluate against the test set (edh_testset.json), with the results of '
+                             'measure_testset.py')
     args = parser.parse_args()
 
-    gold = load_json(EDH_TESTSET if args.test else EDH_GOLDSTANDARD)
-    label = 'test sample' if args.test else 'goldstandard'
-    pred = load_json(RESULT_FILES[args.method])
+    if args.test:
+        gold, label = load_json(EDH_TESTSET), 'test set'
+        pred = load_json(EDH_RESULTS_TESTSET / f'{args.method}.json')
+    else:
+        gold = load_json(EDH_FORMER_TESTSET if args.former_test else EDH_GOLDSTANDARD)
+        label = 'former test set' if args.former_test else 'goldstandard'
+        pred = load_json(RESULT_FILES[args.method])
     ids = list(gold)
 
     depiction = evaluate_depiction(gold, pred, ids)

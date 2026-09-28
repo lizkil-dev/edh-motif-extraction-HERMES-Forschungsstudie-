@@ -1,0 +1,2987 @@
+{
+  "HD041232": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD033846": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "child",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unter Zeile 4 folgen noch 2 oder 3 nicht mehr lesbare Zeilen. Oberhalb der Inschrift aedicula mit Büsten eines Mannes, einer Frau und eines Kindes.",
+    "motifs": [
+      {
+        "elements": [
+          "child",
+          "man",
+          "woman"
+        ],
+        "category": "portrait_family"
+      }
+    ]
+  },
+  "HD037860": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000457": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD035221": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "latin_cross",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Inschrift auf dem linken Akroter eines Sarkophagdeckels. Z. 1 (Anfang): lateinisches Kreuz eingemeißelt.",
+    "motifs": [
+      {
+        "elements": [
+          "latin_cross"
+        ],
+        "category": "latin_cross"
+      }
+    ]
+  },
+  "HD038230": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD035800": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD008167": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vine_tendril",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Gefunden in Zweitverwendung bei der Freilegung von frühneuzeitlichen Gräbern. Erhalten sind Teile der corona und des Mittelteils; die angegebenen Maße beziehen sich auf den Mittelteil und sind im Falle von Höhe und Tiefe rekonstruiert. Auf den Nebenseiten Weinranken.",
+    "motifs": [
+      {
+        "elements": [
+          "vine_tendril"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD065600": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Deckel einer Aschenkiste; in der Mitte Giebelfeld mit den Büsten einer Frau und eines Mannes. Die Buchstaben D und M befinden sich auf den beiden Seitenakroteren. Der Deckel ist nicht identisch mit dem Deckel CIL 03, 05555.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD076498": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064479": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD015612": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD074234": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD011855": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002040": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039128": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD026347": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD043462": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002050": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040086": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057329": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "chest",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Baustein, bestehend aus einem senkrechten Teil mit der Inschrift (Inschriftfeld: 50 x 60 cm) und einem unterhalb der Inschrift waagrecht nach vorn ragenden Teil. Auf der rechten Seite des quergelagerten Teils noch ein Relief erkennbar, das einen verschließbaren Kasten, wohl eine arca cineraria (Piccottini), nachahmt. Der Rest ist aufgrund der Vermauerung nicht erkennbar.",
+    "motifs": [
+      {
+        "elements": [
+          "chest"
+        ],
+        "category": "other"
+      }
+    ]
+  },
+  "HD066315": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "(B): CIL: Z. 5-6: Secun/[du]s. Eingemeißelt (capitalis rustica). Ascia. Bearbeiterin: V. Pettirossi.",
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD073492": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cart",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "scroll",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "torques",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "bracelet",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Das Inschriftfeld ist durch die sekundäre Verwendung vermutlich als Trittstufe eines Brunnens (Kaus) im rechten Teil stark abgerieben, der untere Teil ist stark verwittert. Z. 1 will Kubitschek noch L F, P F oder T F gesehen haben. Lesung Z. 9 fraglich. T durchweg als longa. Oberhalb des Inschriftfeldes Zwischenbild mit Wagenszene; darüber Rechtecknische mit Brustbildern eines Ehepaares (dextrarum iunctio). Frau in einheimischer Tracht mit torques, Armreif; Mann in toga(?), in der Linken Rolle. (B): Z. 1: CIL 03, 04254: Atili; Krüger: Atili[o]; Z. 2: Krüger: Amoeno; Z. 3-5: CIL 03, 04254; Krüger: Atiliae M[---] / Atil[---] / Atili[---]; Z. 6-9: CIL 03, 04254; Kubitschek; Krüger: nicht angegeben; Z. 9: Kaus: si[bi et] c(oniugi).. ...p(osuit?). Maßangabe nach Kaus, bei Krüger abweichend: Höhe: 267; Breite: 98,0; Tiefe: 28,0. Kovács - Prohászka (Wiedergabe eines Briefs von F. Neugebauer 1847): 'M. ALILI[--] / AMOENO [---] / A TILIAE. M. / ATIL [----] / ABITI [---]'.",
+    "motifs": [
+      {
+        "elements": [
+          "cart"
+        ],
+        "category": "other"
+      },
+      {
+        "elements": [
+          "bracelet",
+          "man",
+          "scroll",
+          "torques",
+          "woman"
+        ],
+        "category": "portrait_dextrarum_iunctio"
+      }
+    ]
+  },
+  "HD034111": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040181": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038742": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039116": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064436": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD081179": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD078409": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Sarkophagfront. Oberhalb der Inschrift Darstellungen eines Mannes links, einer Frau rechts. Z. 2: ET-Ligatur; Z. 2: NI-Ligatur; Z. 3: TI-, IL-Ligaturen.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD058625": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "maenad",
+        "variant_condition": "dancing",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Auf der rechten Nebenseite Rest der Darstellung einer tanzenden Mänade. Z. 3: von S (oder C oder G) nur das rechte obere Ende erhalten. (B): Piccottini, Römersteinsammlung; Piccottini, CSIR: Z. 3: [---] et.",
+    "motifs": [
+      {
+        "elements": [
+          "maenad"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD029194": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD060105": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD067668": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vine_tendril",
+        "variant_condition": "framing",
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "sea_creature",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "child",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "bird",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "lion",
+        "variant_condition": null,
+        "count": 2,
+        "uncertain": false
+      },
+      {
+        "element": "owl",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Fundjahre: 1975 und 1976. Inschriftfeld von rankengeschmückten Halbsäulen eingefasst. Oberhalb des Inschriftfeldes Fries mit Meerwesen; darüber die Halbkörperbüsten einer Frau und eines Mannes in der dextrarum iunctio; im Giebelfeld darüber ein kauerndes Kind zwischen einer Eule und einem Wasservogel; über den Giebelschrägen zwei Löwen.",
+    "motifs": [
+      {
+        "elements": [
+          "vine_tendril"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "sea_creature"
+        ],
+        "category": "other_animals"
+      },
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_dextrarum_iunctio"
+      },
+      {
+        "elements": [
+          "child"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "bird"
+        ],
+        "category": "birds_general"
+      },
+      {
+        "elements": [
+          "lion"
+        ],
+        "category": "other_animals"
+      },
+      {
+        "elements": [
+          "owl"
+        ],
+        "category": "other_birds"
+      }
+    ]
+  },
+  "HD042407": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD009491": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063647": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034808": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000291": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD080027": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "latin_cross",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Fünf aneinanderpassende Fragmente einer Platte. Linker Teil deutlich abgeschliffen, wohl abgetreten, der Teil der Inschrift dadurch nur schwer lesbar. Gefunden in Sekundärverwendung als Teil eines Steinplattengrabes aus dem 7. Jh. n. Chr. (Grab 88). Z. 1 hinter M lateinisches Kreuz. Buchstaben modern mit roter Farbe nachgezogen. Z. 3: NE-Ligatur; Z. 4: AV-Ligatur. Im CIL 13, 05308 Wiedergabe dreier unterschiedlicher älterer Lesungen. (B): CIMAH: Z. 4/5: [.....]iae Baudo/[...]u[.]; Z. 6: [....] annus; Z. 7: [.]t [...]it; Z. 8: [......] Octobris; ILCV: Z. 3: requiiscit; Z. 4: [mem]oriae; Z. 6: [p]l(us) m(inus) annus; Z. 7: [d]ep[os]it; Z. 8: [ci]m[o]; Kraus; Egli: Z. 6: [pl(us) m(inus) annus; Z. 7 [e]t [ob]iit; Z. 4/5: Kraus: Baudo/[---]lus; Egli: Baudo/(ald?)us; Walser: Z. 3-8: requiiscit bon(a)e / memoriae Baudo/aldus qui vixit / in pace annus LV / et [decess]it quinto de/[cimo kal(endas)] octobris; Boppert: Z. 4: [mem]o[r]iae; Z. 5: [a]ldu[s]; Z. 6: [in p]ace; Z. 7: [obi]it; Z. 8: kal(endas)].",
+    "motifs": [
+      {
+        "elements": [
+          "latin_cross"
+        ],
+        "category": "latin_cross"
+      }
+    ]
+  },
+  "HD040164": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042891": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Im mehrere Teile gebrochen. Am Anfang der Inschrift ein Kreuz, am Ende eine große hedera. Buchstabe A mit spitz nach unten zeigender Querhaste; Buchstabe C wie ein E ohne mittlere Querhaste. (B): CIL 03, 14207, 22: Z. 1: est; CIL 03, 14207, 22; Beševliev: Z. 1: positus; Z. 2: diaconus.",
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD066012": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042545": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042606": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "wreath",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "rosette",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "lion",
+        "variant_condition": "lying",
+        "count": 2,
+        "uncertain": false
+      }
+    ],
+    "evidence": "In 3 Teile gebrochen; der mittlere Teil gefunden in Wiederverwendung für ein Grab. Oberhalb des Inschriftfeldes ein Kranz mit Rosette, darüber ein Giebelfeld; ganz oben horizontaler Abschluß, bekrönt von einem Altärchen in der Mitte und zwei liegenden Löwen an den Seiten. Buchstaben sehr ungleichmäßig und nicht bündig auf Zeilenhöhe angeordnet.",
+    "motifs": [
+      {
+        "elements": [
+          "wreath"
+        ],
+        "category": "wreaths"
+      },
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      },
+      {
+        "elements": [
+          "lion"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD000882": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038932": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "attis",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": true
+      }
+    ],
+    "evidence": "Wohl der Mittelteil eines Altars oder einer Statuenbasis; auf der rechten Nebenseite Darstellung des Attis(?). Z. 1: IDR 3, 5: Domi[t]i[us, -a].",
+    "motifs": [
+      {
+        "elements": [
+          "attis"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD020837": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD007475": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD036165": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002643": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041749": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042501": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038001": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cart",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "equestrian",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "ivy_tendril",
+        "variant_condition": "framing",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Bildfeld mit Wagendarstellung und einem Reiter; auf dem Rahmen zwischen Inschrift- und Bildfeld Efeuranke.",
+    "motifs": [
+      {
+        "elements": [
+          "cart"
+        ],
+        "category": "other"
+      },
+      {
+        "elements": [
+          "equestrian"
+        ],
+        "category": "military_figures"
+      },
+      {
+        "elements": [
+          "ivy_tendril"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD040557": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD046558": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042419": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041007": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD077033": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD046124": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063420": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "greek_cross",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Fragment eines Sarkophagkastens. Eingemeißeltes griechisches Kreuz unterhalb des Inschrifttextes.",
+    "motifs": [
+      {
+        "elements": [
+          "greek_cross"
+        ],
+        "category": "greek_cross"
+      }
+    ]
+  },
+  "HD079069": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD012301": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD037674": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038033": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD005186": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD068969": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "dolphin",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "hippocamp",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust"
+      }
+    ],
+    "evidence": "3 aneinanderpassende Fragmente erhalten. Links des Inschriftfeldes noch der Rest einer tordierten Halbsäule; darüber linker Teil eines Frieses mit Delphinen, des Giebels mit einer Büste, die in den Fries hineinragt, und einem Hippokampen über der linken Giebelschräge.",
+    "motifs": [
+      {
+        "elements": [
+          "dolphin"
+        ],
+        "category": "dolphins"
+      },
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      },
+      {
+        "elements": [
+          "hippocamp"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD037619": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ornament",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unterhalb von Z. 6 Ornamente.",
+    "motifs": [
+      {
+        "elements": [
+          "ornament"
+        ],
+        "category": "ornament"
+      }
+    ]
+  },
+  "HD039391": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD018794": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram_in_circle",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "In einen Kreis eingeschriebenes Christogramm. (B): Z. 5 (Ende): d(edit) a(nimam).",
+    "motifs": [
+      {
+        "elements": [
+          "christogram_in_circle"
+        ],
+        "category": "christogram_in_circle"
+      }
+    ]
+  },
+  "HD040611": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD067346": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "eagle",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "wreath",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dolphin",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberer Teil einer Grabstele mit oberem Rand des Innschriftfeldes. Im Hauptbild oberhalb des Inschriftfeldes Adler in Kranz; Im Giebelfeld Büste eines Mannes zwischen Delfinen. In Z. 1 hinter P noch Ansatz einer senkrechten Haste zu erkennen. Op[li]? Gefunden in Sekundärverwendung als westliche Wand eines spätantiken Steinplattengrabes. (B): Diebold: Z. 2: SVADVLA AN[---].",
+    "motifs": [
+      {
+        "elements": [
+          "eagle",
+          "wreath"
+        ],
+        "category": "eagle_in_wreath"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "dolphin"
+        ],
+        "category": "dolphins"
+      }
+    ]
+  },
+  "HD002786": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038801": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "gorgon",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes aedicula mit männlicher Büste; im Giebel darüber ein Gorgoneion.",
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "gorgon"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD039602": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD050376": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD068592": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039707": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040822": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042159": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000743": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD066821": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "hunt",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "orpheus",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "lyre",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "animal",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "selene",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "endymion",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "genius",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "torch",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Fries mit Jagdszene; darüber Bildfeld mit Darstellung des Leier spielenden Orpheus zwischen Tieren; im Giebel darüber Selene und Endymion; im rechten Zwickel über dem Giebel Genius mit Fackel. Z. 1 : Buchstabe D ehemals am Anfang, Buchstabe M noch am Ende des Jagdfrieses eingemeißelt. (B): CIL 03, 05292; CIL 03, 11708; AIJ; ILLPRON: Lesung abweichend / unvollständig. Material: Bacherermarmor.",
+    "motifs": [
+      {
+        "elements": [
+          "hunt"
+        ],
+        "category": "hunting_scene"
+      },
+      {
+        "elements": [
+          "animal",
+          "lyre",
+          "orpheus"
+        ],
+        "category": "mythological_scenes"
+      },
+      {
+        "elements": [
+          "endymion",
+          "selene"
+        ],
+        "category": "mythological_scenes"
+      },
+      {
+        "elements": [
+          "genius",
+          "torch"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD075661": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD008001": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD008655": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD018505": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD030656": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063385": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "acanthus",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "rosette",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "In zwei Teile gebrochen. Oberhalb des Inschriftfeldes Giebel mit Akanthus und Rosette. Z. 2 (Ende): Buchstabe O auf dem Rahmen.",
+    "motifs": [
+      {
+        "elements": [
+          "acanthus"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      }
+    ]
+  },
+  "HD035072": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041752": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD056653": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "dove",
+        "variant_condition": null,
+        "count": 2,
+        "uncertain": false
+      },
+      {
+        "element": "branch",
+        "variant_condition": null,
+        "count": 2,
+        "uncertain": false
+      },
+      {
+        "element": "krater",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Zweiundzwanzig zum größten Teil zusammenpassende Fragmente. Dekor: über der Inschrift: zwei Tauben, jeweils auf einem Zweig, zu beiden Seiten eines Kraters. Vorgezeichnete Hilfslinien.",
+    "motifs": [
+      {
+        "elements": [
+          "branch",
+          "dove"
+        ],
+        "category": "bird_with_branch"
+      },
+      {
+        "elements": [
+          "krater"
+        ],
+        "category": "vessels"
+      }
+    ]
+  },
+  "HD022029": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063328": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Deckel. Kreuzzeichen am Anfang der Z. 1.",
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD066974": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": true
+      }
+    ],
+    "evidence": "Oberfläche teilweise stark oder ganz verrieben. Tiefe nach lupa 8501. Oberhalb der Inschrift eine schwer erkennbare figürliche Darstellung. Z. 4 (Ende): statt AN möglicherweise auch M. Z. 5: möglicherweise auch das abgekürzte Ende eines Namens [---]nu(s).",
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD001666": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034130": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD058564": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "boy",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Z. 1: Die Buchstaben D und M befinden sich links und rechts der Büste eines Knaben.",
+    "motifs": [
+      {
+        "elements": [
+          "boy"
+        ],
+        "category": "portrait_boy"
+      }
+    ]
+  },
+  "HD006751": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD026432": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD030881": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD035284": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Material: sogenannter Untersberger Marmor. Oberhalb des Inschriftfeldes die Büsten einer Frau mit sogenannter norischer Haube und eines Mannes. (B): CIL III; ILLPRON; Heger: Z. 1/2: Arionis / Praesentinae; Z. 4: LXII.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD000541": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041043": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD078115": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Christogramm oberhalb von Z. 1. Mit eingeritzten Hilfslinien.",
+    "motifs": [
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      }
+    ]
+  },
+  "HD012326": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD072144": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "banquet",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Rest der Darstellung einer cena funebris. (B): Cătinaş: Z. 8: nicht gelesen; AE 2011: Z. 8: [--- ]II.",
+    "motifs": [
+      {
+        "elements": [
+          "banquet"
+        ],
+        "category": "funerary_banquet"
+      }
+    ]
+  },
+  "HD034917": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038867": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "variant_condition": "bust",
+        "count": 2,
+        "uncertain": false
+      },
+      {
+        "element": "child",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Nische mit den Büsten zweier Erwachsener und eines Kindes. Z. 3: vom E(?) nur die obere Querhaste erhalten.",
+    "motifs": [
+      {
+        "elements": [
+          "child",
+          "person"
+        ],
+        "category": "portrait_family"
+      }
+    ]
+  },
+  "HD000108": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD054544": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "boy",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb der Inschrift Büste eines Knaben. Z. 1: Buchstaben D und M stehen links und rechts der Büste. Zeilenlinien für die Beschriftung. (B): Rinaldi Tufi: Z. 4: est.",
+    "motifs": [
+      {
+        "elements": [
+          "boy"
+        ],
+        "category": "portrait_boy"
+      }
+    ]
+  },
+  "HD061105": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064145": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057475": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD025256": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD073955": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000083": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064842": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD036278": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042666": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD003012": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041384": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD061361": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD007769": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD035252": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "palm_branch",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Z. 4: eingeritzter Palmzweig. Sarkophag ohne Deckel erhalten.",
+    "motifs": [
+      {
+        "elements": [
+          "palm_branch"
+        ],
+        "category": "branches_and_fronds"
+      }
+    ]
+  },
+  "HD020130": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "putto",
+        "variant_condition": "nude",
+        "count": 2,
+        "uncertain": false
+      },
+      {
+        "element": "grapes",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Sarkophagkasten; der Deckel war bei der Auffindung noch vorhanden und trug Z. 1 der Inschrift. Maße beziehen sich auf den Kasten; Maße des Deckels: 20 x 113 x 64. Rechts und links des Inschriftfeldes je ein nackter Knabe mit Weintrauben. Z. 4 (Ende): Buchstaben VS stehen auf dem Rahmen. (B): RIU 0544: Z. 4: Seve[r]ianus; Borhy: Z. 5: Severian(us).",
+    "motifs": [
+      {
+        "elements": [
+          "putto"
+        ],
+        "category": "secular_figures"
+      },
+      {
+        "elements": [
+          "grapes"
+        ],
+        "category": "fruits"
+      }
+    ]
+  },
+  "HD025552": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 3,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Über dem Inschriftenfeld Büsten einer Frau und dreier Männer. Von dem ehemals vollständig erhaltenen Monument ist heute nur noch ein Fragment des Inschriftfeldes mit den Z. 2-6 erhalten. Z. 6: R in O eingeschrieben.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_group"
+      }
+    ]
+  },
+  "HD052134": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD082562": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064919": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002868": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD058559": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD049316": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD066109": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD066911": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD071474": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040547": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD026090": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD001722": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038692": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039553": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD077039": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD032375": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041423": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040324": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034810": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD026885": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "star",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "menorah",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "christogram",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Der lateinische Text steht zwischen einer hebräischen Übersetzung oben und einer griechischen Übersetzung unten. Z. 1: hinter Domini ein Stern und ein siebenarmiger Leuchter eingemeißelt. Auf der Rückseite in griechischen Buchstaben das Christusmonogramm aus späterer Zeit (8./9. Jh.?).",
+    "motifs": [
+      {
+        "elements": [
+          "star"
+        ],
+        "category": "celestial_bodies"
+      },
+      {
+        "elements": [
+          "menorah"
+        ],
+        "category": "jewish_symbols"
+      },
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      }
+    ]
+  },
+  "HD072065": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "banquet",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Rest der Darstellung einer cena funebris.",
+    "motifs": [
+      {
+        "elements": [
+          "banquet"
+        ],
+        "category": "funerary_banquet"
+      }
+    ]
+  },
+  "HD022632": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057684": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040171": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064503": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039880": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041049": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD026036": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034072": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064745": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD045387": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD082790": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD031501": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD066836": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD076574": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD012217": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD058759": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Inschriftfeld stark verwittert, teilweise nicht identifizierbare Buchstabenreste. Oberhalb des Inschriftfeldes Brustbilder eines Mannes und einer Frau. Z. 1: vom R(?) ist die untere Hälfte erhalten. (B): CIL 03, 05917: Z. 2: [---] T. Casti fil. [---].",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD066322": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063309": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040840": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD037314": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "genius",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Fragment von der Vorderseite eines Sarkophags; links des Inschriftfeldes ein geflügelter Genius. Z. 4 (Ende): noch der Rest des unteren cornus einer senkrechten Haste oder aufsteigenden Schräghaste erhalten; Z. 6: im Wort filiae Ligatur aus EIA. (B): RIU: Z. 5/6: Aure(liae) / Iulia(e) filia(e).",
+    "motifs": [
+      {
+        "elements": [
+          "genius"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD057104": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063478": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD064458": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD056690": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD031730": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002542": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040796": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD075835": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD009367": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD068469": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD074112": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ivy_tendril",
+        "variant_condition": "framing",
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Die damnatio memoriae der Crispina und des Commodus kam hier nicht zur Ausführung. Z. 1 möglicherweise noch der Winkel eines M erkennbar, unsicher. Einleitendes 'D(is) M(anibus)' ist jedoch bei dieser Datierung zu erwarten. Inschriftfeld von Efeuranken gerahmt. Z. 6: kleines O? DI-Ligatur? Z. 7: IT-Ligatur; Z. 8: TI-Ligatur. In der letzten Zeile einige nicht näher identifizierbare Buchstabenreste. Am Ende der Zeile scheint L, davor O oder ein umgedrehtes C für (mulieris) l(ibert-) zu stehen. Davor blattförmige Hedera? Datierung: t.p.q. Heirat der Bruttia Crispina mit Commodus August 178. (B): Humer; Vorbeck: Z. 1 fehlt. Z. 5-8: /tis [---] / vixit an(nos) XXX [---.",
+    "motifs": [
+      {
+        "elements": [
+          "ivy_tendril"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD039804": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "crescent_moon",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes eine Mondsichel.",
+    "motifs": [
+      {
+        "elements": [
+          "crescent_moon"
+        ],
+        "category": "celestial_bodies"
+      }
+    ]
+  },
+  "HD010866": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063248": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD043855": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD052645": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD042579": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD001248": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063319": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD072318": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "eagle",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "wreath",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "gorgon",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Aufbewahrungsort nach lupa 436. Oberhalb des Inschriftfeldes Adler innerhalb eines Kranzes; darüber Gorgoneion. (B): Hild; Krüger: Z. 3: [---]A.",
+    "motifs": [
+      {
+        "elements": [
+          "eagle",
+          "wreath"
+        ],
+        "category": "eagle_in_wreath"
+      },
+      {
+        "elements": [
+          "gorgon"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD061884": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD047882": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040367": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041033": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD046827": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "rosette",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "lion",
+        "variant_condition": null,
+        "count": 2,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Giebel mit Rosette; darüber 2 Löwen.",
+    "motifs": [
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      },
+      {
+        "elements": [
+          "lion"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD075657": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "putto",
+        "variant_condition": "framing",
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "acanthus",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Drei aneinanderpassende Fragmente einer Aschenkiste. Inschriftfeld von Peltenhenkeln gerahmt, welche von geflügelten Eroten gehalten werden. Auf den Nebenseiten Akanthusornamente.",
+    "motifs": [
+      {
+        "elements": [
+          "putto"
+        ],
+        "category": "secular_figures"
+      },
+      {
+        "elements": [
+          "acanthus"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD056371": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ship",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unter der Inschrift ist das Bild eines Schiffes eingeritzt; erhalten sind Teile der Takelage. Z. 1: Porc(io) oder Porc(iae), Patric[io] oder Patric[iae] möglich. Hedera nach Porc. Z. 2: hedera nach m(ensium). Z. 3: hedera nach Co]rnelia.",
+    "motifs": [
+      {
+        "elements": [
+          "ship"
+        ],
+        "category": "nautical"
+      }
+    ]
+  },
+  "HD034867": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD046568": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD059142": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD076054": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD009269": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD071696": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040069": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD037507": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "animal",
+        "variant_condition": "running",
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "child",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Fries mit laufenden Tieren; darüber noch die Büsten eines Mannes, einer Frau und eines Kindes erhalten. Z. 1: Die Buchstaben D und M flankieren den Tierfries.",
+    "motifs": [
+      {
+        "elements": [
+          "animal"
+        ],
+        "category": "animal_scene"
+      },
+      {
+        "elements": [
+          "child",
+          "man",
+          "woman"
+        ],
+        "category": "portrait_family"
+      }
+    ]
+  },
+  "HD079918": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vine_tendril",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "christogram",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "palm_branch",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Links des Inschriftfeldes Weinranken, unterhalb des Inschriftfeldes Christogramm und Palmwedel. Paläographie: Vorkarolingische Kapitalis I.",
+    "motifs": [
+      {
+        "elements": [
+          "vine_tendril"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      },
+      {
+        "elements": [
+          "palm_branch"
+        ],
+        "category": "branches_and_fronds"
+      }
+    ]
+  },
+  "HD008091": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD001523": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD056216": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD011593": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD043432": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD077355": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dove",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unterhalb der Inschrift Darstellung eines Christograms mit einer Taube rechts davon.",
+    "motifs": [
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      },
+      {
+        "elements": [
+          "dove"
+        ],
+        "category": "doves"
+      }
+    ]
+  },
+  "HD072070": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD081371": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD062886": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unterhalb der Inschrift eine ascia.",
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD080818": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039610": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 3,
+        "uncertain": false,
+        "variant_condition": "bust"
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes Fries, darüber drei Büsten. Die Buchstaben D und M stehen im Fries. Stark verwittert. Gefunden in Sekundärverwendung als Teil eines spätantiken Grabes. Laut lupa 3498 im Jahr 2002 im Museum nicht auffindbar.",
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_group"
+      }
+    ]
+  },
+  "HD078698": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "staurogram_in_circle",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dove",
+        "variant_condition": null,
+        "count": 2,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Z. 3: MV-Ligatur; Z. 6: AV-Ligatur; Z. 7: TR-Ligatur; Z. 8: VM-Ligatur. Unterhalb der Inschrift Staurogramm im Kreis, flankiert von zwei Tauben (Ritzzeichnung). Obere rechte Ecke ausgebrochen, bestoßen. (B): ILCV: Z. 6: Oct(o)b(res) Francio; CIL: Z. 6: Octob(res) Francio; Terrien: Z. 6: Berencio; Boppert: Z. 7: [E]uharia.",
+    "motifs": [
+      {
+        "elements": [
+          "staurogram_in_circle"
+        ],
+        "category": "staurogram_in_circle"
+      },
+      {
+        "elements": [
+          "dove"
+        ],
+        "category": "doves"
+      }
+    ]
+  },
+  "HD077339": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD062576": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD041547": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057601": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD005565": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD066995": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD035648": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD080761": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "variant_condition": "full_figure",
+        "count": 1,
+        "uncertain": true
+      },
+      {
+        "element": "mirror",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dog",
+        "variant_condition": "facing_right",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Stele, oberer Teil etwa auf Schulterhöhe der Figur, abgebrochen. Im Bildfeld stehende Ganzfigur einer Frau(?) im Mantel, in der Linken einen Spiegel haltend. Die Inschrift unterhalb des Bildfeldes an beiden Seiten, rechts ein kleineres Bildfeld mit nach rechts laufendem Hund.",
+    "motifs": [
+      {
+        "elements": [
+          "mirror",
+          "woman"
+        ],
+        "category": "portrait_woman"
+      },
+      {
+        "elements": [
+          "dog"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD034726": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000512": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD082314": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD078062": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD055644": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Inschriftfeld von Halbsäulen flankiert; darüber Nische mit den Halbkörperbüsten einer Frau und eines Mannes, die in der dextrarum iunctio gezeigt sind. Z. 7 (Ende): Buchstaben IT befinden sich auf der rechten Halbsäule.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_dextrarum_iunctio"
+      }
+    ]
+  },
+  "HD042183": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "wreath",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Oberhalb des Inschriftfeldes ein Kranz. Buchstaben L und M kursiv.",
+    "motifs": [
+      {
+        "elements": [
+          "wreath"
+        ],
+        "category": "wreaths"
+      }
+    ]
+  },
+  "HD043204": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD058444": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039514": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "checkerboard",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "rosette",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Schwarzweiß-Mosaik; unterhalb des Inschriftfeldes ein Bildfeld mit Schachbrettmuster, darunter ein weiteres mit Rosette. Maße des Inschriftfeldes: 50 x 84 cm. (B): IHC; Gómez Pallarès - Mayer: Leseabweichungen.",
+    "motifs": [
+      {
+        "elements": [
+          "checkerboard"
+        ],
+        "category": "patterns"
+      },
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      }
+    ]
+  },
+  "HD079406": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "crescent_moon",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Mondsichel auf dem Giebeldreieck der corona. Z. 1 befindet sich auf der corona. Zahlreiche Ligaturen.",
+    "motifs": [
+      {
+        "elements": [
+          "crescent_moon"
+        ],
+        "category": "celestial_bodies"
+      }
+    ]
+  },
+  "HD038974": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "grapes",
+        "variant_condition": "framing",
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust"
+      }
+    ],
+    "evidence": "Zwei Fragmente einer Stele. Reliefdarstellung auf dem oberen Teil erkennbar. Büste ohne Kopf erhalten. Relief und Inschriftfeld wurden ursprünglich von zwei Halbsäulen mit Traubenmotiven flankiert, davon heute noch eine erhalten. Maße: a) 73,5 x 53 x 21 cm; b) 37 x 32 x 18 cm.",
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      },
+      {
+        "elements": [
+          "grapes"
+        ],
+        "category": "fruits"
+      }
+    ]
+  },
+  "HD077631": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram_in_circle",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "alpha_and_omega",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unterhalb der Inschrift Darstellung eines Christograms mit Alpha und Omega in einem Kreis. (B): Z. 1-2: Iled/us statt Ileci/us.",
+    "motifs": [
+      {
+        "elements": [
+          "christogram_in_circle"
+        ],
+        "category": "christogram_in_circle"
+      },
+      {
+        "elements": [
+          "alpha_and_omega"
+        ],
+        "category": "alpha_and_omega"
+      }
+    ]
+  },
+  "HD057821": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD074631": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD004372": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD067107": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040612": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD077471": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD056195": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040907": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002663": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD043210": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002406": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057072": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD037925": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD004872": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD031713": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034075": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD002299": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD043539": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD018535": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD082113": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040013": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD060396": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD022362": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dog",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "tool",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      },
+      {
+        "element": "actaeon",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": true
+      }
+    ],
+    "evidence": "Gefunden in Wiederverwendung für ein spätantikes Grab. Von der ursprünglichen Verwendung sind auf der jetzigen Rückseite noch Reste der Darstellung eines Mannes und eines Hundes, darunter von verschiedenen Werkzeugen erhalten. Auf der jetzigen Vorderseite oberhalb des Inschriftfeldes Reste einer Reliefdarstellung des Aktaion(?); die Buchstaben D und M der Z. 1 befinden sich auf den Pilastern zu Seiten des Inschriftfeldes. (B): Nagy, AE 1939: Z. 7: vix(it).",
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "dog"
+        ],
+        "category": "other_animals"
+      },
+      {
+        "elements": [
+          "tool"
+        ],
+        "category": "tools"
+      },
+      {
+        "elements": [
+          "actaeon"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD058686": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD078335": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "dove",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Unterhalb der Inschrift ein von Tauben flankiertes Christusmonogramm. Paläographie: Vorkarolingische Kapitalis I. (B): Kessel: Z. 1. [--- e]ius; Z. 2: titulum / istud.",
+    "motifs": [
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      },
+      {
+        "elements": [
+          "dove"
+        ],
+        "category": "doves"
+      }
+    ]
+  },
+  "HD063278": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD068655": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD033243": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040852": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040828": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD036591": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD001704": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040582": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD009332": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": "clipeus"
+      }
+    ],
+    "evidence": "Oberhalb der Inschrift und in Z. 1 hineinragend unterer Teil eines Medaillons mit ehemals drei oder vier Büsten erhalten. (B): Ciongradi: Z. 4: a(nnis).",
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_group"
+      }
+    ]
+  },
+  "HD038853": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "servant",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "scroll",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Auf der rechten Nebenseite Darstellung eines Dieners mit geöffneter Buchrolle. Maßangaben beziehen sich auf den bei der heutigen Aufbewahrung sichtbaren Teil. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Die Buchstaben R in Z. 1 und V in Z. 4 waren zur Zeit des CIL noch erkennbar.",
+    "motifs": [
+      {
+        "elements": [
+          "scroll",
+          "servant"
+        ],
+        "category": "secular_figures"
+      }
+    ]
+  },
+  "HD029116": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD034711": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD005690": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040136": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD057620": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD012082": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD000138": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD048597": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD010484": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038750": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD027846": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Inschriftfeld von Pilastern, das Bildfeld darüber von Halbsäulen eingefaßt; im Bildfeld männliche Büste; Z. 1 befindet sich zwischen Bild- und Inschriftfeld. RIU: Z. 6: lib(ertus). (B): RIU: Z. 2: Aur(elio); Mahler, AE 1912, Schallmayer u. a.: Z. 6 (Anfang): C.",
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      }
+    ]
+  },
+  "HD043840": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD033283": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "laurel",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "wreath",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "tree",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": true
+      }
+    ],
+    "evidence": "Die Inschriften werden durch eine Halbsäule getrennt. Auf der linken Nebenseite stilisierter Lorbeerkranz und Lebensbaum(?). Z. 1: MA vermutlich ehemals wie in Z. 7 als Ligatur geschrieben. Sergejevski, ILJug: Z. 1: M(a)n(ibus); CIL III: Z. 1: Man(ibus).",
+    "motifs": [
+      {
+        "elements": [
+          "laurel",
+          "wreath"
+        ],
+        "category": "wreaths"
+      },
+      {
+        "elements": [
+          "tree"
+        ],
+        "category": "trees"
+      }
+    ]
+  },
+  "HD060127": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "mask",
+        "variant_condition": null,
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Sarkophagdeckel mit Eckbuckeln, auf einem davon eine Maske. Text 1 befindet sich rechts und links von Text 2 Z. 1. (B): CIL 03, 05960; ILS: kleinere Leseabweichungen.",
+    "motifs": [
+      {
+        "elements": [
+          "mask"
+        ],
+        "category": "other"
+      }
+    ]
+  },
+  "HD029892": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD039083": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD071716": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD047050": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "In 2 Teile gebrochen. Oberhalb des Inschriftfeldes männliche Büste. Z. 1: D links, M rechts der Büste; Z. 4 (Ende): Buchstabe S auf dem Rahmen.",
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      }
+    ]
+  },
+  "HD070177": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040664": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD030998": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD038255": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "volute",
+        "variant_condition": "framing",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Wohl verschleppt; Oberfläche zum großen Teil stark verrieben; Front eines Sarkophags? Z. 1: NT-Ligatur. Inschriftfeld gerahmt von Volutenmotiv (sog. Barockmotiv). Alternative Lesung Z. 1 nach RIU: Vindici q(uondam) q(uaestori?) c(ivitatis?) T. (B): CIL 03, 04353: Z. 1: M nicht gelesen.",
+    "motifs": [
+      {
+        "elements": [
+          "volute"
+        ],
+        "category": "ornament"
+      }
+    ]
+  },
+  "HD041651": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD040161": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "variant_condition": null,
+        "count": ">1",
+        "uncertain": false
+      }
+    ],
+    "evidence": "Sekundär mehrere Kreuze auf die Vorder- und Rückseite eingemeißelt.",
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD078336": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD063176": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD046651": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD081724": {
+    "has_depiction": false,
+    "elements": []
+  },
+  "HD020695": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      },
+      {
+        "element": "woman",
+        "variant_condition": "bust",
+        "count": 1,
+        "uncertain": false
+      }
+    ],
+    "evidence": "Gefunden in Wiederverwendung für ein spätantikes Grab. Oberhalb der Inschrift männliche und weibliche Büste; Z. 1 befindet sich über dem Rahmen des Inschriftfeldes.",
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD040815": {
+    "has_depiction": false,
+    "elements": []
+  }
+}

@@ -433,13 +433,7 @@
           "biblical_figures": {
             "label": "biblical figures",
             "iconclass_notation": null,
-            "children": {
-              "shepherd_carrying_sheep": {
-                "label": "shepherd carrying sheep",
-                "iconclass_notation": null,
-                "children": {}
-              }
-            }
+            "children": {}
           },
           "biblical_scenes": {
             "label": "biblical scenes",

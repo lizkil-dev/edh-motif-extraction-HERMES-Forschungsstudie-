@@ -6,7 +6,7 @@ Every file path in one place; no script has a hard-coded path.
     data/vocabulary/edh_filters/
                          EDH-specific search settings: signal words, stoplist,
                          false friends, compound exceptions
-    data/annotations/    hand-annotated goldstandard and test set
+    data/annotations/    hand-annotated goldstandard and test sets
     data/edh/            EDH comment texts with dating (input of every method)
     results/             method output, models, figures - generated, not in git
 """
@@ -39,7 +39,11 @@ EDH_COMPOUND_EXCEPTIONS = EDH_FILTERS / 'compound_exceptions.json'
 
 ANNOTATIONS = DATA / 'annotations'
 EDH_GOLDSTANDARD = ANNOTATIONS / 'edh_goldstandard.json'
+# drawn after all method development, used only for the method comparison
 EDH_TESTSET = ANNOTATIONS / 'edh_testset.json'
+# the first test set; used for error analysis since its measurement, so
+# development data now
+EDH_FORMER_TESTSET = ANNOTATIONS / 'edh_former_testset.json'
 EDH_GOLDSTANDARD_MARKINGS = ANNOTATIONS / 'edh_goldstandard_word_markings.json'
 
 EDH_COMMENTS = DATA / 'edh' / 'edh_comments.json'
@@ -50,6 +54,8 @@ EDH_RESULT_NLP_LEMMA = RESULTS / 'nlp_lemma.json'
 EDH_RESULT_DEPENDENCY = RESULTS / 'dependency.json'
 EDH_RESULT_DEPENDENCY_PARTS = RESULTS / 'dependency_parts'
 EDH_RESULT_BERT = RESULTS / 'bert.json'
+# all four methods on the test set (src/measure_testset.py)
+EDH_RESULTS_TESTSET = RESULTS / 'testset'
 EDH_MARKINGS_PROPOSALS = RESULTS / 'edh_goldstandard_word_markings_proposals.json'
 EDH_BERT_SILVER = RESULTS / 'bert' / 'silver_markings.json'
 EDH_BERT_MODEL = RESULTS / 'bert' / 'model'

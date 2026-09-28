@@ -2,17 +2,20 @@
 EDH method 4: BERT (deepset/gbert-base), fine-tuned for word-level element
 labels.
 
-  - Task: multi-label token classification - every word gets zero, one or
-    more element labels ("Lorbeerkranz" -> laurel + wreath). Label space =
-    the search vocabulary incl. form and marker words (bust, portrait,
-    couple ...), as in bert_markings.py.
+  - Task: token classification - every word gets zero, one or more element
+    labels ("Lorbeerkranz" -> laurel + wreath). Label space = the search
+    vocabulary incl. form and marker words (bust, portrait, couple ...), as
+    in bert_markings.py. Each label combination seen in training is one
+    class ("hare+hunt", "woman", no label), predicted with a softmax; one
+    sigmoid per label collapsed in a first run (with ~5 % of the words
+    marked and ~200 labels it learned each label's base rate).
   - Training data: the goldstandard's reviewed word markings (all 500 rows)
-    plus a silver standard: comments outside goldstandard and test set where
-    methods 2 and 3 agree, marked with the same logic as the goldstandard
-    (bert_markings.candidates, only the elements both methods found
-    allowed), and a sample of comments both methods call "no depiction".
-    One training run, no cross-validation; BERT is measured on the test set
-    only (a goldstandard score would be training fit).
+    plus a silver standard: comments outside goldstandard and both test sets
+    where methods 2 and 3 agree, marked with the same logic as the
+    goldstandard (bert_markings.candidates, only the elements both methods
+    found allowed), and a sample of comments both methods call "no
+    depiction". One training run, no cross-validation; BERT is measured on
+    the test set only (a goldstandard score would be training fit).
   - Words and sentences are Stanza tokens, as in the markings. A word's
     labels sit on its first subword.
   - From labels to the result: per sentence as in method 2 - the same
@@ -25,8 +28,9 @@ their behaviour; what it learns beyond them comes from the goldstandard.
 
 Usage:
     python src/methods/bert.py silver    # needs results/nlp_lemma.json, results/dependency.json
-    python src/methods/bert.py train     # CPU: about half an hour
-    python src/methods/bert.py predict   # test set -> results/bert.json
+    python src/methods/bert.py train     # CPU: about 35 minutes
+    python src/methods/bert.py predict   # former test set -> results/bert.json
+    (the test set: src/measure_testset.py)
 """
 
 import json
@@ -50,6 +54,7 @@ from paths import (  # noqa: E402
     EDH_COMMENTS,
     EDH_GOLDSTANDARD,
     EDH_TESTSET,
+    EDH_FORMER_TESTSET,
     EDH_GOLDSTANDARD_MARKINGS,
     EDH_RESULT_NLP_LEMMA,
     EDH_RESULT_DEPENDENCY,
@@ -71,11 +76,10 @@ N_NEGATIVE = 500        # silver comments both methods call "no depiction"
 MAX_SUBWORDS = 256      # sentences are packed into windows up to this length
 EPOCHS = 2
 BATCH_SIZE = 16
-LEARNING_RATE = 3e-5
-THRESHOLD = 0.5
-# marked words are rare (nearly every output is "no element"); positives weigh
-# more so the model doesn't learn to mark nothing
-POS_WEIGHT = 5.0
+LEARNING_RATE = 5e-5
+# the empty class (no element, ~95 % of the words) weighs less in the loss, so
+# the model doesn't settle on marking nothing
+EMPTY_CLASS_WEIGHT = 0.1
 
 
 def load_json(path):
@@ -92,10 +96,10 @@ def stanza_pipeline(processors):
 # -----------------------------------------------------------------------------
 
 def silver():
-    """Word markings for comments outside goldstandard and test set on which
+    """Word markings for comments outside goldstandard and test sets on which
     methods 2 and 3 agree (see module docstring)."""
     m2, m3 = load_json(EDH_RESULT_NLP_LEMMA), load_json(EDH_RESULT_DEPENDENCY)
-    excluded = set(load_json(EDH_GOLDSTANDARD)) | set(load_json(EDH_TESTSET))
+    excluded = set(load_json(EDH_GOLDSTANDARD)) | set(load_json(EDH_TESTSET)) | set(load_json(EDH_FORMER_TESTSET))
     positives, negatives = {}, []
     for edh_id in sorted(set(m2) & set(m3) - excluded):
         a, b = m2[edh_id], m3[edh_id]
@@ -144,13 +148,13 @@ def silver():
 # -----------------------------------------------------------------------------
 
 class TokenTagger(torch.nn.Module):
-    """BERT encoder + one sigmoid output per label (multi-label)."""
+    """BERT encoder + a softmax over the label combinations (classes)."""
 
-    def __init__(self, n_labels):
+    def __init__(self, n_classes):
         super().__init__()
         self.bert = BertModel.from_pretrained(MODEL_NAME, add_pooling_layer=False)
         self.dropout = torch.nn.Dropout(0.1)
-        self.head = torch.nn.Linear(self.bert.config.hidden_size, n_labels)
+        self.head = torch.nn.Linear(self.bert.config.hidden_size, n_classes)
 
     def forward(self, input_ids, attention_mask):
         hidden = self.bert(input_ids=input_ids, attention_mask=attention_mask).last_hidden_state
@@ -183,8 +187,8 @@ def encode(words, tokenizer):
     return enc['input_ids'], first
 
 
-def examples(markings, tokenizer, label_index):
-    """(input_ids, [(subword position, label ids)]) per window."""
+def examples(markings, tokenizer, class_index):
+    """(input_ids, [(subword position, class id)]) per window."""
     out = []
     for row in markings.values():
         if row is None:
@@ -195,11 +199,11 @@ def examples(markings, tokenizer, label_index):
                 words += row['sentences'][i]['tokens']
                 labels += row['sentences'][i]['labels']
             ids, first = encode(words, tokenizer)
-            out.append((ids, [(first[w], [label_index[k] for k in labels[w]]) for w in first]))
+            out.append((ids, [(first[w], class_index[tuple(labels[w])]) for w in first]))
     return out
 
 
-def batches(data, n_labels, shuffle, rng):
+def batches(data, shuffle, rng):
     order = list(range(len(data)))
     if shuffle:
         rng.shuffle(order)
@@ -208,15 +212,13 @@ def batches(data, n_labels, shuffle, rng):
         width = max(len(ids) for ids, _ in chunk)
         input_ids = torch.zeros(len(chunk), width, dtype=torch.long)
         attention = torch.zeros(len(chunk), width, dtype=torch.long)
-        targets = torch.zeros(len(chunk), width, n_labels)
-        mask = torch.zeros(len(chunk), width)
+        targets = torch.full((len(chunk), width), -100, dtype=torch.long)  # -100: not a first subword
         for b, (ids, marks) in enumerate(chunk):
             input_ids[b, :len(ids)] = torch.tensor(ids)
             attention[b, :len(ids)] = 1
-            for pos, labels in marks:
-                mask[b, pos] = 1
-                targets[b, pos, labels] = 1
-        yield input_ids, attention, targets, mask
+            for pos, cls in marks:
+                targets[b, pos] = cls
+        yield input_ids, attention, targets
 
 
 def train():
@@ -226,25 +228,28 @@ def train():
     assert all(v is not None for v in gold.values()), 'unreviewed goldstandard markings'
     silver_markings = load_json(EDH_BERT_SILVER)
     markings = {**silver_markings, **gold}
-    labels = sorted({k for row in markings.values() for s in row['sentences'] for ls in s['labels'] for k in ls})
-    label_index = {k: i for i, k in enumerate(labels)}
+    classes = [()] + sorted({tuple(ls) for row in markings.values() for s in row['sentences']
+                             for ls in s['labels'] if ls})
+    class_index = {c: i for i, c in enumerate(classes)}
     tokenizer = BertTokenizerFast.from_pretrained(MODEL_NAME)
-    data = examples(markings, tokenizer, label_index)
+    data = examples(markings, tokenizer, class_index)
     print(f'{len(gold)} goldstandard + {len(silver_markings)} silver comments -> {len(data)} windows, '
-          f'{len(labels)} labels', flush=True)
+          f'{len(classes)} classes', flush=True)
 
-    model = TokenTagger(len(labels))
+    model = TokenTagger(len(classes))
     optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
     steps = EPOCHS * -(-len(data) // BATCH_SIZE)
     scheduler = get_linear_schedule_with_warmup(optimizer, int(0.1 * steps), steps)
-    loss_fn = torch.nn.BCEWithLogitsLoss(reduction='none', pos_weight=torch.full((len(labels),), POS_WEIGHT))
+    weights = torch.ones(len(classes))
+    weights[0] = EMPTY_CLASS_WEIGHT
+    loss_fn = torch.nn.CrossEntropyLoss(ignore_index=-100, weight=weights)
     rng = random.Random(SEED)
     model.train()
     step, started = 0, time.time()
     for epoch in range(EPOCHS):
-        for input_ids, attention, targets, mask in batches(data, len(labels), True, rng):
+        for input_ids, attention, targets in batches(data, True, rng):
             logits = model(input_ids, attention)
-            loss = (loss_fn(logits, targets).mean(-1) * mask).sum() / mask.sum()
+            loss = loss_fn(logits.reshape(-1, logits.shape[-1]), targets.reshape(-1))
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
@@ -256,8 +261,8 @@ def train():
                       f'({(time.time() - started) / 60:.1f} min)', flush=True)
     EDH_BERT_MODEL.mkdir(parents=True, exist_ok=True)
     torch.save(model.state_dict(), EDH_BERT_MODEL / 'model.pt')
-    with open(EDH_BERT_MODEL / 'labels.json', 'w', encoding='utf-8') as f:
-        json.dump(labels, f)
+    with open(EDH_BERT_MODEL / 'classes.json', 'w', encoding='utf-8') as f:
+        json.dump([list(c) for c in classes], f)
     print(f'-> {EDH_BERT_MODEL}')
 
 
@@ -266,10 +271,20 @@ def train():
 # -----------------------------------------------------------------------------
 
 def predict():
+    """Results for the former test set -> EDH_RESULT_BERT."""
+    results = predict_ids(list(load_json(EDH_FORMER_TESTSET)))
+    with open(EDH_RESULT_BERT, 'w', encoding='utf-8') as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+    print(f'{len(results)} comments, {sum(r["has_depiction"] for r in results.values())} with depiction '
+          f'-> {EDH_RESULT_BERT}')
+
+
+def predict_ids(ids):
+    """Results, in the annotation shape, for the given EDH ids."""
     torch.set_num_threads(os.cpu_count())
-    labels = load_json(EDH_BERT_MODEL / 'labels.json')
+    classes = load_json(EDH_BERT_MODEL / 'classes.json')
     tokenizer = BertTokenizerFast.from_pretrained(MODEL_NAME)
-    model = TokenTagger(len(labels))
+    model = TokenTagger(len(classes))
     model.load_state_dict(torch.load(EDH_BERT_MODEL / 'model.pt'))
     model.eval()
     elements_meta, motif_rules = load_json(ELEMENTS), load_json(MOTIF_RULES)
@@ -278,7 +293,6 @@ def predict():
     nlp = stanza_pipeline('tokenize,mwt,pos')
 
     results = {}
-    ids = list(load_json(EDH_TESTSET))
     for edh_id in ids:
         doc = nlp(comments[edh_id])
         sents = [{'tokens': [t.text for t in s.tokens]} for s in doc.sentences]
@@ -290,10 +304,10 @@ def predict():
                 where += [(i, j) for j in range(len(sents[i]['tokens']))]
             ids_, first = encode(words, tokenizer)
             with torch.no_grad():
-                probs = torch.sigmoid(model(torch.tensor([ids_]), torch.ones(1, len(ids_), dtype=torch.long)))[0]
+                best = model(torch.tensor([ids_]), torch.ones(1, len(ids_), dtype=torch.long))[0].argmax(-1)
             for w, pos in first.items():
                 s, j = where[w]
-                token_labels[s][j] = [labels[k] for k in (probs[pos] >= THRESHOLD).nonzero().flatten().tolist()]
+                token_labels[s][j] = classes[best[pos].item()]
 
         all_elements, motifs = [], []
         for sentence, labs in zip(doc.sentences, token_labels):
@@ -317,10 +331,7 @@ def predict():
             'elements': result_elements,
             'motifs': motifs,
         }
-    with open(EDH_RESULT_BERT, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    print(f'{len(results)} test comments, {sum(r["has_depiction"] for r in results.values())} with depiction '
-          f'-> {EDH_RESULT_BERT}')
+    return results
 
 
 if __name__ == '__main__':
