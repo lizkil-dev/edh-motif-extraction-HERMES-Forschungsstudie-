@@ -14,8 +14,9 @@ labels.
     where methods 2 and 3 agree, marked with the same logic as the
     goldstandard (bert_markings.candidates, only the elements both methods
     found allowed), and a sample of comments both methods call "no
-    depiction". One training run, no cross-validation; BERT is measured on
-    the test set only (a goldstandard score would be training fit).
+    depiction". No cross-validation; BERT is measured on the test set only
+    (a goldstandard score would be training fit). src/bert_runs.py repeats
+    the training with other seeds, all else unchanged.
   - Words and sentences are Stanza tokens, as in the markings. A word's
     labels sit on its first subword.
   - From labels to the result: per sentence as in method 2 - the same
@@ -71,7 +72,8 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from nlp_lemma import word_count  # noqa: E402
 
 MODEL_NAME = 'deepset/gbert-base'
-SEED = 42
+SEED = 42               # default training seed; src/bert_runs.py adds others
+SILVER_SEED = 42        # fixed: which "no depiction" comments go into the silver standard
 N_NEGATIVE = 500        # silver comments both methods call "no depiction"
 MAX_SUBWORDS = 256      # sentences are packed into windows up to this length
 EPOCHS = 2
@@ -112,7 +114,7 @@ def silver():
                 }
         elif not a['has_depiction'] and not b['has_depiction']:
             negatives.append(edh_id)
-    random.Random(SEED).shuffle(negatives)
+    random.Random(SILVER_SEED).shuffle(negatives)
     negatives = negatives[:N_NEGATIVE]
 
     elements_meta = load_json(ELEMENTS)
@@ -221,8 +223,8 @@ def batches(data, shuffle, rng):
         yield input_ids, attention, targets
 
 
-def train():
-    torch.manual_seed(SEED)
+def train(seed=SEED, model_dir=EDH_BERT_MODEL):
+    torch.manual_seed(seed)
     torch.set_num_threads(os.cpu_count())
     gold = load_json(EDH_GOLDSTANDARD_MARKINGS)
     assert all(v is not None for v in gold.values()), 'unreviewed goldstandard markings'
@@ -243,7 +245,7 @@ def train():
     weights = torch.ones(len(classes))
     weights[0] = EMPTY_CLASS_WEIGHT
     loss_fn = torch.nn.CrossEntropyLoss(ignore_index=-100, weight=weights)
-    rng = random.Random(SEED)
+    rng = random.Random(seed)
     model.train()
     step, started = 0, time.time()
     for epoch in range(EPOCHS):
@@ -259,11 +261,11 @@ def train():
             if step % 25 == 0:
                 print(f'  epoch {epoch + 1} step {step}/{steps} loss {loss.item():.4f} '
                       f'({(time.time() - started) / 60:.1f} min)', flush=True)
-    EDH_BERT_MODEL.mkdir(parents=True, exist_ok=True)
-    torch.save(model.state_dict(), EDH_BERT_MODEL / 'model.pt')
-    with open(EDH_BERT_MODEL / 'classes.json', 'w', encoding='utf-8') as f:
+    model_dir.mkdir(parents=True, exist_ok=True)
+    torch.save(model.state_dict(), model_dir / 'model.pt')
+    with open(model_dir / 'classes.json', 'w', encoding='utf-8') as f:
         json.dump([list(c) for c in classes], f)
-    print(f'-> {EDH_BERT_MODEL}')
+    print(f'-> {model_dir}')
 
 
 # -----------------------------------------------------------------------------
@@ -279,13 +281,13 @@ def predict():
           f'-> {EDH_RESULT_BERT}')
 
 
-def predict_ids(ids):
+def predict_ids(ids, model_dir=EDH_BERT_MODEL):
     """Results, in the annotation shape, for the given EDH ids."""
     torch.set_num_threads(os.cpu_count())
-    classes = load_json(EDH_BERT_MODEL / 'classes.json')
+    classes = load_json(model_dir / 'classes.json')
     tokenizer = BertTokenizerFast.from_pretrained(MODEL_NAME)
     model = TokenTagger(len(classes))
-    model.load_state_dict(torch.load(EDH_BERT_MODEL / 'model.pt'))
+    model.load_state_dict(torch.load(model_dir / 'model.pt'))
     model.eval()
     elements_meta, motif_rules = load_json(ELEMENTS), load_json(MOTIF_RULES)
     signal_words = load_json(EDH_SIGNAL_WORDS)

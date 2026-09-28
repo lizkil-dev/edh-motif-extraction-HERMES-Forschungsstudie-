@@ -21,7 +21,7 @@ Zenodo: [DOI]. This repository holds the code to reproduce it.
 | 1 | Dictionary lookup: substring search of German search terms | `src/methods/dictionary.py` |
 | 2 | Lemmatisation (Stanza), compound analysis, motifs per sentence | `src/methods/nlp_lemma.py` |
 | 3 | Dependency parsing (Stanza), motifs per dependency component | `src/methods/dependency.py` |
-| 4 | BERT (`deepset/gbert-base`), fine-tuned token classification (goldstandard + silver standard from methods 2 and 3) | `src/methods/bert.py` |
+| 4 | BERT (`deepset/gbert-base`), fine-tuned token classification (development data + silver standard: comments labelled automatically where methods 2 and 3 agree) | `src/methods/bert.py` |
 
 All methods share the vocabulary preparation and matching helpers
 (`src/matching.py`) and the step from elements to motifs (`src/schema.py`,
@@ -39,7 +39,8 @@ data/vocabulary/           iconographic vocabulary
   variant_conditions*.json   variants (bust, full figure, standing, framing ...)
   edh_filters/               EDH search settings: signal words, stoplist,
                              false friends, compound exceptions
-data/annotations/          hand-annotated EDH comments
+data/annotations/          hand-annotated EDH comments (goldstandard), split
+                           into development data and held-out test data
   edh_goldstandard.json      500 comments, development data
   edh_former_testset.json    300 comments, first test set, used for error
                              analysis since, so development data now
@@ -69,6 +70,8 @@ python src/methods/bert.py silver             # method 4: silver standard from m
 python src/methods/bert.py train              #           about 35 minutes on CPU
 
 python src/measure_testset.py                 # all four methods on the test set -> results/testset/
+python src/bert_runs.py                       # method 4 with seeds 43 and 44, about 75 minutes
+python src/bootstrap.py                       # scores with 95 % ranges, paired differences
 python src/evaluate.py nlp_lemma --test       # against the test set
 python src/evaluate.py nlp_lemma              # against the goldstandard (full run of the method)
 ```
@@ -84,7 +87,11 @@ The method comparison published with the dataset is `measure_testset.py`
 with this code: vocabulary, rules, code and the BERT settings were frozen
 before the test set was annotated, and each method was run once (one
 overlooked depiction in the test set, HD033851, was corrected afterwards and
-the results re-evaluated). Two sources
+the results re-evaluated). Method 4 is reported as the mean of three
+training runs that differ only in the seed (42 from `bert.py train`, 43 and
+44 from `bert_runs.py`). `bootstrap.py` adds 95 % ranges (10,000 bootstrap
+samples of the 300 test comments) and paired differences between the
+methods; it uses the scoring of `evaluate.py` unchanged. Two sources
 of small deviations when re-running: Stanza's dependency parser does not
 always give the same parse (method 3), and BERT training on another machine
 does not give bit-identical weights.

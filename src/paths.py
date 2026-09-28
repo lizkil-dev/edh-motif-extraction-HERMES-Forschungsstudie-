@@ -59,4 +59,7 @@ EDH_RESULTS_TESTSET = RESULTS / 'testset'
 EDH_MARKINGS_PROPOSALS = RESULTS / 'edh_goldstandard_word_markings_proposals.json'
 EDH_BERT_SILVER = RESULTS / 'bert' / 'silver_markings.json'
 EDH_BERT_MODEL = RESULTS / 'bert' / 'model'
+# further BERT training runs that differ only in the seed (src/bert_runs.py)
+EDH_BERT_RUNS_MODELS = RESULTS / 'bert' / 'runs'
+EDH_BERT_RUNS_RESULTS = EDH_RESULTS_TESTSET / 'bert_runs'
 FIGURES = RESULTS / 'figures'
