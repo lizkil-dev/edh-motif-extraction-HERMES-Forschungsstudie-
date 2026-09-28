@@ -13,7 +13,7 @@ For every EDH comment, independently of the other methods:
     "Wagenszene" -> cart). Multi-word forms are matched first. Elements on
     the stoplist are skipped; false friends are checked on the lemma.
   - motifs: elements found within the same sentence are grouped via
-    schema.resolve_motifs() (motif_rules.json) - unlike method 1, which never
+    motifs.resolve_motifs() (motif_rules.json) - unlike method 1, which never
     groups anything.
 
 Not implemented: variant and uncertainty detection. The count comes from a
@@ -43,8 +43,8 @@ from paths import (  # noqa: E402
     EDH_COMMENTS,
     EDH_RESULT_NLP_LEMMA,
 )
-from schema import resolve_motifs, fold_forms  # noqa: E402
-from matching import (is_in_scope,  # noqa: E402 stoplist_for, build_element_forms, has_signal_word, matching_elements,
+from motifs import resolve_motifs, fold_forms  # noqa: E402
+from matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
                       phrase_forms, find_phrases, normalise_word, lemma_matches,
                       number_value, rule_count, build_compounds, compound_elements)
 
@@ -142,7 +142,7 @@ def analyze(doc, element_forms, signal_words, false_friend_words, motif_rules, e
         motifs.extend(resolve_motifs(element_keys, motif_rules, elements_meta))
 
     # one depicted figure = one element: form words become the persons'
-    # variant (schema.fold_forms)
+    # variant (motifs.fold_forms)
     result_elements, motifs = fold_forms([
         {
             'element': e['element'],

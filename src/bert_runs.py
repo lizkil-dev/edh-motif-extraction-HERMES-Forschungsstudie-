@@ -1,13 +1,13 @@
 """
 Further BERT (method 4) training runs that differ from bert.py's own run only
-in the training seed, each measured on the test set (the published
+in the training seed, each measured on the test sample (the published
 comparison uses seeds 42, 43 and 44).
 
 Training data, silver standard and all settings are those of bert.py; seed 42
-is bert.py's own run (EDH_BERT_MODEL, results in results/testset/bert.json)
+is bert.py's own run (EDH_BERT_MODEL, results in results/testsample/bert.json)
 and is not repeated here. Per run:
   - model -> EDH_BERT_RUNS_MODELS/seed<N>/
-  - results on the test set -> EDH_BERT_RUNS_RESULTS/seed<N>.json
+  - results on the test sample -> EDH_BERT_RUNS_RESULTS/seed<N>.json
   - checksums of model and silver standard, training time
     -> EDH_BERT_RUNS_RESULTS/runs.json
 Runs whose result file already exists are skipped, so an interrupted call
@@ -26,7 +26,7 @@ import time
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'methods')))
-from paths import EDH_TESTSET, EDH_BERT_SILVER, EDH_BERT_RUNS_MODELS, EDH_BERT_RUNS_RESULTS  # noqa: E402
+from paths import EDH_TESTSAMPLE, EDH_BERT_SILVER, EDH_BERT_RUNS_MODELS, EDH_BERT_RUNS_RESULTS  # noqa: E402
 import bert  # noqa: E402
 
 DEFAULT_SEEDS = [43, 44]
@@ -42,7 +42,7 @@ def sha256(path):
 
 def main():
     seeds = [int(s) for s in sys.argv[1:]] or DEFAULT_SEEDS
-    ids = list(bert.load_json(EDH_TESTSET))
+    ids = list(bert.load_json(EDH_TESTSAMPLE))
     EDH_BERT_RUNS_RESULTS.mkdir(parents=True, exist_ok=True)
     log_path = EDH_BERT_RUNS_RESULTS / 'runs.json'
     log = bert.load_json(log_path) if log_path.exists() else {}

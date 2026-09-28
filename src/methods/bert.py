@@ -5,18 +5,19 @@ labels.
   - Task: token classification - every word gets zero, one or more element
     labels ("Lorbeerkranz" -> laurel + wreath). Label space = the search
     vocabulary incl. form and marker words (bust, portrait, couple ...), as
-    in bert_markings.py. Each label combination seen in training is one
+    in the reviewed markings. Each label combination seen in training is one
     class ("hare+hunt", "woman", no label), predicted with a softmax; one
     sigmoid per label collapsed in a first run (with ~5 % of the words
     marked and ~200 labels it learned each label's base rate).
-  - Training data: the goldstandard's reviewed word markings (all 500 rows)
-    plus a silver standard: comments outside goldstandard and both test sets
-    where methods 2 and 3 agree, marked with the same logic as the
-    goldstandard (bert_markings.candidates, only the elements both methods
-    found allowed), and a sample of comments both methods call "no
-    depiction". No cross-validation; BERT is measured on the test set only
-    (a goldstandard score would be training fit). src/bert_runs.py repeats
-    the training with other seeds, all else unchanged.
+  - Training data: the development sample's reviewed word markings (all
+    500 rows) plus a silver standard: comments outside all three annotated
+    samples where methods 2 and 3 agree, marked with the same logic as the
+    reviewed markings (candidates() and allowed_labels() below, only the
+    elements both methods found allowed), and a sample of comments both methods call "no
+    depiction". No cross-validation; BERT is measured on the test sample
+    only (a development-sample score would be training fit).
+    src/bert_runs.py repeats the training with other seeds, all else
+    unchanged.
   - Words and sentences are Stanza tokens, as in the markings. A word's
     labels sit on its first subword.
   - From labels to the result: per sentence as in method 2 - the same
@@ -25,13 +26,13 @@ labels.
     fold_forms(); has_depiction = any element or a signal word.
 
 The silver standard comes from the rule-based methods, so BERT partly learns
-their behaviour; what it learns beyond them comes from the goldstandard.
+their behaviour; what it learns beyond them comes from the development sample.
 
 Usage:
     python src/methods/bert.py silver    # needs results/nlp_lemma.json, results/dependency.json
     python src/methods/bert.py train     # CPU: about 35 minutes
-    python src/methods/bert.py predict   # former test set -> results/bert.json
-    (the test set: src/measure_testset.py)
+    python src/methods/bert.py predict   # former test sample -> results/bert.json
+    (the test sample: src/measure_testsample.py)
 """
 
 import json
@@ -53,20 +54,20 @@ from paths import (  # noqa: E402
     EDH_FILTER_FALSE_FRIENDS,
     EDH_COMPOUND_EXCEPTIONS,
     EDH_COMMENTS,
-    EDH_GOLDSTANDARD,
-    EDH_TESTSET,
-    EDH_FORMER_TESTSET,
-    EDH_GOLDSTANDARD_MARKINGS,
+    EDH_DEVSAMPLE,
+    EDH_TESTSAMPLE,
+    EDH_FORMER_TESTSAMPLE,
+    EDH_DEVSAMPLE_WORD_MARKINGS,
     EDH_RESULT_NLP_LEMMA,
     EDH_RESULT_DEPENDENCY,
     EDH_RESULT_BERT,
     EDH_BERT_SILVER,
     EDH_BERT_MODEL,
 )
-from schema import resolve_motifs, fold_forms  # noqa: E402
+from motifs import resolve_motifs, fold_forms, FORMS  # noqa: E402
 from matching import (build_element_forms, phrase_forms, build_compounds, has_signal_word,  # noqa: E402
-                      rule_count)
-from bert_markings import candidates, allowed_labels  # noqa: E402
+                      rule_count, matching_elements, find_phrases, normalise_word, lemma_matches,
+                      compound_elements)
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from nlp_lemma import word_count  # noqa: E402
@@ -97,11 +98,66 @@ def stanza_pipeline(processors):
 # silver standard
 # -----------------------------------------------------------------------------
 
+# The two functions below also proposed the reviewed markings of the
+# development sample (EDH_DEVSAMPLE_WORD_MARKINGS, every row with a depiction
+# checked by hand), so gold and silver markings follow the same rules: words
+# are Stanza tokens, every occurrence is marked, a multi-word form on all its
+# words, a word can carry several labels ("Lorbeerkranz" -> laurel + wreath).
+
+def allowed_labels(row, elements_meta):
+    """Labels an annotated row allows: its elements, a form word from their
+    variants ("Büste" -> bust), "portrait"/"dextrarum_iunctio" for a
+    portrait/dextrarum-iunctio motif, "couple" if it has a man and a woman."""
+    allowed = {e['element'] for e in row['elements']}
+    for e in row['elements']:
+        variant = e.get('variant_condition')
+        for v in (variant if isinstance(variant, list) else [variant]):
+            if v in FORMS:
+                allowed.add(v)
+    categories = {m['category'] for m in row.get('motifs', [])}
+    if any(c.startswith('portrait_') for c in categories):
+        allowed.add('portrait')
+    if 'portrait_dextrarum_iunctio' in categories:
+        allowed.add('dextrarum_iunctio')
+    if {'man', 'woman'} <= allowed:
+        allowed.add('couple')
+    return allowed
+
+
+def candidates(sentence, forms, phrases, compounds, false_friend_words):
+    """Per Stanza token of the sentence: the set of element keys its words
+    match, as method 2 finds them (lemma, compound tail and first part,
+    multi-word forms; stoplist ignored)."""
+    token_of = {}
+    for ti, token in enumerate(sentence.tokens):
+        for word in token.words:
+            token_of[word.id] = ti
+    found = [set() for _ in sentence.tokens]
+    words = sentence.words
+    token_texts = [{normalise_word(w.text), normalise_word(w.lemma or w.text)} for w in words]
+    covered_words = set()
+    for key, start, end in find_phrases(token_texts, phrases, str.endswith):
+        for w in words[start:end]:
+            found[token_of[w.id]].add(key)
+            covered_words.add(w.id)
+    for w in words:
+        if w.id in covered_words or w.upos == 'PUNCT':
+            continue
+        lemma = normalise_word(w.lemma or w.text)
+        keys = matching_elements(lemma, forms, lemma_matches(w.upos), false_friend_words)
+        if not keys and w.upos == 'PROPN':
+            keys = matching_elements(normalise_word(w.text), forms, lemma_matches(w.upos), false_friend_words)
+        if w.upos != 'ADJ':
+            keys = compound_elements(lemma, keys, forms, compounds, false_friend_words)
+        found[token_of[w.id]].update(keys)
+    return found
+
+
 def silver():
-    """Word markings for comments outside goldstandard and test sets on which
+    """Word markings for comments outside the three annotated samples on which
     methods 2 and 3 agree (see module docstring)."""
     m2, m3 = load_json(EDH_RESULT_NLP_LEMMA), load_json(EDH_RESULT_DEPENDENCY)
-    excluded = set(load_json(EDH_GOLDSTANDARD)) | set(load_json(EDH_TESTSET)) | set(load_json(EDH_FORMER_TESTSET))
+    excluded = set(load_json(EDH_DEVSAMPLE)) | set(load_json(EDH_TESTSAMPLE)) | set(load_json(EDH_FORMER_TESTSAMPLE))
     positives, negatives = {}, []
     for edh_id in sorted(set(m2) & set(m3) - excluded):
         a, b = m2[edh_id], m3[edh_id]
@@ -226,8 +282,8 @@ def batches(data, shuffle, rng):
 def train(seed=SEED, model_dir=EDH_BERT_MODEL):
     torch.manual_seed(seed)
     torch.set_num_threads(os.cpu_count())
-    gold = load_json(EDH_GOLDSTANDARD_MARKINGS)
-    assert all(v is not None for v in gold.values()), 'unreviewed goldstandard markings'
+    gold = load_json(EDH_DEVSAMPLE_WORD_MARKINGS)
+    assert all(v is not None for v in gold.values()), 'unreviewed development sample markings'
     silver_markings = load_json(EDH_BERT_SILVER)
     markings = {**silver_markings, **gold}
     classes = [()] + sorted({tuple(ls) for row in markings.values() for s in row['sentences']
@@ -235,7 +291,7 @@ def train(seed=SEED, model_dir=EDH_BERT_MODEL):
     class_index = {c: i for i, c in enumerate(classes)}
     tokenizer = BertTokenizerFast.from_pretrained(MODEL_NAME)
     data = examples(markings, tokenizer, class_index)
-    print(f'{len(gold)} goldstandard + {len(silver_markings)} silver comments -> {len(data)} windows, '
+    print(f'{len(gold)} development + {len(silver_markings)} silver comments -> {len(data)} windows, '
           f'{len(classes)} classes', flush=True)
 
     model = TokenTagger(len(classes))
@@ -273,8 +329,8 @@ def train(seed=SEED, model_dir=EDH_BERT_MODEL):
 # -----------------------------------------------------------------------------
 
 def predict():
-    """Results for the former test set -> EDH_RESULT_BERT."""
-    results = predict_ids(list(load_json(EDH_FORMER_TESTSET)))
+    """Results for the former test sample -> EDH_RESULT_BERT."""
+    results = predict_ids(list(load_json(EDH_FORMER_TESTSAMPLE)))
     with open(EDH_RESULT_BERT, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f'{len(results)} comments, {sum(r["has_depiction"] for r in results.values())} with depiction '

@@ -52,8 +52,8 @@ from paths import (  # noqa: E402
     EDH_COMMENTS,
     EDH_RESULT_DEPENDENCY,
 )
-from schema import resolve_motifs, fold_forms  # noqa: E402
-from matching import (is_in_scope,  # noqa: E402 stoplist_for, build_element_forms, has_signal_word, matching_elements,
+from motifs import resolve_motifs, fold_forms  # noqa: E402
+from matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
                       is_false_friend, phrase_forms, find_phrases, normalise_word, lemma_matches,
                       number_value, rule_count, build_compounds, compound_elements)
 
@@ -240,7 +240,7 @@ def analyze(doc, element_forms, stoplist_forms, stoplist_meta, signal_words,
             motifs.extend(resolve_motifs(element_keys, motif_rules, elements_meta))
 
     # one depicted figure = one element: form words become the persons'
-    # variant (schema.fold_forms)
+    # variant (motifs.fold_forms)
     result_elements, motifs = fold_forms([
         {
             'element': e['element'],

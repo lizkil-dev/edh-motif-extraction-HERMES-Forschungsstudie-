@@ -24,14 +24,14 @@ first:
 
 Categories are portrait x person group only (portrait_couple,
 portrait_family, ...): the form is the persons' variant in the result
-(schema.fold_forms), not part of the category. The rules still go form by
+(motifs.fold_forms), not part of the category. The rules still go form by
 form because they need the form word to tell a portrait from a lone figure,
 and to count "zwei Büsten" as two persons. Objects a figure holds or wears
 join its motif afterwards ("attribute" in elements.json), and "Ehepaar"
 (couple) is expanded to man + woman before the rules run
-(schema.expand_couples), so no rule needs "couple".
+(motifs.expand_couples), so no rule needs "couple".
 
-Flags used in the requirements (see schema.resolve_motifs()):
+Flags used in the requirements (see motifs.resolve_motifs()):
   take_all  the rule consumes every occurrence of the element, not just
             min_count (three children -> one family, not three motifs)
   shared    the element is required but not consumed ("Büste" describes

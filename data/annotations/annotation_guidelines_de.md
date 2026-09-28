@@ -1,12 +1,12 @@
 # Annotationsrichtlinien EDH
 
-Stand: 2026-09-25. Gilt für den Goldstandard (Entwicklungsdaten,
-`data/goldstandard/edh_goldstandard.json`) und die beiden Teststichproben
-(`data/goldstandard/edh_teststandard.json`, seit der Fehleranalyse
-Entwicklungsdaten; `edh_teststandard_2.json`, Methodenvergleich). Beispiele
-stammen aus annotierten EDH-Kommentaren (HD-Nummer in Klammern).
-Hintergrund zu einzelnen Entscheidungen: `docs/edh_methoden.md`,
-`docs/ausgeschlossene_vokabeln.md`, `docs/architektur.md`.
+Stand: 2026-09-25. Gilt für alle von Hand annotierten Stichproben, die
+zusammen den Goldstandard bilden (`data/annotations/`):
+`edh_devsample.json` (500, Entwicklungsdaten), `edh_former_testsample.json`
+(300, ehemalige Teststichprobe, seit der Fehleranalyse Entwicklungsdaten)
+und `edh_testsample.json` (300, zurückgehaltene Testdaten,
+Methodenvergleich). Beispiele stammen aus annotierten EDH-Kommentaren
+(HD-Nummer in Klammern).
 
 ---
 
@@ -243,8 +243,9 @@ Variante bei den Personen.
 ## 8. Markierungen auf Wortebene (für BERT)
 
 Für die Entwicklungsdaten gibt es zusätzlich Markierungen auf Wortebene
-(`data/goldstandard/edh_goldstandard_markings.json`), aus den Annotationen
-vorgeschlagen (`src/edh/bert_markings.py`) und von Hand geprüft:
+(`data/annotations/edh_devsample_word_markings.json`), aus den Annotationen
+automatisch vorgeschlagen und von Hand geprüft (dieselbe Logik markiert den
+Silberstandard, `candidates()` in `src/methods/bert.py`):
 
 - Wörter und Sätze sind Stanza-Tokens.
 - **Jedes Vorkommen** wird markiert, auch erneute Nennungen.

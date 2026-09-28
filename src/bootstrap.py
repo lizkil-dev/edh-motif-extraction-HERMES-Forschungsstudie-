@@ -1,5 +1,5 @@
 """
-Uncertainty of the method comparison on the test set: 95 % bootstrap ranges
+Uncertainty of the method comparison on the test sample: 95 % bootstrap ranges
 for every score and for the paired differences between methods.
 
 The scores are those of evaluate.py, which is used unchanged: its three
@@ -26,7 +26,7 @@ import sys
 import numpy as np
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-from paths import EDH_TESTSET, EDH_RESULTS_TESTSET, EDH_BERT_RUNS_RESULTS  # noqa: E402
+from paths import EDH_TESTSAMPLE, EDH_RESULTS_TESTSAMPLE, EDH_BERT_RUNS_RESULTS  # noqa: E402
 from evaluate import evaluate_depiction, evaluate_elements, evaluate_motifs, load_json  # noqa: E402
 
 N_SAMPLES = 10_000
@@ -98,10 +98,10 @@ def summary(values):
 
 
 def main():
-    gold = load_json(EDH_TESTSET)
+    gold = load_json(EDH_TESTSAMPLE)
     ids = list(gold)
-    preds = {name: load_json(EDH_RESULTS_TESTSET / f'{key}.json') for name, key in METHODS.items()}
-    bert_runs = {'seed42': load_json(EDH_RESULTS_TESTSET / 'bert.json')}
+    preds = {name: load_json(EDH_RESULTS_TESTSAMPLE / f'{key}.json') for name, key in METHODS.items()}
+    bert_runs = {'seed42': load_json(EDH_RESULTS_TESTSAMPLE / 'bert.json')}
     for path in sorted(EDH_BERT_RUNS_RESULTS.glob('seed*.json')):
         bert_runs[path.stem] = load_json(path)
 
@@ -138,11 +138,11 @@ def main():
         'differences': {f'{a}-{b}': {m: summary(results[a][m] - results[b][m]) for m in MEASURES}
                         for a, b in PAIRS},
     }
-    with open(EDH_RESULTS_TESTSET / 'bootstrap.json', 'w', encoding='utf-8') as f:
+    with open(EDH_RESULTS_TESTSAMPLE / 'bootstrap.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=2)
 
     pct = lambda s: f'{100 * s["value"]:5.1f} [{100 * s["low"]:5.1f}, {100 * s["high"]:5.1f}]'  # noqa: E731
-    print(f'Test set: {out["n_comments"]} comments, {out["n_with_depiction"]} with depiction; '
+    print(f'Test sample: {out["n_comments"]} comments, {out["n_with_depiction"]} with depiction; '
           f'{N_SAMPLES} bootstrap samples; BERT = mean of {len(bert_runs)} runs ({", ".join(bert_runs)})')
     print()
     print(f'{"":20s}' + ''.join(f'{name:>22s}' for name in results))
@@ -160,7 +160,7 @@ def main():
     for m in MEASURES:
         print(f'{LABELS[m]:20s}' + ''.join(f'{pct(out["differences"][pair][m]):>22s}' for pair in out['differences']))
     print()
-    print(f'-> {EDH_RESULTS_TESTSET / "bootstrap.json"}')
+    print(f'-> {EDH_RESULTS_TESTSAMPLE / "bootstrap.json"}')
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 """
-Evaluates one EDH method against the goldstandard or a test set. One call
-= one method.
+Evaluates one EDH method against the development sample or a test
+sample. One call = one method.
 
 Three independently evaluated levels:
   1. has_depiction: confusion matrix -> recall, precision, F1.
@@ -15,10 +15,10 @@ Three independently evaluated levels:
      annotated motif).
 
 Usage:
-    python src/evaluate.py regex                 against the goldstandard
-    python src/evaluate.py regex --test          against the test set, with the
-                                                 results of measure_testset.py
-    python src/evaluate.py regex --former-test   against the former test set
+    python src/evaluate.py regex                 against the development sample
+    python src/evaluate.py regex --test          against the test sample, with the
+                                                 results of measure_testsample.py
+    python src/evaluate.py regex --former-test   against the former test sample
 """
 
 import argparse
@@ -28,8 +28,8 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from paths import (ELEMENTS, EDH_GOLDSTANDARD, EDH_TESTSET, EDH_FORMER_TESTSET, EDH_RESULT_REGEX,
-                   EDH_RESULT_NLP_LEMMA, EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT, EDH_RESULTS_TESTSET)
+from paths import (ELEMENTS, EDH_DEVSAMPLE, EDH_TESTSAMPLE, EDH_FORMER_TESTSAMPLE, EDH_RESULT_REGEX,
+                   EDH_RESULT_NLP_LEMMA, EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT, EDH_RESULTS_TESTSAMPLE)
 
 RESULT_FILES = {
     'regex': EDH_RESULT_REGEX,
@@ -138,18 +138,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('method', choices=sorted(RESULT_FILES))
     parser.add_argument('--former-test', action='store_true',
-                        help='evaluate against the former test set (edh_former_testset.json)')
+                        help='evaluate against the former test sample (edh_former_testsample.json)')
     parser.add_argument('--test', action='store_true',
-                        help='evaluate against the test set (edh_testset.json), with the results of '
-                             'measure_testset.py')
+                        help='evaluate against the test sample (edh_testsample.json), with the results of '
+                             'measure_testsample.py')
     args = parser.parse_args()
 
     if args.test:
-        gold, label = load_json(EDH_TESTSET), 'test set'
-        pred = load_json(EDH_RESULTS_TESTSET / f'{args.method}.json')
+        gold, label = load_json(EDH_TESTSAMPLE), 'test sample'
+        pred = load_json(EDH_RESULTS_TESTSAMPLE / f'{args.method}.json')
     else:
-        gold = load_json(EDH_FORMER_TESTSET if args.former_test else EDH_GOLDSTANDARD)
-        label = 'former test set' if args.former_test else 'goldstandard'
+        gold = load_json(EDH_FORMER_TESTSAMPLE if args.former_test else EDH_DEVSAMPLE)
+        label = 'former test sample' if args.former_test else 'development sample'
         pred = load_json(RESULT_FILES[args.method])
     ids = list(gold)
 
@@ -177,7 +177,7 @@ def main():
     print(f'    micro: recall {lm["recall"]:.1%}   precision {lm["precision"]:.1%}   F1 {lm["f1"]:.1%}')
     print(f'    macro: recall {lma["recall"]:.1%}   precision {lma["precision"]:.1%}   F1 {lma["f1"]:.1%}   ({lma["n_types"]} element types)')
     print()
-    print('  Weakest element types (by F1, only ones attested in the goldstandard):')
+    print('  Weakest element types (by F1, only ones attested in the sample):')
     gold_present = {t for i in ids for t in {e['element'] for e in gold[i]['elements']}}
     weakest = sorted(
         (t for t in elements['per_type'] if t in gold_present),

@@ -39,13 +39,13 @@ EDH_FILTER_FALSE_FRIENDS = EDH_FILTERS / 'false_friends.json'
 EDH_COMPOUND_EXCEPTIONS = EDH_FILTERS / 'compound_exceptions.json'
 
 ANNOTATIONS = DATA / 'annotations'
-EDH_GOLDSTANDARD = ANNOTATIONS / 'edh_goldstandard.json'
+EDH_DEVSAMPLE = ANNOTATIONS / 'edh_devsample.json'
 # drawn after all method development, used only for the method comparison
-EDH_TESTSET = ANNOTATIONS / 'edh_testset.json'
-# the first test set; used for error analysis since its measurement, so
+EDH_TESTSAMPLE = ANNOTATIONS / 'edh_testsample.json'
+# the first test sample; used for error analysis since its measurement, so
 # development data now
-EDH_FORMER_TESTSET = ANNOTATIONS / 'edh_former_testset.json'
-EDH_GOLDSTANDARD_MARKINGS = ANNOTATIONS / 'edh_goldstandard_word_markings.json'
+EDH_FORMER_TESTSAMPLE = ANNOTATIONS / 'edh_former_testsample.json'
+EDH_DEVSAMPLE_WORD_MARKINGS = ANNOTATIONS / 'edh_devsample_word_markings.json'
 
 EDH_COMMENTS = DATA / 'edh' / 'edh_comments.json'
 
@@ -55,12 +55,11 @@ EDH_RESULT_NLP_LEMMA = RESULTS / 'nlp_lemma.json'
 EDH_RESULT_DEPENDENCY = RESULTS / 'dependency.json'
 EDH_RESULT_DEPENDENCY_PARTS = RESULTS / 'dependency_parts'
 EDH_RESULT_BERT = RESULTS / 'bert.json'
-# all four methods on the test set (src/measure_testset.py)
-EDH_RESULTS_TESTSET = RESULTS / 'testset'
-EDH_MARKINGS_PROPOSALS = RESULTS / 'edh_goldstandard_word_markings_proposals.json'
+# all four methods on the test sample (src/measure_testsample.py)
+EDH_RESULTS_TESTSAMPLE = RESULTS / 'testsample'
 EDH_BERT_SILVER = RESULTS / 'bert' / 'silver_markings.json'
 EDH_BERT_MODEL = RESULTS / 'bert' / 'model'
 # further BERT training runs that differ only in the seed (src/bert_runs.py)
 EDH_BERT_RUNS_MODELS = RESULTS / 'bert' / 'runs'
-EDH_BERT_RUNS_RESULTS = EDH_RESULTS_TESTSET / 'bert_runs'
+EDH_BERT_RUNS_RESULTS = EDH_RESULTS_TESTSAMPLE / 'bert_runs'
 FIGURES = RESULTS / 'figures'
