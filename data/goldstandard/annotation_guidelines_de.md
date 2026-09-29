@@ -11,7 +11,7 @@ annotierten EDH-Kommentaren (HD-Nummer in Klammern).
 
 ## 1. Grundsätze
 
-1. **Nur was der Kommentar sagt.** Annotiert wird, was im Kommentartext
+1. **Nur eindeutige Erwähnungen.** Annotiert wird, was im Kommentartext
    ausdrücklich beschrieben ist, nicht was auf dem Stein vermutlich zu sehen
    ist. Kein Ergänzen aus eigenem Wissen über das Monument oder aus
    Abbildungen.
@@ -46,18 +46,17 @@ Folgende Kriterien werden bei der Annotation beachtet
 
 ## 3. Darstellung ja/nein
 
-**Beschreibung.** Beschreibt der Kommentar eine bildliche Darstellung oder
+Beschreibt der Kommentar eine bildliche Darstellung oder
 Verzierung auf dem Denkmal?
 
-**Entscheidungsregel.** Ja, sobald irgendetwas Dargestelltes genannt ist –
-auch ohne benennbares Element. Nein, wenn nur der Träger, seine
-architektonische Rahmung oder die Schrift beschrieben ist.
+**Regeln**
+- Ja, sobald eine Darstellung erwähnt wird, auch ohne ein Element zu nennen. 
+- Nein, wenn nur der Träger, seine architektonische Rahmung oder die Schrift beschrieben ist.
 
 **Beispiele (Ja).**
 - „Oberhalb der Inschrift Reliefreste“ → Ja, keine Elemente.
 - „Z. 1 hinter M lateinisches Kreuz“ → Ja, `latin_cross`: Ein Kreuzzeichen
   in der Schriftzeile ist eine Darstellung (HD080027).
-- „Maske auf Eckbuckel eines Sarkophagdeckels“ → Ja, `mask` (HD060127).
 
 **Gegenbeispiele (Nein).**
 - Nur der Inschriftträger: „Fragment einer Tafel“, „Statuenbasis“,
@@ -68,81 +67,41 @@ architektonische Rahmung oder die Schrift beschrieben ist.
 
 ## 4. Elemente
 
-**Beschreibung.** Ein Element ist eine dargestellte Sache, Figur oder ein
-Zeichen: *was* dargestellt ist.
+Ein Element ist eine Figur, ein dargestelltes Objekt, Ornament oder Symbol: beschreibt *was* dargestellt ist.
 
-**Entscheidungsregel.**
-- Ein Eintrag pro Elementtyp und Kommentar. Die **Anzahl**: Zahlwort oder
-  Ziffer → diese Zahl („zwei Delphine“ → 2); Plural ohne Zahl → „>1“
-  („Delphine“); sonst 1.
-- Das **spezifischste** vorhandene Element („Taube“ → `dove`, nicht `bird`;
-  „Palmzweig“ → `palm_branch`, nicht `branch`).
-- **Ein Wort kann mehrere Elemente tragen**, wenn es mehrere Dinge nennt:
-  „Hasenjagd“ → `hare` + `hunt` (HD040236); „Lorbeerkranz“ → `laurel` +
-  `wreath` (HD033283).
+**Regeln**
+- Ein Eintrag pro Elementtyp und Kommentar, inkl. Angabe der Häufigkeit.
+- Es wird immer das spezifischste vorhandene Element gewählt (z.B. „Taube“ → `dove` anstatt `bird`)
 
-**Beispiele.**
+**Beispiele**
 - „Adler innerhalb eines Kranzes; darüber Gorgoneion“ → `eagle`, `wreath`,
   `gorgon` (HD072318).
 - „Fries mit laufenden Tieren“ → `animal` (>1, Variante `running`)
   (HD037507).
 
-**Gegenbeispiele.**
-- Hedera (Worttrenner), tabula ansata, Basis: keine Elemente.
-- Wörter in anderem Sinn: „häufiger männliches als weibliches cognomen“
-  (HD001248) nennt Namen, keine Figuren; eine „im Sarkophag gefundene
-  Münze“ (HD068655) ist ein Fundstück.
-
-**Abgrenzung zur Variante.** Ändert eine Form, *was* dargestellt ist, ist
-sie ein eigenes Element: Kreuzarten (griechisches, lateinisches Kreuz,
-Andreaskreuz = `decussis`), Chi-Rho, radiales Chi-Rho, Christogramm im
-Kreis, Staurogramm im Kreis, Speichenrad. Ändert sie nur, *wie* es
-dargestellt ist, ist sie eine Variante (Abschnitt 5).
-
-### 4.4 Erneute Nennung
-
-**Regel.** Greift der Kommentar eine bereits genannte Figur oder Sache
-wieder auf, entsteht kein neues Element und keine neue Anzahl.
-
-**Beispiele.**
-- „Darstellung eines Ehepaars hinter einem Dreifuß. Z. 1: D und M innerhalb
-  des Bildfeldes zu Seiten des Ehepaars.“ → ein Mann, eine Frau (HD038528).
-- „Brustbilder eines Ehepaares … Frau in einheimischer Tracht mit torques,
-  Armreif; Mann in toga(?)“ → dieselben zwei Personen, die Attribute kommen
-  in ihr Motiv (HD073492).
-
----
 
 ## 5. Varianten
 
-**Beschreibung.** Eine Variante beschreibt, *wie* ein Element dargestellt
-ist.
+Eine Variante beschreibt verschiedene Darstellungsformen eines Elementes.
 
-**Entscheidungsregel.** Ändert die Angabe die Darstellungsweise, nicht den
-Gegenstand → Variante am Element. Mehrere Varianten pro Element sind
-möglich („stehender bärtiger Mann“ → `man`: `standing`, `bearded`,
-`full_figure`).
+**Regeln** 
+- Ändert die Angabe die Darstellungsweise, wird daraus eine Variante.
+- Mehrere Varianten pro Element sind möglich („stehender bärtiger Mann“ → `man`: `standing`, `bearded`, `full_figure`).
 
 **Varianten.**
-- **Darstellungsform von Personen:** `bust` (Büste, Brustbild, Bruststück,
-  Halbfigur, Bildniskopf, Porträtkopf), `clipeus` (Büste in
-  Clipeus/Medaillon), `orant`, `full_figure` (Figur, Ganzfigur – und jede
-  stehende Person), `head` (Kopf, wenn ein dargestellter Kopf gemeint ist).
-  Steht neben „Kopf“ ein anderes Formwort, benennt „Kopf“ nur den erhaltenen
-  Teil („Ganzfiguren …, von denen noch die Köpfe erhalten sind“ → nur
-  `full_figure`) (HD080733).
-- **Haltung und Handlung:** stehend, sitzend, liegend, tanzend, laufend,
-  trauernd, nackt.
-- **Ausrichtung:** nach links, nach rechts.
-- **Gestaltung:** bärtig, erhoben/gesenkt (Fackel), kanneliert,
-  sechsstrahlig, spiegelverkehrt, fragmentarisch.
-- **Rahmend** (`framing`): für nicht-architektonische Elemente, die das
-  Inschrift- oder Bildfeld einfassen, flankieren oder auf dem Rahmen bzw.
-  rahmenden Säulen sitzen.
+- **Darstellungsform von Personen:** 
+  - z.B. `bust`, `clipeus`, `orant`, `full_figure` 
+- **Haltung und Handlung:** 
+  - z.B. stehend, sitzend, laufend
+- **Ausrichtung:** 
+  - nach links, nach rechts.
+- **Gestaltung:** 
+  - bärtig, kanneliert, spiegelverkehrt
 
 **Beispiele.**
-- „Inschriftfeld von Efeuranken gerahmt“ → `ivy_tendril`, `framing`
-  (HD074112).
+- „ganzfigurige Darstellung eines bärtigen Mannes, in der Linken einen
+  Beutel(?)“ → `man`, `full_figure`, `bearded`; `pouch` (unsicher)
+  (HD079094).
 - „Inschriftfeld von zwei Eroten mit gesenkter Fackel flankiert“ → `putto`,
   `framing`; `torch`, `reversed` (HD039488).
 
@@ -150,127 +109,83 @@ möglich („stehender bärtiger Mann“ → `man`: `standing`, `bearded`,
 
 ## 6. Motive
 
-**Beschreibung.** Ein Motiv fasst Elemente zusammen, die gemeinsam ein Bild
-ergeben: *in welcher Verbindung* etwas dargestellt ist.
+Ein Motiv fasst Elemente zusammen, die gemeinsam ein ikonographisches Motiv ergeben.
 
-**Entscheidungsregel.**
-- **Jedes Element gehört zu genau einem Motiv.**
-- Stehen Elemente in einer ausdrücklichen **Beziehung** zueinander (hält,
+**Regeln**
+- Jedes Element gehört zu genau einem Motiv.
+- Stehen Elemente in einer ausdrücklichen Beziehung zueinander (hält,
   trägt, sitzt auf, im Kranz, zwischen, führt) → ein Motiv.
-- Sind sie nur **nebeneinander aufgezählt** oder räumlich getrennt
-  beschrieben („darüber …“, „unterhalb …“) → getrennte Motive, auch wenn
-  eine Regel sie verbinden könnte.
+- Sind sie nur nebeneinander aufgezählt oder räumlich getrennt
+  beschrieben („darüber …“, „unterhalb …“) → getrennte Motive
 - Übrige Elemente bilden je ein eigenes Motiv mit der Kategorie des
-  Elements (mehrere gleichartige übrige Elemente: ein Motiv).
+  Elements 
 
-**Beispiele (ein Motiv).**
-- „Adler in Kranz“ → [eagle, wreath] (HD067346).
-- „zwei Tauben, jeweils auf einem Zweig“ → [dove, branch] (HD056653).
-- „Frau im Mantel, in der Linken einen Spiegel haltend“ → [woman, mirror]
-  (HD080761).
-- „Leier spielender Orpheus zwischen Tieren“ → [orpheus, lyre, animal]
-  (HD066821).
-
-**Gegenbeispiele (getrennte Motive).**
-- „von Tauben flankiertes Staurogramm, darüber Vase“ → [staurogram, dove]
-  und [vessel].
-- „Im Hauptbild Adler in Kranz; im Giebelfeld Büste eines Mannes zwischen
-  Delfinen“ → Adler und Kranz, Büste und Delfine sind getrennte Motive
+**Beispiele (ein Motiv, mehrere Elemente).**
+- „Adler in Kranz“ → Elemente `eagle` + `wreath` → Motiv `eagle_in_wreath`
   (HD067346).
+- „zwei Tauben, jeweils auf einem Zweig“ → Elemente `dove` + `branch` →
+  Motiv `bird_with_branch` (HD056653).
+- „Frau im Mantel, in der Linken einen Spiegel haltend“ → Elemente `woman` +
+  `mirror` → Motiv `portrait_woman` (HD080761).
 
-**Abgrenzung.**
-- **Attribute** – Gegenstände, die eine Figur hält (Rolle, Beutel,
-  Spiegel, Buch, Spinnrocken, Spindel) oder trägt (Torques, Armreif) –
-  gehören ins Motiv der Figur; die Kategorie bleibt die der Figur
-  („Diener mit Buchrolle“ → [servant, scroll], `secular_figures`,
-  HD038853).
+
+**Gegenbeispiele (mehrere Elemente, getrennte Motive).**
+- „Adler innerhalb eines Kranzes; darüber Gorgoneion“ → Motiv
+  `eagle_in_wreath` (Elemente `eagle` + `wreath`) und Motiv
+  `mythological_figures` (Element `gorgon`) (HD072318).
+- „Im Hauptbild Adler in Kranz; im Giebelfeld Büste eines Mannes zwischen
+  Delfinen“ → Motiv `eagle_in_wreath` (Elemente `eagle` + `wreath`), Motiv
+  `portrait_man` (Element `man`, Variante `bust`) und Motiv `dolphins`
+  (Element `dolphin`) (HD067346).
 
 ---
 
 ## 7. Kategorien
 
-**Beschreibung.** Die Kategorie ordnet ein Motiv im Kategorienbaum ein
-(`categories.json`).
+Die Kategorie ordnet ein Motiv in den Kategorienbaum ein (`categories.json`).
 
-**Entscheidungsregel.** Die **spezifischste** passende Kategorie, in dieser
-Reihenfolge:
+**Regeln**
+- Jedes Motiv erhält genau eine Kategorie, die spezifischste passende, in
+  dieser Reihenfolge:
+  1. **Szene:** Personen in einer Handlung (`funerary_banquet`,
+     `hunting_scene`).
+  2. **Feste Bildformel** aus `motif_rules.json` (`eagle_in_wreath`,
+     `bird_with_branch`).
+  3. **Porträt:** Personen ohne Handlung oder weitere Identifikation.
+  4. **Element:** sonst die Kategorie des Elements (`elements.json`).
 
-1. **Szene** vor Porträt: Personen in einer Handlung gehören zur
-   Szenenkategorie (Mahlszene → `funerary_banquet`, Ochsenkarren mit
-   Gespannführer → `field_work`, Knabe mit Ball, Jagd, Opfer, biblische
-   Szene).
-2. **Feste Bildformeln** (`motif_rules.json`): Kopf + Widderhörner →
-   `jupiter_ammon`; Eroten oder Genius + gehaltene Tafel →
-   `tablet_held_by_erotes`; Adler im Kranz → `eagle_in_wreath`; Tiere in
-   Reihe oder Handlung → `animal_scene`; Jagd + gejagte Tiere →
-   `hunting_scene`; Lorbeer, Ölzweig oder Efeu + Kranz → `wreaths`; Vogel
-   mit Zweig/Blüte; Christogramm im Kranz.
-3. **Porträt** (Personen ohne szenische Handlung): Kategorie nur nach
-   Personengruppe – immer ein Motiv für die ganze Gruppe:
-   - Einzelperson: `portrait_man`, `portrait_woman`, `portrait_boy`,
-     `portrait_girl`, `portrait_child`, `portrait_person`
-   - Paar (zwei Personen, auch „zwei Büsten“ ohne Geschlecht):
-     `portrait_couple`
-   - Familie (zwei Erwachsene – Mann + Frau oder ohne Geschlechtsangabe –
-     mit Kind/ern): `portrait_family`
-   - Mann bzw. Person mit Kind: `portrait_man_with_child`,
-     `portrait_person_with_child`
-   - Gruppe (drei oder mehr Erwachsene, auch gemischt: „Büsten einer Frau
-     und dreier Männer“, HD025552): `portrait_group`
-   - Paar in der dextrarum iunctio (Handschlag, auch aus Attributen
-     erschlossen): `portrait_dextrarum_iunctio`
-4. **Elementkategorie**: sonst die Standardkategorie des Elements aus
-   `elements.json`.
 
 **Beispiele.**
+- „Fries mit Hasenjagd“ → `hunting_scene` (HD040236).
 - „Nische mit den Büsten zweier Erwachsener und eines Kindes“ →
   `portrait_family` (HD038867).
-- „Oberhalb des Inschriftfeldes Fries mit Hasenjagd“ → `hunting_scene`
-  (HD040236).
-
-**Gegenbeispiele.**
-- **Einzelperson ohne Form- oder Porträtwort** → `figure_unspecified`,
-  nicht `portrait_…`: sie könnte Teil einer Szene gewesen sein („Reste der
-  Darstellung eines Mannes und eines Hundes“, HD022362).
-
-**Abgrenzung.** Paare, Familien und Gruppen sind immer Porträts, auch ohne
-Formwort. Die Darstellungsform steht nie in der Kategorie, sondern als
-Variante bei den Personen.
 
 ---
 
 ## 8. Markierungen auf Wortebene (für BERT)
 
-Für die Entwicklungsdaten gibt es zusätzlich Markierungen auf Wortebene
-(`edh_devsample_word_markings.json`), aus den Annotationen
-automatisch vorgeschlagen und von Hand geprüft (dieselbe Logik markiert den
-Silberstandard, `candidates()` in `bert.py`):
+Für die Entwicklungsdaten ist zusätzlich markiert, welches Wort im
+Kommentar ein Element bezeichnet (`edh_devsample_word_markings.json`). Diese
+Markierungen sind die Trainingsdaten für BERT (Methode 4). Sie wurden aus den
+Annotationen automatisch vorgeschlagen und von Hand geprüft; der
+Silberstandard wird nach denselben Regeln markiert (`bert.py`).
 
-- Wörter und Sätze sind Stanza-Tokens.
-- **Jedes Vorkommen** wird markiert, auch erneute Nennungen.
-- Eine **Mehrwort-Wendung** wird auf allen ihren Wörtern markiert („Alpha
-  und Omega“).
-- Ein Wort kann **mehrere Labels** tragen („Lorbeerkranz“ → `laurel` +
-  `wreath`).
-- Label-Raum ist das Suchvokabular einschließlich der Formwörter („Büste“
-  → `bust`, „Porträt“ → `portrait`, „Ehepaar“ → `couple`).
+**Regeln**
+- Markiert wird nur, was zur Annotation des Kommentars passt: seine
+  Elemente und die Formwörter seiner Personen.
+- Jedes Vorkommen wird markiert, auch erneute Nennungen.
+- Ein Wort kann mehrere Labels tragen.
+- Eine Wendung aus mehreren Wörtern wird auf jedem ihrer Wörter markiert
+  („Alpha und Omega“).
+- Formwörter werden als eigene Labels markiert („Büste“ → `bust`,
+  „Porträt“ → `portrait`, „Ehepaar“ → `couple`).
+- Wörter und Sätze werden so getrennt, wie Stanza sie trennt.
 
----
+**Beispiele.**
+- „Giebel mit weiblicher Büste“ → weiblicher `woman`, Büste `bust`
+  (HD054538).
+- „Fries mit Hasenjagd“ → Hasenjagd `hare` + `hunt` (HD040236).
+- „Bildfeld mit Lorbeerkranz; darüber Giebel mit Rosette“ → Lorbeerkranz
+  `laurel` + `wreath`, Rosette `rosette` (HD071668).
 
-## 9. Normdaten
-
-- Die Bildelemente sind, wo es einen passenden Begriff gibt, mit
-  **Iconclass** verknüpft (`iconclass_notation` in `elements.json`; 297 von
-  374). Jede Notation ist gegen die Iconclass-Schnittstelle geprüft;
-  inoffizielle Klammerschlüssel werden nicht verwendet.
-- Das Vokabular ist außerdem mit dem **EAGLE-Vokabular „Decoration“**
-  abgeglichen (`eagle_decoration` in `elements.json`; 98 von 374). Übernommen
-  werden nur deutsche, englische und lateinische EAGLE-Begriffe; ist EAGLE
-  gröber als das Vokabular, steht der Oberbegriff. Die Kreuzformen sind nach
-  EAGLE benannt.
-- Die annotierten Inschriften sind über ihre **EDH-Nummer** referenziert;
-  die Konkordanz zu **Trismegistos** und **EDCS** liegt im
-  Veröffentlichungspaket (`inscription_identifiers.csv`).
-
----
 

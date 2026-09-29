@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+type: dataset
+title: "NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken: Vokabular, Goldstandard und Methodenvergleich geprüft am Datensatz der Epigraphischen Datenbank Heidelberg (EDH)"
+version: "1.0"
+date-released: "2026-09-30"
+authors:
+  - family-names: Kilbinger
+    given-names: Lisa
+    affiliation: "Philipps-Universität Marburg"
+license:
+  - CC-BY-SA-4.0
+  - MIT
+abstract: >-
+  A multilingual iconographic vocabulary (374 depicted elements, category tree,
+  German/Latin/English search terms, 354 motif rules), aligned with Iconclass
+  and the EAGLE vocabulary "Decoration"; a hand-annotated gold standard of
+  1,100 randomly drawn comments of the Epigraphic Database Heidelberg (EDH),
+  with a concordance to Trismegistos and EDCS; and a comparison of four
+  methods (dictionary matching, lemmatisation, dependency parsing, fine-tuned
+  BERT) that extract iconographic motifs from the free-text comments, with the
+  complete code to reproduce all reported scores. Part of a PhD project on
+  figurative decoration on Late Antique funerary inscriptions. Data in data/
+  and figures/: CC BY-SA 4.0; code in src/: MIT.
+keywords:
+  - epigraphy
+  - iconography
+  - funerary inscriptions
+  - Roman inscriptions
+  - Late Antiquity
+  - Early Christian art
+  - Epigraphic Database Heidelberg
+  - EDH
+  - Iconclass
+  - EAGLE
+  - controlled vocabulary
+  - gold standard
+  - information extraction
+  - natural language processing
+  - BERT
+  - digital art history
+  - FAIR data
+references:
+  - type: database
+    title: "Epigraphic Database Heidelberg (EDH)"
+    url: "https://edh.ub.uni-heidelberg.de/"
+    license: CC-BY-SA-4.0
+  - type: database
+    title: "Iconclass"
+    url: "https://iconclass.org/"
+  - type: database
+    title: "EAGLE Vocabulary - Decoration"
+    url: "https://www.eagle-network.eu/voc/decor.html"
+  - type: database
+    title: "Epigraphic Database Bari (EDB)"
+    url: "https://www.edb.uniba.it/"

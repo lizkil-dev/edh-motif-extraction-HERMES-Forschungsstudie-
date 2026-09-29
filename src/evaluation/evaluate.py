@@ -1,12 +1,12 @@
 """
-Evaluates one EDH method against the development sample or a test
-sample. One call = one method.
+Evaluates one method against the development sample or a test
+sample. 
 
 Three independently evaluated levels:
   1. has_depiction: confusion matrix -> recall, precision, F1.
   2. elements: presence only (not count) per element type, both micro- and
-     macro-averaged - the micro average is dominated by frequent elements,
-     only the macro average shows whether rare ones are found at all.
+     macro-averaged (the micro average is dominated by frequent elements,
+     the macro average shows whether rare ones are found at all).
      Reported twice: strict (every element type on its own) and lenient
      (subtypes collapsed onto their "group" from elements.json, e.g.
      man/woman/boy/girl/child -> person), so "finds the person at all" can be
@@ -14,11 +14,17 @@ Three independently evaluated levels:
   3. motifs: exact match (element set AND category both have to match an
      annotated motif).
 
+Methods by the name of their script: m1_dictionary, m2_nlp_lemma, m3_dependency, m4_bert.
+
 Usage:
-    python src/evaluate.py regex                 against the development sample
-    python src/evaluate.py regex --test          against the test sample, with the
-                                                 results of measure_testsample.py
-    python src/evaluate.py regex --former-test   against the former test sample
+    python src/evaluation/evaluate.py m2_nlp_lemma                 against the development sample
+    python src/evaluation/evaluate.py m2_nlp_lemma --former-test   against the former test sample
+    python src/evaluation/evaluate.py m2_nlp_lemma --test          against the test sample, with the
+                                                                   results of measure_testsample.py
+    python src/evaluation/evaluate.py m2_nlp_lemma --published     against the test sample, with the
+                                                                   published results (data/method_comparison/)
+Method 4 is measured on the test sample by its seed-42 run; m4_bert.py predict
+covers only the former test sample.
 """
 
 import argparse
@@ -28,15 +34,19 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from paths import (ELEMENTS, EDH_DEVSAMPLE, EDH_TESTSAMPLE, EDH_FORMER_TESTSAMPLE, EDH_RESULT_REGEX,
-                   EDH_RESULT_NLP_LEMMA, EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT, EDH_RESULTS_TESTSAMPLE)
+from paths import (ELEMENTS, EDH_DEVSAMPLE, EDH_TESTSAMPLE, EDH_FORMER_TESTSAMPLE, EDH_RESULT_DICTIONARY,
+                   EDH_RESULT_NLP_LEMMA, EDH_RESULT_DEPENDENCY, EDH_RESULT_BERT, EDH_PREDICTIONS,
+                   PUBLISHED_COMPARISON, METHOD_FILES, bert_file)
 
+# the full-corpus results (method 4: its result on the former test sample)
 RESULT_FILES = {
-    'regex': EDH_RESULT_REGEX,
-    'nlp_lemma': EDH_RESULT_NLP_LEMMA,
-    'dependency': EDH_RESULT_DEPENDENCY,
-    'bert': EDH_RESULT_BERT,
+    'm1_dictionary': EDH_RESULT_DICTIONARY,
+    'm2_nlp_lemma': EDH_RESULT_NLP_LEMMA,
+    'm3_dependency': EDH_RESULT_DEPENDENCY,
+    'm4_bert': EDH_RESULT_BERT,
 }
+# the results on the test sample, file name inside predictions/
+TEST_FILES = {**METHOD_FILES, 'm4_bert': bert_file(42)}
 
 
 def load_json(path):
@@ -143,11 +153,14 @@ def main():
     sample.add_argument('--test', action='store_true',
                         help='evaluate against the held-out test sample (edh_testsample.json), with the results of '
                              'measure_testsample.py')
+    sample.add_argument('--published', action='store_true',
+                        help='evaluate against the held-out test sample, with the published results')
     args = parser.parse_args()
 
-    if args.test:
+    if args.test or args.published:
         gold, label = load_json(EDH_TESTSAMPLE), 'test sample'
-        pred = load_json(EDH_RESULTS_TESTSAMPLE / f'{args.method}.json')
+        folder = PUBLISHED_COMPARISON / 'predictions' if args.published else EDH_PREDICTIONS
+        pred = load_json(folder / TEST_FILES[args.method])
     else:
         gold = load_json(EDH_FORMER_TESTSAMPLE if args.former_test else EDH_DEVSAMPLE)
         label = 'former test sample' if args.former_test else 'development sample'

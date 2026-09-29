@@ -1,7 +1,5 @@
 """
-EDH method 3: dependency parsing (Stanza).
-
-For every EDH comment, independently of the other methods:
+Method 3: dependency parsing (Stanza).
 
   - has_depiction / elements: element recognition as in method 2 (lemma
     match of nouns, proper nouns and adjectives, compounds, multi-word
@@ -18,18 +16,21 @@ For every EDH comment, independently of the other methods:
     methods 1 and 2 exclude them outright; method 3 keeps them if a context
     word (requires_context in stoplist.json) sits in the same dependency
     component. Entries without a context rule ("Säule", "Pilaster",
-    "Bogen" - almost always the architectural frame) are excluded as in
+    "Bogen", almost always the architectural frame) are excluded as in
     methods 1 and 2.
+  - form words ("Büste", "Ganzfigur") become the variant of the person they
+    describe (motifs.fold_forms()), as in methods 1 and 2.
 
-Not implemented: variant and uncertainty detection. The count comes from a
-number word before the match or the noun's plural feature, see word_count().
+Not implemented: other variants (posture, orientation, design) and
+uncertainty detection. The count comes from a number word attached to the
+noun in the dependency tree or the noun's plural feature, see word_count().
 
-Output: results/dependency.json.
+Output: results/full_corpus/m3_dependency.json.
 
 Usage:
-    python src/methods/dependency.py
+    python src/methods/m3_dependency.py
 
-If the full run runs out of memory, use dependency_chunked.py instead
+If the full run runs out of memory, use m3_dependency_chunked.py instead
 (same result, one process per chunk).
 """
 
@@ -52,8 +53,8 @@ from paths import (  # noqa: E402
     EDH_COMMENTS,
     EDH_RESULT_DEPENDENCY,
 )
-from motifs import resolve_motifs, fold_forms  # noqa: E402
-from matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
+from common.motifs import resolve_motifs, fold_forms  # noqa: E402
+from common.matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
                       is_false_friend, phrase_forms, find_phrases, normalise_word, lemma_matches,
                       number_value, rule_count, build_compounds, compound_elements)
 

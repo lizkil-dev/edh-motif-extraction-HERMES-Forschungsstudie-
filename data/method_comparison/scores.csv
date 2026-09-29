@@ -1,0 +1,5 @@
+method,name,description,training_runs,depiction_f1,depiction_f1_low,depiction_f1_high,depiction_f1_sd_runs,elements_micro_f1,elements_micro_f1_low,elements_micro_f1_high,elements_micro_f1_sd_runs,elements_macro_f1,elements_macro_f1_low,elements_macro_f1_high,elements_macro_f1_sd_runs,motifs_f1,motifs_f1_low,motifs_f1_high,motifs_f1_sd_runs,depiction_precision,depiction_recall
+1,Dictionary matching,"Substring match of German search terms, no linguistic analysis",,0.972,0.941,0.994,,0.846,0.79,0.894,,0.731,0.67,0.832,,0.527,0.43,0.627,,0.946,1.0
+2,Lemmatisation,"Stanza lemmas, compound tails, sentence-level motif grouping",,0.986,0.963,1.0,,0.918,0.865,0.96,,0.778,0.714,0.884,,0.739,0.645,0.827,,0.972,1.0
+3,Dependency parsing,"As 2, motif grouping and context rules via the dependency tree",,0.986,0.963,1.0,,0.925,0.881,0.963,,0.808,0.75,0.895,,0.735,0.64,0.826,,0.972,1.0
+4,BERT (gbert-base),"Fine-tuned token classification (development data + silver standard), mean of the training runs",3,0.961,0.932,0.984,0.017,0.833,0.771,0.893,0.027,0.642,0.58,0.771,0.027,0.667,0.577,0.76,0.023,0.926,1.0

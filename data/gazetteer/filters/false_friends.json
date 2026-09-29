@@ -1,0 +1,574 @@
+[
+  {
+    "word": "fassade",
+    "reason": "\"fass\" (Fass) matches the start of \"Fassade\""
+  },
+  {
+    "word": "schaft",
+    "reason": "\"schaf\" (Schaf) matches \"Schaftblock\", \"Säulenschaft\""
+  },
+  {
+    "word": "zweigeteilt",
+    "reason": "\"zweig\" (Zweig) matches \"zweigeteilt\""
+  },
+  {
+    "word": "adamik",
+    "reason": "\"adam\" (Adam) matches the scholar name \"Adamik\""
+  },
+  {
+    "word": "adamklissi",
+    "reason": "\"adam\" matches the Moesian place name \"Adamklissi\" / \"Adamclisi\""
+  },
+  {
+    "word": "adamesteanu",
+    "reason": "\"adam\" matches the archaeologist name \"Adamesteanu\""
+  },
+  {
+    "word": "waagerecht",
+    "reason": "\"waage\" (Waage) matches \"waagerecht\", \"waagerechte\""
+  },
+  {
+    "word": "kathedral",
+    "reason": "\"kathedra\" (Kathedra) matches \"Kathedrale\""
+  },
+  {
+    "word": "baumaterial",
+    "reason": "\"baum\" (Baum) matches \"Baumaterial\""
+  },
+  {
+    "word": "baumann",
+    "reason": "\"baum\" matches the name \"Baumann\""
+  },
+  {
+    "word": "baumeister",
+    "reason": "\"baum\" matches \"Baumeister\""
+  },
+  {
+    "word": "sternförmig",
+    "reason": "\"stern\" (Stern) matches \"sternförmig\", \"sternförmiges Zeichen\""
+  },
+  {
+    "word": "balla",
+    "reason": "\"ball\" (Ball) matches the scholar name \"Balla\" in literature citations (\"Balla - Buocz - Kádár - Mócsy - Szentléleky\")"
+  },
+  {
+    "word": "ballet",
+    "reason": "\"ball\" matches the scholar name \"Ballet\" in the literature citation \"Rémy - Ballet - Ferber\""
+  },
+  {
+    "word": "sieben",
+    "reason": "\"sieb\" (Sieb) matches the number word \"sieben\" (seven), e.g. \"Sieben teilweise aneinanderpassende Fragmente\""
+  },
+  {
+    "word": "ziegel",
+    "reason": "\"ziege\" (Ziege, goat) matches \"Ziegel\"/\"Ziegeldach\"/\"Ziegelgrab\" (brick, roof tile)"
+  },
+  {
+    "word": "fragment",
+    "reason": "\"ente\" (Ente, duck) matches \"Fragmente\"/\"Fragmenten\"/\"Fragmentes\""
+  },
+  {
+    "word": "ornament",
+    "reason": "\"ente\" matches \"Ornamente\"/\"Ornamenten\"/\"Blattornamenten\""
+  },
+  {
+    "word": "monument",
+    "reason": "\"ente\" matches \"Monumentes\"/\"Grabmonumentes\""
+  },
+  {
+    "word": "diente",
+    "reason": "\"ente\" matches the verb form \"diente\" (from \"dienen\", to serve)"
+  },
+  {
+    "word": "größtenteils",
+    "reason": "\"ente\" matches \"größtenteils\""
+  },
+  {
+    "word": "pertinente",
+    "reason": "\"ente\" matches this Latin fragment (likely quoted from the inscription text or a literature reference inside the German commentary)"
+  },
+  {
+    "word": "arentes",
+    "reason": "\"ente\" matches this Latin fragment (likely quoted from the inscription text or a literature reference inside the German commentary)"
+  },
+  {
+    "word": "darüber",
+    "reason": "\"rübe\" (Rübe, turnip) matches \"darüber\"/\"darüberliegenden\""
+  },
+  {
+    "word": "walser",
+    "reason": "\"wal\" (Wal, whale) matches the surname \"Walser\""
+  },
+  {
+    "word": "howald",
+    "reason": "\"wal\" matches the name \"Howald\""
+  },
+  {
+    "word": "walter",
+    "reason": "\"wal\" matches the given name \"Walter\""
+  },
+  {
+    "word": "wallraf",
+    "reason": "\"wal\" matches the name \"Wallraf\""
+  },
+  {
+    "word": "waldmühlbach",
+    "reason": "\"wal\" matches the place name \"Waldmühlbach\""
+  },
+  {
+    "word": "gewaltsamen",
+    "reason": "\"wal\" matches \"gewaltsamen\" (violent)"
+  },
+  {
+    "word": "eingefasst",
+    "reason": "\"fass\" (Fass, storage jar) matches \"eingefasst\" (from \"einfassen\", to frame/set in)"
+  },
+  {
+    "word": "aufzufassen",
+    "reason": "\"fass\" matches \"aufzufassen\" (from \"auffassen\", to understand as)"
+  },
+  {
+    "word": "grabumfassung",
+    "reason": "\"fass\" matches \"Grabumfassung\" (grave enclosure)"
+  },
+  {
+    "word": "umfassungsmauer",
+    "reason": "\"fass\" matches \"Umfassungsmauer\" (enclosure wall)"
+  },
+  {
+    "word": "aufgefasst",
+    "reason": "\"fass\" matches \"aufgefasst\""
+  },
+  {
+    "word": "einfassung",
+    "reason": "\"fass\" matches \"Einfassung\" (framing/border)"
+  },
+  {
+    "word": "wittkopf",
+    "reason": "\"kopf\" (Kopf, head) matches the surname \"Wittkopf\""
+  },
+  {
+    "word": "kopfüber",
+    "reason": "\"kopf\" matches the idiom \"kopfüber\" (headlong)"
+  },
+  {
+    "word": "bormann",
+    "reason": "\"mann\" (Mann, man) matches the surname \"Bormann\""
+  },
+  {
+    "word": "gemeißelt",
+    "reason": "\"meißel\" (Meißel, chisel/scalprum) matches \"eingemeißelt\"/\"abgemeißelt\"/\"nachgemeißelt\" and their inflected forms — describes the execution technique (engraved), not a depicted chisel"
+  },
+  {
+    "word": "phase",
+    "reason": "\"hase\" (Hase, hare) matches \"Phase\"/\"Phasen\"/\"Abbruchphase\" and other -phase compounds (building/find-history periods)"
+  },
+  {
+    "word": "lehmann",
+    "reason": "\"mann\" (Mann, man) matches the surname \"Lehmann\""
+  },
+  {
+    "word": "wollmann",
+    "reason": "\"mann\" matches the surname \"Wollmann\""
+  },
+  {
+    "word": "hainzmann",
+    "reason": "\"mann\" matches the surname \"Hainzmann\""
+  },
+  {
+    "word": "neumann",
+    "reason": "\"mann\" matches the surname \"Neumann\""
+  },
+  {
+    "word": "hofmann",
+    "reason": "\"mann\" matches the surname \"Hofmann\""
+  },
+  {
+    "word": "langmann",
+    "reason": "\"mann\" matches the surname \"Langmann\""
+  },
+  {
+    "word": "fuhrmann",
+    "reason": "\"mann\" matches the surname \"Fuhrmann\""
+  },
+  {
+    "word": "oelmann",
+    "reason": "\"mann\" matches the surname \"Oelmann\""
+  },
+  {
+    "word": "engemann",
+    "reason": "\"mann\" matches the surname \"Engemann\""
+  },
+  {
+    "word": "niedermann",
+    "reason": "\"mann\" matches the surname \"Niedermann\""
+  },
+  {
+    "word": "pfeiler",
+    "reason": "\"feile\" (file) matches \"Pfeiler\", \"Grabpfeiler\", \"pfeilerförmig\""
+  },
+  {
+    "word": "pflanz",
+    "reason": "\"lanze\" (spear) matches \"Pflanzen\", \"Pflanzenmotiv\", \"Pflanzenfries\""
+  },
+  {
+    "word": "planzen",
+    "reason": "\"lanze\" matches the misspelling \"Planzenmotiven\""
+  },
+  {
+    "word": "flanzen",
+    "reason": "\"lanze\" matches the misspelling \"Flanzenmotiven\""
+  },
+  {
+    "word": "buchstabenteil",
+    "reason": "\"ente\" (duck) matches \"Buchstabenteile\""
+  },
+  {
+    "word": "fragement",
+    "reason": "\"ente\" matches the misspelling \"Fragemente\"/\"Fragementen\""
+  },
+  {
+    "word": "fundament",
+    "reason": "\"ente\" matches \"Fundamente\"/\"Fundamenten\""
+  },
+  {
+    "word": "paviment",
+    "reason": "\"ente\" matches \"Pavimentes\""
+  },
+  {
+    "word": "inschriftentext",
+    "reason": "\"ente\" matches \"Inschriftentextes\""
+  },
+  {
+    "word": "entes",
+    "reason": "\"ente\" matches Latin/Italian words (\"entes\", \"rentes\", \"sedentes\")"
+  },
+  {
+    "word": "cedente",
+    "reason": "\"ente\" matches Latin \"cedente\""
+  },
+  {
+    "word": "repetente",
+    "reason": "\"ente\" matches Latin \"repetente\""
+  },
+  {
+    "word": "riente",
+    "reason": "\"ente\" matches \"VRIENTE\" in a quoted reading"
+  },
+  {
+    "word": "aggiornamento",
+    "reason": "\"ornament\" matches Italian \"aggiornamento\" (bibliography titles)"
+  },
+  {
+    "word": "mannschaft",
+    "reason": "\"mann\" (man) matches \"Mannschaften\""
+  },
+  {
+    "word": "alamann",
+    "reason": "\"mann\" matches \"Alamannen\"/\"Alamannengrab\""
+  },
+  {
+    "word": "markomann",
+    "reason": "\"mann\" matches \"Markomannen\""
+  },
+  {
+    "word": "mannheim",
+    "reason": "\"mann\" matches \"Mannheim\"/\"Mannheimer\""
+  },
+  {
+    "word": "bauman",
+    "reason": "\"baum\" (tree) matches the surname \"Bauman\""
+  },
+  {
+    "word": "wald",
+    "reason": "\"wal\" (whale) matches \"Walde\", \"Grünewald\", \"Ewald\", \"Waldherr\""
+  },
+  {
+    "word": "wall",
+    "reason": "\"wal\" matches \"Erdwall\", \"walls\""
+  },
+  {
+    "word": "walm",
+    "reason": "\"wal\" matches \"Walmdach\""
+  },
+  {
+    "word": "walz",
+    "reason": "\"wal\" matches \"halbwalzenförmig\", \"Waltzing\""
+  },
+  {
+    "word": "waltz",
+    "reason": "\"wal\" matches the place name \"Waltzing\""
+  },
+  {
+    "word": "einfass",
+    "reason": "\"fass\" (storage jar) matches \"einfassen\""
+  },
+  {
+    "word": "umfass",
+    "reason": "\"fass\" matches \"Umfassung\", \"umfasst\""
+  },
+  {
+    "word": "fassung",
+    "reason": "\"fass\" matches \"Farbfassung\""
+  },
+  {
+    "word": "buschstab",
+    "reason": "\"busch\" (shrub) matches the misspelling \"Buschstabe\""
+  },
+  {
+    "word": "grassl",
+    "reason": "\"gras\" (grass) matches the name \"Grassl\""
+  },
+  {
+    "word": "währe",
+    "reason": "\"ähre\" (ear of grain) matches \"während\", \"währe\""
+  },
+  {
+    "word": "gefähr",
+    "reason": "\"ähre\" matches \"ungefähr\""
+  },
+  {
+    "word": "anathyrose",
+    "reason": "\"rose\" matches \"Anathyrose\""
+  },
+  {
+    "word": "buchstab",
+    "reason": "\"buch\" (book) matches \"Buchstabe\""
+  },
+  {
+    "word": "conrad",
+    "reason": "\"rad\" (wheel) matches the name \"Conrad\""
+  },
+  {
+    "word": "eradier",
+    "reason": "\"rad\" matches \"eradiert\""
+  },
+  {
+    "word": "gradi",
+    "reason": "\"rad\" matches \"Ciongradi\""
+  },
+  {
+    "word": "kammer",
+    "reason": "\"kamm\" (comb) matches \"Grabkammer\""
+  },
+  {
+    "word": "spiegelverkehrt",
+    "reason": "\"spiegel\" (mirror) matches \"spiegelverkehrt\""
+  },
+  {
+    "word": "spiegelbild",
+    "reason": "\"spiegel\" matches \"spiegelbildlich\""
+  },
+  {
+    "word": "sonder",
+    "reason": "\"sonde\" (probe) matches \"sondern\", \"besonders\""
+  },
+  {
+    "word": "mahler",
+    "reason": "\"ahle\" (awl) matches the name \"Mahler\""
+  },
+  {
+    "word": "zahl",
+    "reason": "\"ahle\" matches \"Zahlenangabe\""
+  },
+  {
+    "word": "strahl",
+    "reason": "\"ahle\" matches \"strahlenförmig\""
+  },
+  {
+    "word": "agistilus",
+    "reason": "\"stilus\" matches the name \"Agistilus\""
+  },
+  {
+    "word": "mausole",
+    "reason": "\"maus\" (mouse) matches \"Mausoleum\""
+  },
+  {
+    "word": "nemausus",
+    "reason": "\"maus\" matches \"Nemausus\""
+  },
+  {
+    "word": "besteller",
+    "reason": "\"teller\" (dish) matches \"Besteller\""
+  },
+  {
+    "word": "zahnschnitt",
+    "reason": "\"zahn\" (tooth) matches \"Zahnschnitt\" (an architectural moulding)"
+  },
+  {
+    "word": "alphabet",
+    "reason": "\"alpha\" matches \"Alphabet\""
+  },
+  {
+    "word": "buchsab",
+    "reason": "\"buch\" (book) matches the misspelling \"Buchsaben\""
+  },
+  {
+    "word": "buchtab",
+    "reason": "\"buch\" matches the misspelling \"Buchtaben\""
+  },
+  {
+    "word": "namenbuch",
+    "reason": "\"buch\" matches \"Namenbuch\" (a reference work)"
+  },
+  {
+    "word": "namensbuch",
+    "reason": "\"buch\" matches \"Namensbuch\" (a reference work)"
+  },
+  {
+    "word": "buchstück",
+    "reason": "\"buch\" matches the misspelling \"Buchstück\" (Bruchstück)"
+  },
+  {
+    "word": "schlüsselloch",
+    "reason": "\"schlüssel\" (key) matches \"schlüssellochförmig\""
+  },
+  {
+    "word": "roseten",
+    "reason": "\"rose\" matches the misspelling \"Roseten\" (Rosetten)"
+  },
+  {
+    "word": "truhelka",
+    "reason": "\"truhe\" (chest) matches the name \"Truhelka\""
+  },
+  {
+    "word": "fußende",
+    "reason": "\"fuß\" (foot) matches \"Fußende\" (of a tomb, \"Kopf- und Fußende\")"
+  },
+  {
+    "word": "bestehend",
+    "reason": "\"stehend\" (full figure) matches \"bestehend\""
+  },
+  {
+    "word": "entstehend",
+    "reason": "\"stehend\" (full figure) matches \"entstehend\""
+  },
+  {
+    "word": "freistehend",
+    "reason": "\"stehend\" (full figure) matches \"freistehend\""
+  },
+  {
+    "word": "alleinstehend",
+    "reason": "\"stehend\" (full figure) matches \"alleinstehend\""
+  },
+  {
+    "word": "davorstehend",
+    "reason": "\"stehend\" (full figure) matches \"davorstehend\""
+  },
+  {
+    "word": "kopfstehend",
+    "reason": "\"stehend\" (full figure) matches \"kopfstehend\""
+  },
+  {
+    "word": "schwank",
+    "reason": "\"schwan\" (swan) matches \"schwankend\""
+  },
+  {
+    "word": "schwanz",
+    "reason": "\"schwan\" matches \"Pferdeschwanz\""
+  },
+  {
+    "word": "doppelt",
+    "reason": "\"pelte\" (pelta) matches \"doppelten\""
+  },
+  {
+    "word": "peltenhenkel",
+    "reason": "\"pelte\" matches \"Peltenhenkel\" - pelta-shaped handles of a tabula ansata, i.e. the frame"
+  },
+  {
+    "word": "peltenförmig",
+    "reason": "\"pelte\" matches \"peltenförmig\" (shape of the ansae, the frame)"
+  },
+  {
+    "word": "peltaförmig",
+    "reason": "\"pelta\" matches \"peltaförmig\" (shape of the ansae, the frame)"
+  },
+  {
+    "word": "victorin",
+    "reason": "\"victoria\" matches the names \"Victorinus\", \"Victorina\""
+  },
+  {
+    "word": "victorian",
+    "reason": "\"victoria\" matches the name \"Victorianus\""
+  },
+  {
+    "word": "victorias",
+    "reason": "\"victoria\" matches the Latin \"victorias\" in a quoted reading"
+  },
+  {
+    "word": "schilder",
+    "reason": "\"schild\" (shield) matches \"Schilderung\", \"geschildert\""
+  },
+  {
+    "word": "neulesung",
+    "reason": "\"eule\" (Eule) matches \"Neulesung\""
+  },
+  {
+    "word": "datenbank",
+    "reason": "\"bank\" (Bank) matches \"Datenbank\" (Epigraphische Datenbank Heidelberg)"
+  },
+  {
+    "word": "dieselbe",
+    "reason": "\"esel\" (Esel) matches \"dieselbe(n)\""
+  },
+  {
+    "word": "caesell",
+    "reason": "\"esel\" (Esel) matches the name \"Caesellia\""
+  },
+  {
+    "word": "pilaster",
+    "reason": "\"stern\" (Stern) matches \"Pilastern\""
+  },
+  {
+    "word": "register",
+    "reason": "\"stern\" (Stern) matches \"Registern\""
+  },
+  {
+    "word": "therme",
+    "reason": "\"herme\" (Herme) matches \"Thermen\" (lemma \"Therme\" ends in \"herme\")"
+  },
+  {
+    "word": "hermes",
+    "reason": "\"herme\" (Herme) matches \"Hermes\" - a name or the god, never a herm"
+  },
+  {
+    "word": "hermero",
+    "reason": "\"herme\" (Herme) matches the name \"Hermeros\""
+  },
+  {
+    "word": "hermetar",
+    "reason": "\"herme\" (Herme) matches \"Hermetarium\""
+  },
+  {
+    "word": "bogennische",
+    "reason": "\"bogen\" (Bogen) matches \"(Rund)Bogennische\" - the niche's shape"
+  },
+  {
+    "word": "bogenförmig",
+    "reason": "\"bogen\" (Bogen) matches \"bogenförmig\" - a shape"
+  },
+  {
+    "word": "gebogen",
+    "reason": "\"bogen\" (Bogen) matches \"gebogen\""
+  },
+  {
+    "word": "bogenabschluss",
+    "reason": "\"bogen\" (Bogen) matches \"Rundbogenabschluss\" - the stele's top"
+  },
+  {
+    "word": "bogengiebel",
+    "reason": "\"bogen\" (Bogen) matches \"Bogengiebel\""
+  },
+  {
+    "word": "bogenstele",
+    "reason": "\"bogen\" (Bogen) matches \"(Rund)Bogenstele\" - the monument type"
+  },
+  {
+    "word": "bogenzwickel",
+    "reason": "\"bogen\" (Bogen) matches \"Bogenzwickel\""
+  },
+  {
+    "word": "bogenfeld",
+    "reason": "\"bogen\" (Bogen) matches \"Bogenfeld\""
+  }
+]

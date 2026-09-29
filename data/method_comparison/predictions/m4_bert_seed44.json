@@ -1,0 +1,3473 @@
+{
+  "HD064933": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040990": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074865": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD082431": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD078772": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD006084": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD057575": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "weiblicher"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "männlicher"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD067352": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD069826": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074366": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Mann"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD060935": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD078297": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040995": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002392": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD016858": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "rosette",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Rosette"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      }
+    ]
+  },
+  "HD056718": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002804": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062667": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD037814": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040492": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062875": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "ascia"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD035097": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD078817": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD025313": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD031172": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD048402": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      },
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Kindes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "woman"
+        ],
+        "category": "portrait_woman"
+      },
+      {
+        "elements": [
+          "child"
+        ],
+        "category": "portrait_child"
+      }
+    ]
+  },
+  "HD079209": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD053649": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "latin_cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "griechisches"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "latin_cross"
+        ],
+        "category": "latin_cross"
+      }
+    ]
+  },
+  "HD068305": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "military_figure",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Soldaten"
+      },
+      {
+        "element": "shield",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Schild"
+      },
+      {
+        "element": "spear",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Lanze"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "military_figure"
+        ],
+        "category": "military_figures"
+      },
+      {
+        "elements": [
+          "shield"
+        ],
+        "category": "weapons"
+      },
+      {
+        "elements": [
+          "spear"
+        ],
+        "category": "weapons"
+      }
+    ]
+  },
+  "HD007348": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD062788": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD036279": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002006": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Sohn"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "child"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD058627": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD021625": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "banquet",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Totenmahlreliefs"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "banquet"
+        ],
+        "category": "funerary_banquet"
+      }
+    ]
+  },
+  "HD035255": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mannes"
+      },
+      {
+        "element": "servant",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Dienerin"
+      },
+      {
+        "element": "servant",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Dieners"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      },
+      {
+        "elements": [
+          "servant"
+        ],
+        "category": "secular_figures"
+      }
+    ]
+  },
+  "HD006856": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD077643": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Christograms"
+      },
+      {
+        "element": "alpha_and_omega",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Alpha"
+      },
+      {
+        "element": "dove",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Tauben"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      },
+      {
+        "elements": [
+          "alpha_and_omega"
+        ],
+        "category": "alpha_and_omega"
+      },
+      {
+        "elements": [
+          "dove"
+        ],
+        "category": "doves"
+      }
+    ]
+  },
+  "HD013903": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD046781": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD009655": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD075182": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "männlichen"
+      },
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Kindes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "child",
+          "man"
+        ],
+        "category": "portrait_man_with_child"
+      }
+    ]
+  },
+  "HD079282": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD039999": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD033897": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "krater",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Krater"
+      },
+      {
+        "element": "dolphin",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Fische"
+      },
+      {
+        "element": "dolphin",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Delphine"
+      },
+      {
+        "element": "pine_cone",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Lorbeerkranz"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "krater"
+        ],
+        "category": "vessels"
+      },
+      {
+        "elements": [
+          "dolphin"
+        ],
+        "category": "dolphins"
+      },
+      {
+        "elements": [
+          "pine_cone"
+        ],
+        "category": "other_plants"
+      }
+    ]
+  },
+  "HD064765": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD011827": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074367": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "genius",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Trauergenien"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "genius"
+        ],
+        "category": "mythological_figures"
+      },
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_dextrarum_iunctio"
+      }
+    ]
+  },
+  "HD076158": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD026913": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mänade"
+      },
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      }
+    ]
+  },
+  "HD040983": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD045454": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041261": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD003129": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038024": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062471": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Mannes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      }
+    ]
+  },
+  "HD054821": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD019652": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD026441": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD026026": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040613": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD077350": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vessel",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Vase"
+      },
+      {
+        "element": "dove",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Tauben"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "dove",
+          "vessel"
+        ],
+        "category": "bird_at_or_in_vessel"
+      }
+    ]
+  },
+  "HD056427": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD066052": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073973": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD006257": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD037415": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD058440": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD065669": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042552": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD011378": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Langmann"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Langmann"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD053805": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD006895": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074109": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Bormann"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD037549": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD060943": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD061445": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD017455": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD017230": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "figürlichen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD061976": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD079023": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074268": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038343": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ehepaars"
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ehepaars"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD065944": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD034969": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073967": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD003313": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "tool",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Werkzeugen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "tool"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD034426": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD009950": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073475": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "genius",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Genien"
+      },
+      {
+        "element": "putto",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Eroten?"
+      },
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "genius"
+        ],
+        "category": "mythological_figures"
+      },
+      {
+        "elements": [
+          "putto"
+        ],
+        "category": "secular_figures"
+      },
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      }
+    ]
+  },
+  "HD069656": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041482": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD055298": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD020145": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "satyr",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Satyr"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Mänade"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "satyr"
+        ],
+        "category": "mythological_figures"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD063776": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "putto",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Eroten"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "putto"
+        ],
+        "category": "secular_figures"
+      }
+    ]
+  },
+  "HD063102": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "grapes",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Trauben"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "grapes"
+        ],
+        "category": "fruits"
+      }
+    ]
+  },
+  "HD044630": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD000632": {
+    "has_depiction": true,
+    "elements": [],
+    "motifs": []
+  },
+  "HD065372": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "hunt",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Jagdszene"
+      },
+      {
+        "element": "dolphin",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Delphinen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "dolphin",
+          "hunt"
+        ],
+        "category": "hunting_scene"
+      }
+    ]
+  },
+  "HD008249": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD000133": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD075854": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD060954": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038606": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD081827": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD058554": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD001589": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD009820": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD033851": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mannes"
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD040233": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD046704": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD052219": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041628": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041018": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD035039": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD001219": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD070990": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD034131": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD039800": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD007521": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD043045": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD043872": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD061868": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD052420": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074264": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062085": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD063258": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD063355": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073455": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD005996": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD039988": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuz"
+      },
+      {
+        "element": "cross",
+        "count": 3,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuze"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD010433": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD078334": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041228": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD066851": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD027722": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD063395": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD074868": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "christogram",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Christusmonogramme"
+      },
+      {
+        "element": "alpha_and_omega",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "A"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "christogram"
+        ],
+        "category": "christogram"
+      },
+      {
+        "elements": [
+          "alpha_and_omega"
+        ],
+        "category": "alpha_and_omega"
+      }
+    ]
+  },
+  "HD043417": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuz"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD063645": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD072556": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "acanthus",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Akanthus"
+      },
+      {
+        "element": "palm_branch",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Palmzweig"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "acanthus"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "palm_branch"
+        ],
+        "category": "branches_and_fronds"
+      }
+    ]
+  },
+  "HD075813": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD065666": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD081085": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD049427": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      },
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Kindes"
+      },
+      {
+        "element": "gorgon",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Gorgoneion"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "woman"
+        ],
+        "category": "portrait_woman"
+      },
+      {
+        "elements": [
+          "child"
+        ],
+        "category": "portrait_child"
+      },
+      {
+        "elements": [
+          "gorgon"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD030215": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD064948": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD082263": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "full_figure"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD076464": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "acanthus",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Akanthusornament"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "acanthus"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD047116": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD069940": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD039089": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD064454": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD080543": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mannes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      }
+    ]
+  },
+  "HD079079": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038293": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD076522": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD029431": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042621": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD070794": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD082059": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      }
+    ]
+  },
+  "HD070108": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD034710": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD061183": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD000953": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD049086": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "pine_cone",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Pinienzapfen"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "männlichen"
+      },
+      {
+        "element": "vine_tendril",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Weinranken"
+      },
+      {
+        "element": "grapes",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Weinkrügen"
+      },
+      {
+        "element": "person",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "full_figure"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      },
+      {
+        "elements": [
+          "pine_cone"
+        ],
+        "category": "other_plants"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "vine_tendril"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "grapes"
+        ],
+        "category": "fruits"
+      }
+    ]
+  },
+  "HD063200": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD077653": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "dove",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Taube"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "dove"
+        ],
+        "category": "doves"
+      }
+    ]
+  },
+  "HD058701": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vine",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Weinhandelsszene"
+      },
+      {
+        "element": "vessel",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Weinhändler"
+      },
+      {
+        "element": "vessel",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Gefäßen"
+      },
+      {
+        "element": "vessel",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Fässer"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Mann"
+      },
+      {
+        "element": "foot",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Stab"
+      },
+      {
+        "element": "vessel",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Gefäße"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "vine"
+        ],
+        "category": "branches_and_fronds"
+      },
+      {
+        "elements": [
+          "vessel"
+        ],
+        "category": "vessels"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "foot"
+        ],
+        "category": "secular_figures"
+      },
+      {
+        "elements": [
+          "vessel"
+        ],
+        "category": "vessels"
+      }
+    ]
+  },
+  "HD005610": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD064960": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuz"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD066009": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD058332": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "full_figure"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD030233": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD069479": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD079220": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "putto",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Eroten"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "putto"
+        ],
+        "category": "secular_figures"
+      }
+    ]
+  },
+  "HD035093": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD068836": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "genius",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Trauergenius"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "genius"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD001718": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD067113": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD058251": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD037711": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD057935": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD004191": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD039913": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD011377": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD020784": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041811": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD037741": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD063707": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD059863": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD066349": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062782": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD007665": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD053804": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "vine_tendril",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Rankenfries"
+      },
+      {
+        "element": "gorgon",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Gorgoneion"
+      },
+      {
+        "element": "bird",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Vögeln"
+      },
+      {
+        "element": "dolphin",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Delphine"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "vine_tendril"
+        ],
+        "category": "vegetal_ornament"
+      },
+      {
+        "elements": [
+          "gorgon"
+        ],
+        "category": "mythological_figures"
+      },
+      {
+        "elements": [
+          "bird"
+        ],
+        "category": "birds_general"
+      },
+      {
+        "elements": [
+          "dolphin"
+        ],
+        "category": "dolphins"
+      }
+    ]
+  },
+  "HD029386": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD081067": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD036124": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "wreath",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kranzund"
+      },
+      {
+        "element": "rosette",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Rosetten"
+      },
+      {
+        "element": "lion",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Löwen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "wreath"
+        ],
+        "category": "wreaths"
+      },
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      },
+      {
+        "elements": [
+          "lion"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD073496": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Mann"
+      },
+      {
+        "element": "shield",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Helm"
+      },
+      {
+        "element": "shield",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Schild"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "shield"
+        ],
+        "category": "weapons"
+      }
+    ]
+  },
+  "HD008419": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD013506": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD060154": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mannes"
+      },
+      {
+        "element": "man",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Männer"
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_group"
+      }
+    ]
+  },
+  "HD007339": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD061900": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002824": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD016645": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD076151": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "plant_ornament",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Blumenornamente"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "plant_ornament"
+        ],
+        "category": "vegetal_ornament"
+      }
+    ]
+  },
+  "HD035196": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD035190": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichens"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD065941": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ascia"
+      },
+      {
+        "element": "ascia",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "faccia"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD044934": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "clipeus"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "portrait_person"
+      }
+    ]
+  },
+  "HD040202": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041511": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040714": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Frau"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Mann"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_couple"
+      }
+    ]
+  },
+  "HD058609": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD000123": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062854": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD031810": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD055649": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD081336": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040292": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD026220": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD010903": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD024686": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040268": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD063708": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD017802": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD031928": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD001628": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD064734": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD031937": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038205": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "sacrifice",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Opferszene"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": [
+          "bust",
+          "full_figure"
+        ],
+        "matched_text": "männliche"
+      },
+      {
+        "element": "horse",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Pferd"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": [
+          "bust",
+          "full_figure"
+        ],
+        "matched_text": "männliche"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "sacrifice"
+        ],
+        "category": "sacrifice_scene"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "horse"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD001870": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042799": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "szenischen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD067147": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ehepaar"
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ehepaar"
+      },
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Tochter"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "child",
+          "man",
+          "woman"
+        ],
+        "category": "portrait_family"
+      }
+    ]
+  },
+  "HD035124": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD056712": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD000250": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD024665": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073875": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040640": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040019": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002991": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040832": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD065670": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "rosette",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Rosette"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "rosette"
+        ],
+        "category": "rosettes"
+      }
+    ]
+  },
+  "HD037650": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD052646": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD078311": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD040099": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD034939": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "latin_cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "lateinisches"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "latin_cross"
+        ],
+        "category": "latin_cross"
+      }
+    ]
+  },
+  "HD073892": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "genius",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Antonius"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "genius"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD057445": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD024827": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD024039": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Niedermann"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD031688": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD036389": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD029530": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062258": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD033031": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038355": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "equestrian",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Reiters"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "männliche"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      },
+      {
+        "elements": [
+          "equestrian"
+        ],
+        "category": "military_figures"
+      }
+    ]
+  },
+  "HD038678": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD035291": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD073685": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Frauennamen"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "woman"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD039395": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": [
+          "bust",
+          "full_figure"
+        ],
+        "matched_text": "Ehepaares"
+      },
+      {
+        "element": "woman",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Ehepaares"
+      },
+      {
+        "element": "child",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "bust",
+        "matched_text": "Kindern"
+      },
+      {
+        "element": "man",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": [
+          "bust",
+          "full_figure"
+        ],
+        "matched_text": "männlichen"
+      },
+      {
+        "element": "military_figure",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Soldatengürtel"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "child",
+          "man",
+          "woman"
+        ],
+        "category": "portrait_family"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_couple"
+      },
+      {
+        "elements": [
+          "military_figure"
+        ],
+        "category": "military_figures"
+      }
+    ]
+  },
+  "HD064812": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD006565": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD002917": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "clipeus",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Graffito"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "clipeus"
+        ],
+        "category": "framing_other"
+      }
+    ]
+  },
+  "HD064930": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042019": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD069938": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD043366": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042021": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "wreath",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kranz"
+      },
+      {
+        "element": "gorgon",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Gorgoneion"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "wreath"
+        ],
+        "category": "wreaths"
+      },
+      {
+        "elements": [
+          "gorgon"
+        ],
+        "category": "mythological_figures"
+      }
+    ]
+  },
+  "HD062004": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ascia"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD008485": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD012306": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD059696": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichnung"
+      },
+      {
+        "element": "palm_branch",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Palmzweige"
+      },
+      {
+        "element": "cross",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Kreuzzeichnung"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      },
+      {
+        "elements": [
+          "palm_branch"
+        ],
+        "category": "branches_and_fronds"
+      },
+      {
+        "elements": [
+          "cross"
+        ],
+        "category": "cross"
+      }
+    ]
+  },
+  "HD042921": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD042575": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD001396": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "child",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Sohnes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "child"
+        ],
+        "category": "figure_unspecified"
+      }
+    ]
+  },
+  "HD050366": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038035": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD079100": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD065112": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Mannes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_man"
+      }
+    ]
+  },
+  "HD074070": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "boy",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Jungen"
+      },
+      {
+        "element": "foot",
+        "count": ">1",
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Füßen"
+      },
+      {
+        "element": "dog",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Hund"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "boy"
+        ],
+        "category": "portrait_boy"
+      },
+      {
+        "elements": [
+          "foot"
+        ],
+        "category": "secular_figures"
+      },
+      {
+        "elements": [
+          "dog"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD039064": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "sacrifice",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Opferszene"
+      },
+      {
+        "element": "man",
+        "count": 3,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Männern"
+      },
+      {
+        "element": "military_figure",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Soldatengürtel"
+      },
+      {
+        "element": "shield",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Schwert"
+      },
+      {
+        "element": "scroll",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Schriftrolle"
+      },
+      {
+        "element": "woman",
+        "count": 2,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Frauen"
+      },
+      {
+        "element": "man",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": "full_figure",
+        "matched_text": "Mannes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "sacrifice"
+        ],
+        "category": "sacrifice_scene"
+      },
+      {
+        "elements": [
+          "man"
+        ],
+        "category": "portrait_group"
+      },
+      {
+        "elements": [
+          "military_figure"
+        ],
+        "category": "military_figures"
+      },
+      {
+        "elements": [
+          "shield"
+        ],
+        "category": "weapons"
+      },
+      {
+        "elements": [
+          "scroll"
+        ],
+        "category": "other"
+      },
+      {
+        "elements": [
+          "man",
+          "woman"
+        ],
+        "category": "portrait_group"
+      }
+    ]
+  },
+  "HD034003": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD056567": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD037921": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "person",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "figürlichen"
+      },
+      {
+        "element": "horse",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Pferdes"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "person"
+        ],
+        "category": "figure_unspecified"
+      },
+      {
+        "elements": [
+          "horse"
+        ],
+        "category": "other_animals"
+      }
+    ]
+  },
+  "HD082811": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD057614": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD038924": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD068677": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD060677": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD072519": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD041756": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD035071": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD076172": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD081066": {
+    "has_depiction": true,
+    "elements": [
+      {
+        "element": "ascia",
+        "count": 1,
+        "uncertain": false,
+        "variant_condition": null,
+        "matched_text": "Ascia"
+      }
+    ],
+    "motifs": [
+      {
+        "elements": [
+          "ascia"
+        ],
+        "category": "tools"
+      }
+    ]
+  },
+  "HD078645": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  },
+  "HD062132": {
+    "has_depiction": false,
+    "elements": [],
+    "motifs": []
+  }
+}

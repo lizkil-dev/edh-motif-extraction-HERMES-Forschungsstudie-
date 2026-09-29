@@ -1,28 +1,31 @@
 """
-EDH method 2: lemmatisation (Stanza) with compound analysis.
-
-For every EDH comment, independently of the other methods:
+Method 2: lemmatisation (Stanza) with compound analysis.
 
   - has_depiction: the same signal-word check as method 1 OR a recognised
     element.
-  - elements: nouns, proper nouns and adjectives (NOUN_LIKE_UPOS). A word's
-    Stanza lemma equals a German search term or ends with one - the depicted
-    object sits at the tail of a German compound ("Giebelrelief"); the first
-    part of a compound counts too under strict conditions
+  - elements: nouns, proper nouns and adjectives (NOUN_LIKE_UPOS) are
+    compared with the German search terms via their Stanza lemma. A noun
+    matches if its lemma equals a search term or ends with one, since the
+    depicted object sits at the tail of a German compound ("Giebelrelief");
+    an adjective only matches exactly ("männlich"). The first part of a
+    noun compound counts too under strict conditions
     (matching.compound_elements: "Lorbeerkranz" -> laurel + wreath,
-    "Wagenszene" -> cart). Multi-word forms are matched first. Elements on
-    the stoplist are skipped; false friends are checked on the lemma.
+    "Wagenszene" -> cart). Proper nouns are also tried as written, as Stanza
+    lemmatises names badly. Multi-word forms are matched first. Elements on
+    the stoplist are skipped; false friends are checked on the lemma. The
+    same element on neighbouring words is one mention ("stehende Figur").
   - motifs: elements found within the same sentence are grouped via
-    motifs.resolve_motifs() (motif_rules.json) - unlike method 1, which never
-    groups anything.
+    motifs.resolve_motifs() (motif_rules.json). Form words ("Büste", "Ganzfigur") 
+    become the variant of the person they describe (motifs.fold_forms()).
 
-Not implemented: variant and uncertainty detection. The count comes from a
-number word before the match or Stanza's plural feature, see word_count().
+Not implemented: other variants (posture, orientation, design) and
+uncertainty detection. The count comes from a number word before the match
+or Stanza's plural feature, see word_count().
 
-Output: results/nlp_lemma.json.
+Output: results/full_corpus/m2_nlp_lemma.json.
 
 Usage:
-    python src/methods/nlp_lemma.py
+    python src/methods/m2_nlp_lemma.py
 """
 
 import json
@@ -43,8 +46,8 @@ from paths import (  # noqa: E402
     EDH_COMMENTS,
     EDH_RESULT_NLP_LEMMA,
 )
-from motifs import resolve_motifs, fold_forms  # noqa: E402
-from matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
+from common.motifs import resolve_motifs, fold_forms  # noqa: E402
+from common.matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
                       phrase_forms, find_phrases, normalise_word, lemma_matches,
                       number_value, rule_count, build_compounds, compound_elements)
 

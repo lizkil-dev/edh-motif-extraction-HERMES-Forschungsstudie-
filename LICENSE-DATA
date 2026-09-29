@@ -1,0 +1,22 @@
+Data licence
+
+The data in data/ and figures/ are licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+Full legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Copyright (c) 2026 Lisa Kilbinger (vocabulary, annotations, evaluation).
+
+The comment texts, EDH ids, datings and the Trismegistos and EDCS links come
+from the Epigraphic Database Heidelberg (https://edh.ub.uni-heidelberg.de/),
+licensed under CC BY-SA 4.0. Changes: the inscriptions with a commentary were
+selected and reduced to id, commentary and dating (not_before, not_after) in
+data/corpus/edh_comments.json; the Trismegistos and EDCS links are given only
+for the 1100 annotated comments (data/goldstandard/inscription_identifiers.csv).
+
+The Latin search terms follow the image descriptions of the Epigraphic
+Database Bari (EDB, https://www.edb.uniba.it/). The Iconclass notations refer
+to Iconclass (https://iconclass.org/), the alignment to the EAGLE vocabulary
+"Decoration" (https://www.eagle-network.eu/voc/decor.html).
+
+The code in src/ is licensed under the MIT licence (see LICENSE).

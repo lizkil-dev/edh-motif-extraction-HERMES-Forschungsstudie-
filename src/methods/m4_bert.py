@@ -1,40 +1,50 @@
 """
-EDH method 4: BERT (deepset/gbert-base), fine-tuned for word-level element
+Method 4: BERT (deepset/gbert-base), fine-tuned for word-level element
 labels.
 
-  - Task: token classification - every word gets zero, one or more element
-    labels ("Lorbeerkranz" -> laurel + wreath). Label space = the search
+  - Task: token classification, every word gets zero, one or more element. Label space = the search
     vocabulary incl. form and marker words (bust, portrait, couple ...), as
     in the reviewed markings. Each label combination seen in training is one
     class ("hare+hunt", "woman", no label), predicted with a softmax; one
     sigmoid per label collapsed in a first run (with ~5 % of the words
     marked and ~200 labels it learned each label's base rate).
-  - Training data: the development sample's reviewed word markings (all
-    500 rows) plus a silver standard: comments outside all three annotated
+  - Training data: Consists of the development sample's reviewed word markings (all
+    500 rows) plus a silver standard that consists of the comments outside all three annotated
     samples where methods 2 and 3 agree, marked with the same logic as the
     reviewed markings (candidates() and allowed_labels() below, only the
     elements both methods found allowed), and a sample of comments both methods call "no
-    depiction". No cross-validation; BERT is measured on the test sample
-    only (a development-sample score would be training fit).
-    src/bert_runs.py repeats the training with other seeds, all else
-    unchanged.
+    depiction". 
+  - Training runs: training depends on chance (initial weights, order of
+    the examples), so the published comparison uses three runs that differ
+    only in the seed. train is seed 42 (measured by measure_testsample.py);
+    runs trains further seeds and measures each on the test sample.
   - Words and sentences are Stanza tokens, as in the markings. A word's
     labels sit on its first subword.
   - From labels to the result: per sentence as in method 2 - the same
     element on neighbouring words is one mention, counts via
-    nlp_lemma.word_count(), then the shared resolve_motifs() and
+    m2_nlp_lemma.word_count(), then the shared resolve_motifs() and
     fold_forms(); has_depiction = any element or a signal word.
 
 The silver standard comes from the rule-based methods, so BERT partly learns
 their behaviour; what it learns beyond them comes from the development sample.
 
 Usage:
-    python src/methods/bert.py silver    # needs results/nlp_lemma.json, results/dependency.json
-    python src/methods/bert.py train     # CPU: about 35 minutes
-    python src/methods/bert.py predict   # former test sample -> results/bert.json
-    (the test sample: src/measure_testsample.py)
+    python src/methods/m4_bert.py silver        # needs results/full_corpus/m2_nlp_lemma.json, results/full_corpus/m3_dependency.json
+    python src/methods/m4_bert.py train         # seed 42; CPU: about 40 minutes
+    python src/methods/m4_bert.py predict       # former test sample -> results/bert/former_testsample.json
+    python src/methods/m4_bert.py runs          # seeds 43 and 44, each measured on the test sample
+    python src/methods/m4_bert.py runs 45 46    # other seeds
+    (the test sample with seed 42: src/evaluation/measure_testsample.py)
+
+runs writes per seed the model (results/bert/runs/seed<N>/) and the result on
+the test sample (results/method_comparison/predictions/m4_bert_seed<N>.json).
+Seeds whose result file already exists are skipped, so an interrupted call
+can simply be restarted. train and runs both record checksums of model and
+silver standard plus the training time per seed
+(results/method_comparison/m4_bert_runs.json).
 """
 
+import hashlib
 import json
 import os
 import random
@@ -63,17 +73,23 @@ from paths import (  # noqa: E402
     EDH_RESULT_BERT,
     EDH_BERT_SILVER,
     EDH_BERT_MODEL,
+    EDH_BERT_RUNS_MODELS,
+    EDH_COMPARISON,
+    EDH_PREDICTIONS,
+    BERT_RUNS_LOG,
+    bert_file,
 )
-from motifs import resolve_motifs, fold_forms, FORMS  # noqa: E402
-from matching import (build_element_forms, phrase_forms, build_compounds, has_signal_word,  # noqa: E402
+from common.motifs import resolve_motifs, fold_forms, FORMS  # noqa: E402
+from common.matching import (build_element_forms, phrase_forms, build_compounds, has_signal_word,  # noqa: E402
                       rule_count, matching_elements, find_phrases, normalise_word, lemma_matches,
                       compound_elements)
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-from nlp_lemma import word_count  # noqa: E402
+from m2_nlp_lemma import word_count  # noqa: E402
 
 MODEL_NAME = 'deepset/gbert-base'
-SEED = 42               # default training seed; src/bert_runs.py adds others
+SEED = 42               # training seed of train; runs adds others
+RUN_SEEDS = [43, 44]    # default seeds of runs
 SILVER_SEED = 42        # fixed: which "no depiction" comments go into the silver standard
 N_NEGATIVE = 500        # silver comments both methods call "no depiction"
 MAX_SUBWORDS = 256      # sentences are packed into windows up to this length
@@ -392,8 +408,66 @@ def predict_ids(ids, model_dir=EDH_BERT_MODEL):
     return results
 
 
+# -----------------------------------------------------------------------------
+# further training runs
+# -----------------------------------------------------------------------------
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, 'rb') as f:
+        for block in iter(lambda: f.read(1 << 20), b''):
+            h.update(block)
+    return h.hexdigest()
+
+
+def train_logged(seed=SEED, model_dir=EDH_BERT_MODEL):
+    """train(), then record checksums of model and silver standard plus the
+    training time under seed<N> in m4_bert_runs.json; returns the minutes."""
+    started = time.time()
+    train(seed=seed, model_dir=model_dir)
+    minutes = (time.time() - started) / 60
+    log_path = EDH_COMPARISON / BERT_RUNS_LOG
+    log = load_json(log_path) if log_path.exists() else {}
+    log[f'seed{seed}'] = {
+        'seed': seed,
+        'model_sha256': sha256(model_dir / 'model.pt'),
+        'silver_sha256': sha256(EDH_BERT_SILVER),
+        'training_minutes': round(minutes, 1),
+    }
+    log = dict(sorted(log.items(), key=lambda item: item[1]['seed']))
+    EDH_COMPARISON.mkdir(parents=True, exist_ok=True)
+    with open(log_path, 'w', encoding='utf-8') as f:
+        json.dump(log, f, indent=2)
+    return minutes
+
+
+def runs(seeds):
+    """Further training runs, identical to train but for the seed, each
+    measured on the test sample (see module docstring)."""
+    ids = list(load_json(EDH_TESTSAMPLE))
+    EDH_PREDICTIONS.mkdir(parents=True, exist_ok=True)
+
+    for seed in seeds:
+        name = f'seed{seed}'
+        out = EDH_PREDICTIONS / bert_file(seed)
+        if out.exists():
+            print(f'{name}: already done, skipped')
+            continue
+        model_dir = EDH_BERT_RUNS_MODELS / name
+        print(f'{name}: training', flush=True)
+        minutes = train_logged(seed, model_dir)
+        results = predict_ids(ids, model_dir=model_dir)
+        with open(out, 'w', encoding='utf-8') as f:
+            json.dump(results, f, ensure_ascii=False, indent=2)
+        print(f'{name}: {sum(r["has_depiction"] for r in results.values())} of {len(results)} with depiction, '
+              f'{minutes:.0f} min training -> {out}', flush=True)
+
+
 if __name__ == '__main__':
-    commands = {'silver': silver, 'train': train, 'predict': predict}
-    if len(sys.argv) != 2 or sys.argv[1] not in commands:
+    command, args = (sys.argv[1], sys.argv[2:]) if len(sys.argv) > 1 else (None, [])
+    if command == 'runs':
+        runs([int(s) for s in args] or RUN_SEEDS)
+    elif command in ('silver', 'train', 'predict') and not args:
+        {'silver': silver, 'train': train_logged, 'predict': predict}[command]()
+    else:
         sys.exit(__doc__)
-    commands[sys.argv[1]]()

@@ -1,0 +1,5 @@
+comparison,depiction_f1,depiction_f1_low,depiction_f1_high,elements_micro_f1,elements_micro_f1_low,elements_micro_f1_high,elements_macro_f1,elements_macro_f1_low,elements_macro_f1_high,motifs_f1,motifs_f1_low,motifs_f1_high
+method 2 minus method 3,0.0,0.0,0.0,-0.008,-0.021,0.0,-0.03,-0.045,0.0,0.003,-0.018,0.028
+method 2 minus method 4,0.025,-0.0,0.055,0.085,0.026,0.146,0.136,0.006,0.233,0.072,0.015,0.133
+method 3 minus method 4,0.025,-0.0,0.055,0.093,0.036,0.152,0.166,0.037,0.249,0.069,0.006,0.132
+method 2 minus method 1,0.014,-0.013,0.042,0.072,0.034,0.108,0.048,-0.017,0.116,0.212,0.118,0.305

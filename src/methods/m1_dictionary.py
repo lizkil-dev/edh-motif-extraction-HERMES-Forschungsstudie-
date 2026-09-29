@@ -1,7 +1,8 @@
 """
-EDH method 1: dictionary lookup (substring search, no linguistic analysis).
+Method 1: dictionary lookup (substring search, no linguistic analysis).
 
-For every EDH comment, independently of the other methods:
+For every EDH comment in the time window (not_after > 150 or undated, see
+matching.is_in_scope()), independently of the other methods:
 
   - has_depiction: a signal word (signal_words.json) OR a recognised element
     makes the comment a hit.
@@ -12,20 +13,19 @@ For every EDH comment, independently of the other methods:
     Omega") are matched over consecutive words first; words they cover
     aren't searched again ("Kranz mit Tänien" is corona_vittata, not also
     wreath), see matching.find_phrases().
-  - motifs: none - every found element forms its own motif, with its
-    default category from elements.json.
+  - motifs: no grouping - every found element forms its own motif
+    (resolve_motifs() on that element alone). Form words ("Büste",
+    "Ganzfigur") become the variant of the person they describe
+    (motifs.fold_forms()).
 
 Not implemented: compound analysis beyond the substring search itself,
-variant and uncertainty detection. The count comes from a number word or
+other variants (posture, orientation, design) and uncertainty detection. The count comes from a number word or
 digit right before the match, see find_elements().
 
-Output: results/regex.json.
+Output: results/full_corpus/m1_dictionary.json.
 
 Usage:
-    python src/methods/dictionary.py
-
-Named dictionary.py, not regex.py: a file called regex.py on the import path
-shadows the third-party "regex" package, which Stanza imports.
+    python src/methods/m1_dictionary.py
 """
 
 import json
@@ -41,10 +41,10 @@ from paths import (  # noqa: E402
     EDH_FILTER_STOPLIST,
     EDH_FILTER_FALSE_FRIENDS,
     EDH_COMMENTS,
-    EDH_RESULT_REGEX,
+    EDH_RESULT_DICTIONARY,
 )
-from motifs import resolve_motifs, fold_forms  # noqa: E402
-from matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
+from common.motifs import resolve_motifs, fold_forms  # noqa: E402
+from common.matching import (is_in_scope, stoplist_for, build_element_forms, has_signal_word, matching_elements,  # noqa: E402
                       phrase_forms, find_phrases, normalise_word, number_value, rule_count)
 
 
@@ -75,7 +75,7 @@ def find_elements(text, element_forms, false_friend_words):
     alike, not just the bare word "schaft"), not exact whole-word matches.
 
     Count: a number word or digit in the two tokens before ("zwei Büsten",
-    "3 weibliche Büsten"), else 1 - plural endings are deliberately not read,
+    "3 weibliche Büsten"), else 1. plural endings are deliberately not read,
     a substring search can't tell "weibliche" (adjective ending) or "eines
     Knaben" (weak noun, singular) from a real plural.
     """
@@ -110,7 +110,7 @@ def analyze(text, element_forms, signal_words, false_friend_words, motif_rules, 
     """Run method 1 on a single comment, in the annotation/results shape.
 
     Every found element is passed to resolve_motifs() on its own (a
-    single-element list), which structurally rules out any combination -
+    single-element list), which structurally rules out any combination.
     method 1 never attempts grouping.
     """
     elements = find_elements(text, element_forms, false_friend_words)
@@ -172,15 +172,15 @@ def main():
             n_depiction += 1
         n_element_hits += len(result['elements'])
 
-    os.makedirs(os.path.dirname(EDH_RESULT_REGEX), exist_ok=True)
-    with open(EDH_RESULT_REGEX, 'w', encoding='utf-8') as f:
+    os.makedirs(os.path.dirname(EDH_RESULT_DICTIONARY), exist_ok=True)
+    with open(EDH_RESULT_DICTIONARY, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     print(f'Comments in date range:   {n_in_scope}')
     print(f'  with comment text:      {n_with_comment}')
     print(f'  has_depiction=True:     {n_depiction}')
     print(f'  total element hits:     {n_element_hits}')
-    print(f'Output: {EDH_RESULT_REGEX}')
+    print(f'Output: {EDH_RESULT_DICTIONARY}')
 
 
 if __name__ == '__main__':

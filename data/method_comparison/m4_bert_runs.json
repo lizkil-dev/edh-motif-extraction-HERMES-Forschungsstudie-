@@ -1,0 +1,20 @@
+{
+  "seed42": {
+    "seed": 42,
+    "model_sha256": "a5e095e3ca33ea5754a1af8dc6de195cd7dabea4e9d3e64c2661cdfc27c15146",
+    "silver_sha256": "c5bee320a5edeae88e27a27bdfd28f0a0919d7ef607630121a8e92d5e741a1e8",
+    "training_minutes": null
+  },
+  "seed43": {
+    "seed": 43,
+    "model_sha256": "fb6b064abeff3514da3c8c9e017c6b7616b4cef6778c0de7563127b54c17d9f4",
+    "silver_sha256": "c5bee320a5edeae88e27a27bdfd28f0a0919d7ef607630121a8e92d5e741a1e8",
+    "training_minutes": 40.9
+  },
+  "seed44": {
+    "seed": 44,
+    "model_sha256": "14c4d8557f0cb90bb897d70f1e9e2067a987ec95df844bee140d3f3a6a0e3687",
+    "silver_sha256": "c5bee320a5edeae88e27a27bdfd28f0a0919d7ef607630121a8e92d5e741a1e8",
+    "training_minutes": 44.4
+  }
+}

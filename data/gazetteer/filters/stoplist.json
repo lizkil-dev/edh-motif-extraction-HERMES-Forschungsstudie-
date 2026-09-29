@@ -1,0 +1,161 @@
+[
+  {
+    "element": "column",
+    "reason": "Frames the inscription or image field (\"Inschriftfeld von Halbsäulen eingefasst\"); framing architecture is not annotated. Excluded for all methods."
+  },
+  {
+    "element": "altar",
+    "reason": "Mostly the monument itself (\"Mittelteil eines Altars\"), rarely a depicted altar (\"In unterem Bildfeld Altar mit Flamme\"). Methods 1/2 exclude it; method 3 keeps it only with a context word in the same dependency component.",
+    "requires_context": [
+      "Bildfeld",
+      "Fries",
+      "Relief"
+    ]
+  },
+  {
+    "element": "person",
+    "reason": "Mostly the people named in the inscription (\"Anzahl der genannten Personen\"), rarely depicted people (\"Darstellung zweier Personen\"). Methods 1/2 exclude it; method 3 keeps it only with a context word in the same dependency component.",
+    "requires_context": [
+      "Darstellung",
+      "Reliefdarstellung",
+      "Relief",
+      "Abbildung",
+      "Büste",
+      "Brustbild",
+      "Figur",
+      "Ganzfigur",
+      "Bildfeld",
+      "Bildnische",
+      "Nische",
+      "Fries",
+      "Medaillon"
+    ]
+  },
+  {
+    "element": "tower",
+    "reason": "Almost always a findspot or building (\"im Kirchturm vermauert\"), not a depiction. Methods 1/2 exclude it; method 3 keeps it only with a context word in the same dependency component.",
+    "requires_context": [
+      "Bildfeld",
+      "Fries",
+      "Relief",
+      "Darstellung",
+      "Reliefdarstellung",
+      "Abbildung",
+      "Nische",
+      "Bildnische",
+      "Medaillon"
+    ]
+  },
+  {
+    "element": "table",
+    "methods": [
+      "dictionary"
+    ],
+    "reason": "Substring search (method 1) matches adjectives ending in -tisch (\"identisch\", \"keltisch\"). Methods 2/3 match the lemma and are unaffected."
+  },
+  {
+    "element": "wheel",
+    "methods": [
+      "dictionary"
+    ],
+    "reason": "Substring search (method 1) matches \"Grad\", \"gerade\", \"Balustrade\" and names. Methods 2/3 match the lemma and are unaffected."
+  },
+  {
+    "element": "tablet",
+    "requires_context": [
+      "halten",
+      "haltend",
+      "gehalten"
+    ],
+    "reason": "Almost always the inscribed carrier itself (\"Von der Tafel sind 3 Fragmente erhalten\"); a depicted tablet is held by a figure (\"Die Tafel wird von Eroten gehalten\"). Methods 1/2 exclude it; method 3 keeps it only with \"halten\" in the same dependency component."
+  },
+  {
+    "element": "circle",
+    "requires_context": [
+      "Bildfeld",
+      "Fries",
+      "Relief",
+      "Darstellung",
+      "Reliefdarstellung",
+      "Abbildung",
+      "Nische",
+      "Bildnische",
+      "Medaillon"
+    ],
+    "reason": "Mostly a shape description (\"halbkreisförmig\", \"kreisrund\"). Methods 1/2 exclude it; method 3 keeps it only with a context word in the same dependency component."
+  },
+  {
+    "element": "head",
+    "requires_context": [
+      "Bildfeld",
+      "Fries",
+      "Relief",
+      "Darstellung",
+      "Reliefdarstellung",
+      "Abbildung",
+      "Nische",
+      "Bildnische",
+      "Medaillon",
+      "Mann",
+      "Frau",
+      "Knabe",
+      "Junge",
+      "Mädchen",
+      "Kind",
+      "Person",
+      "Figur",
+      "Ehepaar",
+      "männlich",
+      "weiblich",
+      "bärtig"
+    ],
+    "reason": "Mostly an idiom (\"Kopf- und Fußende\", \"auf den Kopf gestellt\"). Methods 1/2 exclude it; method 3 keeps it only with a person or depiction word in the same dependency component, then as the portrait form (like \"Büste\")."
+  },
+  {
+    "element": "unidentified",
+    "requires_context": [
+      "Relief",
+      "Büste",
+      "Brustbild",
+      "Bildfeld",
+      "Darstellung",
+      "dargestellt",
+      "abgebildet",
+      "Abbild",
+      "flankiert",
+      "Figur",
+      "Totenmahl",
+      "Mahlszene",
+      "Jagdszene",
+      "Opferszene",
+      "Personifikation",
+      "Porträt",
+      "Portrait",
+      "figürlich",
+      "Fries",
+      "Ganzfigur",
+      "Medaillon",
+      "Bildnis",
+      "Dekor",
+      "Ritzzeichnung",
+      "ringend",
+      "Ringkampf"
+    ],
+    "reason": "\"unbestimmt\"/\"unbestimmbar\" are common words (\"unbestimmter Herkunft\"). Methods 1/2 exclude them; method 3 keeps them only with a context word in the same dependency component."
+  },
+  {
+    "element": "animal",
+    "methods": [
+      "dictionary"
+    ],
+    "reason": "Substring search (method 1) matches \"Datierung\", \"datiert\", \"zitiert\" and other verbs ending in -tieren. Methods 2/3 match the lemma and are unaffected."
+  },
+  {
+    "element": "arch",
+    "reason": "Almost always the architectural frame or the shape of the monument (\"Nische mit Rundbogen\", \"Rundbogenstele\"); framing architecture is not annotated. Excluded for all methods."
+  },
+  {
+    "element": "pilaster",
+    "reason": "Frames the inscription or image field (\"Inschriftfeld von Pilastern eingefasst\"); framing architecture is not annotated. Excluded for all methods."
+  }
+]

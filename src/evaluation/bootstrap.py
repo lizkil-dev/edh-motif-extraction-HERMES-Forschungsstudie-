@@ -1,22 +1,33 @@
 """
-Uncertainty of the method comparison on the test sample: 95 % bootstrap ranges
-for every score and for the paired differences between methods.
+Estimates the statistical uncertainty of the results. As 300 test comments
+are a rather small sample, a measurement on 300 other comments would produce
+slightly different F1 scores. The bootstrap estimates how large this
+variation is: it gives a 95 % range for every score and for the differences
+between methods.
 
-The scores are those of evaluate.py, which is used unchanged: its three
-evaluate_* functions are called once per test comment, and the resulting
-counts (tp/fp/fn, overall and per element type) are summed over each
-bootstrap sample. A bootstrap sample draws 300 comments from the 300 with
-replacement; a range is the 2.5th to 97.5th percentile over all samples.
-Macro-F1 averages over the element types present in the sample, as in
-evaluate.py.
+How it works: draw 300 comments from the 300 test comments with replacement
+(some comments come up twice, others not at all) and compute all scores
+again; repeat 10,000 times. The range runs from the 2.5th to the 97.5th
+percentile of these scores. The scores are computed with evaluate.py's own
+functions, once per comment; the counts (tp/fp/fn, overall and per element
+type) are then summed for each draw. Macro-F1 averages over the element types
+that occur in the draw, as in evaluate.py. As a check, the scores on all
+comments, each drawn once, have to equal evaluate.py's.
 
-BERT is the mean of its training runs (bert.py's own run, seed 42, plus
-src/bert_runs.py), computed on each bootstrap sample; across the runs
-themselves mean and standard deviation are reported. Paired differences use
-the same bootstrap samples for both methods.
+Differences between methods are paired: both methods are compared on the
+same draws, so the choice of comments affects both alike and only the
+difference between the methods remains.
+
+BERT: in each draw, the mean of its training runs is used
+(m4_bert_seed<N>.json: seed 42 from m4_bert.py train, seeds 43 and 44 from
+m4_bert.py runs); mean and standard deviation across the runs are
+reported separately.
+
+Reads results/method_comparison/predictions/, writes
+results/method_comparison/bootstrap.json.
 
 Usage:
-    python src/bootstrap.py
+    python src/evaluation/bootstrap.py
 """
 
 import json
@@ -25,8 +36,9 @@ import sys
 
 import numpy as np
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
-from paths import EDH_TESTSAMPLE, EDH_RESULTS_TESTSAMPLE, EDH_BERT_RUNS_RESULTS  # noqa: E402
+from paths import EDH_TESTSAMPLE, EDH_COMPARISON, EDH_PREDICTIONS, METHOD_FILES  # noqa: E402
 from evaluate import evaluate_depiction, evaluate_elements, evaluate_motifs, load_json  # noqa: E402
 
 N_SAMPLES = 10_000
@@ -34,7 +46,7 @@ SEED = 20260928
 MEASURES = ['depiction_f1', 'elements_micro_f1', 'elements_macro_f1', 'motifs_f1']
 LABELS = {'depiction_f1': 'Depiction F1', 'elements_micro_f1': 'Elements micro-F1',
           'elements_macro_f1': 'Elements macro-F1', 'motifs_f1': 'Motifs F1'}
-METHODS = {'M1': 'regex', 'M2': 'nlp_lemma', 'M3': 'dependency'}
+METHODS = {'M1': 'm1_dictionary', 'M2': 'm2_nlp_lemma', 'M3': 'm3_dependency'}
 PAIRS = [('M2', 'M3'), ('M2', 'BERT'), ('M3', 'BERT'), ('M2', 'M1')]
 
 
@@ -100,10 +112,9 @@ def summary(values):
 def main():
     gold = load_json(EDH_TESTSAMPLE)
     ids = list(gold)
-    preds = {name: load_json(EDH_RESULTS_TESTSAMPLE / f'{key}.json') for name, key in METHODS.items()}
-    bert_runs = {'seed42': load_json(EDH_RESULTS_TESTSAMPLE / 'bert.json')}
-    for path in sorted(EDH_BERT_RUNS_RESULTS.glob('seed*.json')):
-        bert_runs[path.stem] = load_json(path)
+    preds = {name: load_json(EDH_PREDICTIONS / METHOD_FILES[key]) for name, key in METHODS.items()}
+    bert_runs = {path.stem.removeprefix('m4_bert_'): load_json(path)
+                 for path in sorted(EDH_PREDICTIONS.glob('m4_bert_seed*.json'))}
 
     types = sorted({e['element'] for p in [gold, *preds.values(), *bert_runs.values()]
                     for i in ids for e in p.get(i, {}).get('elements', [])})
@@ -138,7 +149,8 @@ def main():
         'differences': {f'{a}-{b}': {m: summary(results[a][m] - results[b][m]) for m in MEASURES}
                         for a, b in PAIRS},
     }
-    with open(EDH_RESULTS_TESTSAMPLE / 'bootstrap.json', 'w', encoding='utf-8') as f:
+    EDH_COMPARISON.mkdir(parents=True, exist_ok=True)
+    with open(EDH_COMPARISON / 'bootstrap.json', 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=2)
 
     pct = lambda s: f'{100 * s["value"]:5.1f} [{100 * s["low"]:5.1f}, {100 * s["high"]:5.1f}]'  # noqa: E731
@@ -160,7 +172,7 @@ def main():
     for m in MEASURES:
         print(f'{LABELS[m]:20s}' + ''.join(f'{pct(out["differences"][pair][m]):>22s}' for pair in out['differences']))
     print()
-    print(f'-> {EDH_RESULTS_TESTSAMPLE / "bootstrap.json"}')
+    print(f'-> {EDH_COMPARISON / "bootstrap.json"}')
 
 
 if __name__ == '__main__':

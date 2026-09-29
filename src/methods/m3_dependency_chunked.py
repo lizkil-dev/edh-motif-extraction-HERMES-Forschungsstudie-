@@ -1,15 +1,14 @@
 """
-EDH method 3, run in chunks: same result as dependency.py, with less memory.
+Method 3, run in chunks: same result as m3_dependency.py, with less memory.
 
-Why: dependency.py parses all ~11,500 comments with Stanza in one process,
-and memory use grows over the run (on a 16 GB machine the operating system
-may kill the process). This script splits the comments into fixed chunks and
+Why: m3_dependency.py parses all ~11,500 comments with Stanza in one process,
+and memory use grows over the run. This script splits the comments into fixed chunks and
 analyses each chunk in its own process, so memory is fully released between
 chunks.
 
 The analysis itself is not duplicated: every comment goes through
-dependency.analyze() with the same vocabulary, stoplist, false friends and
-motif rules as dependency.main(). Every comment is analysed independently of
+m3_dependency.analyze() with the same vocabulary, stoplist, false friends and
+motif rules as m3_dependency.main(). Every comment is analysed independently of
 all others, so the merged result is identical to a single full run.
 
 Steps:
@@ -19,19 +18,19 @@ Steps:
      the missing chunks. The file is written as .tmp and renamed at the end,
      so a crash mid-write never leaves a half file that looks finished.
   2. `merge` joins all part files into EDH_RESULT_DEPENDENCY, in the same
-     key order dependency.main() produces, and prints the same summary.
+     key order m3_dependency.main() produces, and prints the same summary.
 
 After changing the vocabulary or rules, delete the part files first,
 otherwise the old chunks are skipped and merged again.
 
 Usage:
-    python src/methods/dependency_chunked.py chunk 0
+    python src/methods/m3_dependency_chunked.py chunk 0
     ...
-    python src/methods/dependency_chunked.py chunk 7
-    python src/methods/dependency_chunked.py merge
+    python src/methods/m3_dependency_chunked.py chunk 7
+    python src/methods/m3_dependency_chunked.py merge
 
     # or everything in one go, still one process per chunk:
-    python src/methods/dependency_chunked.py all
+    python src/methods/m3_dependency_chunked.py all
 """
 
 import json
@@ -40,14 +39,15 @@ import subprocess
 import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from paths import EDH_RESULT_DEPENDENCY_PARTS  # noqa: E402
-import dependency as dep  # noqa: E402
+import m3_dependency as dep  # noqa: E402
 
 CHUNK_SIZE = 1500
 
 
 def load_records():
-    """All comments, and those dependency.main() would analyse."""
+    """All comments, and those m3_dependency.main() would analyse."""
     comments = dep.load_json(dep.EDH_COMMENTS)
     records = [r for r in comments if dep.is_in_scope(r) and r.get('commentary')]
     return comments, records
@@ -115,7 +115,7 @@ def merge():
     results = {}
     for idx in range(n_chunks(records)):
         results.update(dep.load_json(part_path(idx)))
-    # same key order as dependency.main()
+    # same key order as m3_dependency.main()
     results = {r['id']: results[r['id']] for r in records}
 
     with open(dep.EDH_RESULT_DEPENDENCY, 'w', encoding='utf-8') as f:
