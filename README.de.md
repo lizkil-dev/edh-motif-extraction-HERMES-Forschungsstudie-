@@ -3,29 +3,18 @@
 *[English version](README.md)*
 
 Automatische Erkennung ikonografischer Motive in den Freitext-Kommentaren der
-[Epigraphischen Datenbank Heidelberg (EDH)](https://edh.ub.uni-heidelberg.de/):
-vier Methoden, ein gemeinsames Vokabular, eine Auswertung.
-
-Die EDH beschreibt die Bildausstattung antiker Grabdenkmäler im
-Kommentarfeld („Oberhalb des Inschriftfeldes Nische mit den Büsten eines
-Ehepaares in der dextrarum iunctio; im Giebel Delphine“). Die Aufgabe ist für
-jede Methode dieselbe: Beschreibt ein Kommentar eine Darstellung, welche
-Elemente sind dargestellt, und wie fügen sie sich zu Motiven? Teil eines
-Promotionsprojekts zu ikonografischen Mustern auf lateinischen
-Grabinschriften (ca. 150–800 n. Chr.), Lisa Kilbinger.
-
-Der Datensatz (Vokabular, Annotationen, Methodenvergleich) ist auf Zenodo
-veröffentlicht: [DOI]. Dieses Repository enthält den Code, mit dem er sich
-nachrechnen lässt.
+[Epigraphischen Datenbank Heidelberg (EDH)](https://edh.ub.uni-heidelberg.de/)
 
 ## Methoden
 
-| Nr. | Methode | Skript |
-|---|---|---|
-| 1 | Wörterbuchabgleich: Suche deutscher Suchwörter als Zeichenfolge im Text | `src/methods/dictionary.py` |
-| 2 | Lemmatisierung (Stanza), Kompositazerlegung, Motive je Satz | `src/methods/nlp_lemma.py` |
-| 3 | Satzanalyse (Dependenzparsing mit Stanza), Motive je grammatisch verbundener Satzgruppe | `src/methods/dependency.py` |
-| 4 | BERT (`deepset/gbert-base`), feinabgestimmte Wortklassifikation (Entwicklungsdaten + Silberstandard: Kommentare, automatisch markiert, wo Methode 2 und 3 übereinstimmen) | `src/methods/bert.py` |
+1. Wörterbuchabgleich (Regex): Suche deutscher Suchwörter als Zeichenfolge im Text
+`src/methods/dictionary.py`
+2. Lemmatisierung (Stanza): Kompositazerlegung, Motive je Satz 
+`src/methods/nlp_lemma.py`
+3. Satzanalyse (Dependency Parsing mit Stanza): Motive je grammatisch verbundener Satzgruppe
+`src/methods/dependency.py`
+4. BERT (deepset/gbert-base): feinabgestimmte Wortklassifikation
+`src/methods/bert.py`
 
 Alle Methoden teilen die Vorbereitung des Vokabulars und die Suchhilfen
 (`src/matching.py`) sowie den Schritt von den Elementen zu den Motiven
@@ -36,9 +25,9 @@ Gruppierung zurück, nicht auf den umgebenden Code.
 ## Aufbau
 
 ```
-data/      Eingabe: Vokabular, Annotationen, EDH-Kommentartexte      (in Git)
-src/       Code: liest data/, schreibt nach results/                 (in Git)
-results/   alles, was der Code erzeugt – jederzeit neu erzeugbar      (nicht in Git)
+data/      Eingabe: Vokabular, Annotationen, EDH-Kommentartexte      
+src/       Code: liest data/, schreibt nach results/                 
+results/   alles, was der Code erzeugt – jederzeit neu erzeugbar      
 ```
 
 ```
@@ -51,21 +40,20 @@ Testdaten ──────────┴────────────�
 ```
 
 Jede Methode schreibt ihre Ergebnisse im selben Format wie die Annotationen
-(`has_depiction`, `elements`, `motifs`). So lässt sich jede Ausgabe direkt
-mit dem von Hand annotierten Maßstab vergleichen.
+(`has_depiction`, `elements`, `motifs`), um einen direkten Vergleich mit dem von Hand annotierten Goldstandard zu gewährleisten.
 
 ## Daten
 
 ```
-data/edh/edh_comments.json   EDH-Kommentartexte mit Datierung – die Eingabe jeder Methode
+data/edh/edh_comments.json   EDH-Kommentartexte mit Datierung
 data/vocabulary/             ikonografisches Vokabular
-  elements.json                374 Elemente (Bezeichnung, Kategorie, Iconclass-Notation, EAGLE-Decoration-Begriff)
-  element_synonyms.json        Suchwörter: de (EDH), la (EDB), en
+  elements.json                374 Elemente (Bezeichnung, Kategorie, Iconclass-Notation, EAGLE-Begriff aus dem Vokabular „Decoration“, wo vorhanden)
+  element_synonyms.json        Suchwörter: de, la, en
   categories.json              Kategorienbaum (Iconclass-Notationen)
-  motif_rules.json             Regeln, die Elemente zu Motiven verbinden
+  motif_rules.json             Regeln, nach denen Elemente zu Motiven verbunden werden
   variant_conditions*.json     Varianten (Büste, Ganzfigur, stehend, rahmend …)
   edh_filters/                 Sucheinstellungen für EDH:
-    signal_words.json            Wörter, die auch ohne bekanntes Element eine Darstellung anzeigen („Relief“)
+    signal_words.json            Wörter, die auch ohne bekanntes Element eine Darstellung anzeigen („abgebildet“)
     stoplist.json                mehrdeutige Wörter, ausgeschlossen oder nach Kontext entschieden („Säule“)
     false_friends.json           Wörter, in denen ein Suchwort zufällig steckt („esel“ in „dieselbe“)
     compound_exceptions.json     Komposita, deren erster Teil kein Element ist („Volutenkrater“)
@@ -87,8 +75,8 @@ Annotationsformat je Kommentar (EDH-Nummer `HD…`): `has_depiction`;
 
 ### Standards
 
-Das Vokabular ist an zwei etablierte Standards angebunden, damit sich seine
-Elemente mit anderen Sammlungen zusammenführen lassen:
+Das Vokabular ist mit zwei etablierten Standards abgeglichen, damit sich
+seine Elemente mit anderen Sammlungen zusammenführen lassen:
 
 - **Iconclass**, das kunsthistorische Klassifikationssystem:
   `iconclass_notation` in `elements.json` und `categories.json`, für jedes
@@ -96,11 +84,14 @@ Elemente mit anderen Sammlungen zusammenführen lassen:
   Iconclass-Schnittstelle geprüft.
 - **EAGLE-Vokabular „Decoration“** (Europeana network of Ancient Greek and
   Latin Epigraphy, https://www.eagle-network.eu/voc/decor.html), der
-  epigraphische Standard für die Dekoration beschrifteter Denkmäler:
-  `eagle_decoration` in `elements.json`, der passende EAGLE-Begriff für
-  jedes Element, das einen hat. Die Bezeichnungen der Kreuzformen (crux
-  quadrata, immissa, gammata, decussata) und die Formen des Christogramms
-  folgen EAGLE.
+  epigraphische Standard für die Dekoration beschrifteter Denkmäler.
+  Jedes Element wurde von Hand mit EAGLE verglichen; wo es eine
+  Entsprechung gibt, steht der EAGLE-Begriff in `eagle_decoration` in
+  `elements.json` (98 von 374 Elementen). Übernommen werden nur Begriffe,
+  die EAGLE auf Deutsch, Englisch oder Latein führt; ist EAGLE gröber,
+  steht der Oberbegriff (Leier → „Musikinstrument“). Die Bezeichnungen der
+  Kreuzformen (crux quadrata, immissa, gammata, decussata) und die Formen
+  des Christogramms folgen EAGLE.
 
 ## Dateien
 

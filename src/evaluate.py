@@ -137,10 +137,11 @@ def evaluate_motifs(gold, pred, ids):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('method', choices=sorted(RESULT_FILES))
-    parser.add_argument('--former-test', action='store_true',
+    sample = parser.add_mutually_exclusive_group()
+    sample.add_argument('--former-test', action='store_true',
                         help='evaluate against the former test sample (edh_former_testsample.json)')
-    parser.add_argument('--test', action='store_true',
-                        help='evaluate against the test sample (edh_testsample.json), with the results of '
+    sample.add_argument('--test', action='store_true',
+                        help='evaluate against the held-out test sample (edh_testsample.json), with the results of '
                              'measure_testsample.py')
     args = parser.parse_args()
 

@@ -1,12 +1,11 @@
-# Annotationsrichtlinien EDH
+# Annotationsrichtlinien
 
-Stand: 2026-09-25. Gilt für alle von Hand annotierten Stichproben, die
-zusammen den Goldstandard bilden (`data/annotations/`):
-`edh_devsample.json` (500, Entwicklungsdaten), `edh_former_testsample.json`
-(300, ehemalige Teststichprobe, seit der Fehleranalyse Entwicklungsdaten)
-und `edh_testsample.json` (300, zurückgehaltene Testdaten,
-Methodenvergleich). Beispiele stammen aus annotierten EDH-Kommentaren
-(HD-Nummer in Klammern).
+Gilt für alle von Hand annotierten Stichproben, die zusammen den
+Goldstandard bilden: `edh_devsample.json` (500, Entwicklungsdaten),
+`edh_former_testsample.json` (300, ehemalige Teststichprobe, nach einer
+Fehleranalyse zu Entwicklungsdaten geworden) und `edh_testsample.json`
+(300, zurückgehaltene Testdaten, Methodenvergleich). Beispiele stammen aus
+annotierten EDH-Kommentaren (HD-Nummer in Klammern).
 
 ---
 
@@ -17,8 +16,8 @@ Methodenvergleich). Beispiele stammen aus annotierten EDH-Kommentaren
    ist. Kein Ergänzen aus eigenem Wissen über das Monument oder aus
    Abbildungen.
 2. **Nur das festgelegte Vokabular.** Elemente, Kategorien und Varianten
-   stammen aus `data/gazetteer/` (`elements.json`, `categories.json`,
-   `rules/variant_conditions.json`). Fehlt ein Element, wird das
+   stammen aus dem Vokabular (`elements.json`, `categories.json`,
+   `variant_conditions.json`). Fehlt ein Element, wird das
    nächstliegende vorhandene gewählt und die Lücke notiert, statt ein neues
    Element spontan anzulegen.
 3. **Eine dargestellte Sache = ein Element.** Eine Figur ist ein Element,
@@ -191,7 +190,7 @@ ergeben: *in welcher Verbindung* etwas dargestellt ist.
 ## 7. Kategorien
 
 **Beschreibung.** Die Kategorie ordnet ein Motiv im Kategorienbaum ein
-(`data/gazetteer/categories.json`).
+(`categories.json`).
 
 **Entscheidungsregel.** Die **spezifischste** passende Kategorie, in dieser
 Reihenfolge:
@@ -243,9 +242,9 @@ Variante bei den Personen.
 ## 8. Markierungen auf Wortebene (für BERT)
 
 Für die Entwicklungsdaten gibt es zusätzlich Markierungen auf Wortebene
-(`data/annotations/edh_devsample_word_markings.json`), aus den Annotationen
+(`edh_devsample_word_markings.json`), aus den Annotationen
 automatisch vorgeschlagen und von Hand geprüft (dieselbe Logik markiert den
-Silberstandard, `candidates()` in `src/methods/bert.py`):
+Silberstandard, `candidates()` in `bert.py`):
 
 - Wörter und Sätze sind Stanza-Tokens.
 - **Jedes Vorkommen** wird markiert, auch erneute Nennungen.
@@ -264,6 +263,11 @@ Silberstandard, `candidates()` in `src/methods/bert.py`):
   **Iconclass** verknüpft (`iconclass_notation` in `elements.json`; 297 von
   374). Jede Notation ist gegen die Iconclass-Schnittstelle geprüft;
   inoffizielle Klammerschlüssel werden nicht verwendet.
+- Das Vokabular ist außerdem mit dem **EAGLE-Vokabular „Decoration“**
+  abgeglichen (`eagle_decoration` in `elements.json`; 98 von 374). Übernommen
+  werden nur deutsche, englische und lateinische EAGLE-Begriffe; ist EAGLE
+  gröber als das Vokabular, steht der Oberbegriff. Die Kreuzformen sind nach
+  EAGLE benannt.
 - Die annotierten Inschriften sind über ihre **EDH-Nummer** referenziert;
   die Konkordanz zu **Trismegistos** und **EDCS** liegt im
   Veröffentlichungspaket (`inscription_identifiers.csv`).
