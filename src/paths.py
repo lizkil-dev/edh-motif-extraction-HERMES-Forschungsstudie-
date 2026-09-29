@@ -15,7 +15,8 @@ Every file path in one place; no script has a hard-coded path.
     data/method_comparison/
                          the published measurement: all four methods on the
                          test data, bootstrap ranges, result tables
-    results/             method output and models - generated, not in git
+    results/             method output, models and a fresh EDH download -
+                         generated, not in git
     figures/             figures of a first look at the data - generated, in git
 
 Every method carries the name of its script everywhere (m1_dictionary,
@@ -29,6 +30,11 @@ DATA = PROJECT_ROOT / 'data'
 RESULTS = PROJECT_ROOT / 'results'
 
 EDH_COMMENTS = DATA / 'corpus' / 'edh_comments.json'
+# a fresh download from the EDH API (src/corpus/fetch_edh.py) and the corpus
+# built from it (src/corpus/build_corpus.py); the EDH changes over time, so
+# these differ from the published snapshot in data/corpus/
+EDH_DOWNLOAD = RESULTS / 'corpus' / 'edh_titsep_150_800.json'
+EDH_COMMENTS_REBUILT = RESULTS / 'corpus' / 'edh_comments.json'
 
 GAZETTEER = DATA / 'gazetteer'
 GAZETTEER_RULES = GAZETTEER / 'rules'
