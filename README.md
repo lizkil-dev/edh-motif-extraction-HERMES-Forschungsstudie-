@@ -1,7 +1,7 @@
-# NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken**
+# NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken
 
 ** Figürliche Darstellungen auf spätantiken Grabinschriften: Ikonographisches
-Vokabular, Goldstandard und Methodenvergleich am Datensatz der EDH*
+Vokabular, Goldstandard und Methodenvergleich am Datensatz der EDH **
 
 Lisa Kilbinger, Philipps-Universität Marburg. Version 1.0, September 2026.
 DOI: [DOI]
