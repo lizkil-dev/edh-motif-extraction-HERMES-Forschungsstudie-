@@ -139,6 +139,53 @@ Methodenergebnisse. Annotiert sind Bildelemente und Motive; Varianten,
 Anzahlen und Unsicherheitsangaben sind ebenfalls annotiert, werden aber von
 keiner Methode erkannt und nicht bewertet.
 
+## Datenfelder
+
+**Korpus** (`edh_comments.json`): je Inschrift `id` (EDH-Nummer),
+`commentary` (Kommentar), `not_before` und `not_after` (Datierung in Jahren
+als Text, negativ = v. Chr.; `null` = undatiert).
+
+**Vokabular** (`gazetteer/`). Alle Dateien sind über englische Schlüssel
+verknüpft (`dove`, `bird_with_branch`).
+
+| Datei | Felder |
+|---|---|
+| `elements.json` | je Element `label`, `iconclass_notation` (`null` ohne Entsprechung), `category` (Kategorie, wenn das Element allein ein Motiv bildet); selten `group` (`person`: Personen, die bei der milden Auswertung zusammenfallen) und `attribute` (`true`: Gegenstand, den eine Figur hält oder trägt) |
+| `element_synonyms.json` | je Element Suchbegriffe `de`, `la`, `en`; die Methoden suchen nur `de` |
+| `categories.json` | Baum: je Kategorie `label`, `iconclass_notation`, `children` |
+| `rules/motif_rules.json` | Regeln mit `id`, `category` und `requires` (Liste mit `element`, `min_count`, optional `max_count`, `take_all`: alle übrigen Exemplare nehmen, `shared`: prüfen, nicht verbrauchen). Die erste erfüllte Regel gewinnt; übrige Elemente werden Einzelmotive |
+| `rules/variant_conditions.json`, `…_synonyms.json` | Varianten (`label`) und ihre Suchbegriffe; nur für die Annotation, keine Methode nutzt sie |
+| `filters/signal_words.json` | Wörter, die allein eine Darstellung anzeigen („Relief“) |
+| `filters/stoplist.json` | `element`, das als Einzelwort nicht gesucht wird, mit `reason`; optional `methods` (nur diese Methoden) und `requires_context` (Methode 3 behält es mit einem dieser Wörter im selben Satzteil) |
+| `filters/false_friends.json` | `word`, das einen Suchbegriff zufällig enthält („Fassade“), mit `reason` |
+| `filters/compound_exceptions.json` | `no_modifier`: Komposita ohne dargestellten Vorderteil („Schafschere“); `modifier_replaces_head`: `modifier` ersetzt die Elemente in `heads` |
+
+**Goldstandard** (`edh_devsample.json`, `edh_former_testsample.json`,
+`edh_testsample.json`), ein Eintrag je EDH-Nummer:
+
+| Feld | Inhalt |
+|---|---|
+| `has_depiction` | `true`, wenn der Kommentar eine Darstellung erwähnt |
+| `evidence` | belegende Textstelle (nur bei Darstellung) |
+| `elements` | je Elementtyp ein Eintrag mit `element` (Schlüssel aus `elements.json`), `count` (Zahl oder `">1"` für Mehrzahl ohne Zahl), `variant_condition` (`null`, eine oder mehrere Varianten aus `variant_conditions.json`) und `uncertain` (`true`, wenn der Kommentar die Deutung als unsicher kennzeichnet) |
+| `motifs` | Motive mit `elements` (Elementschlüssel) und `category` (Schlüssel aus `categories.json`); nur bei Darstellung |
+
+`edh_devsample_word_markings.json`: je EDH-Nummer `sentences` mit `tokens`
+(Wörter) und `labels` (je Wort eine Liste von Elementschlüsseln, meist leer).
+`inscription_identifiers.csv`: `edh_id`, `subset` (Stichprobe), `edh_url`,
+`trismegistos_uri`, `edcs_uri` (leer, wenn kein Verweis besteht).
+
+**Methodenvergleich** (`method_comparison/`). Alle Werte als Anteil
+zwischen 0 und 1.
+
+| Datei | Felder |
+|---|---|
+| `predictions/*.json` | wie der Goldstandard, ohne `evidence`; zusätzlich `matched_text` (Fundstelle, fehlt bei abgeleiteten Elementen). `uncertain` ist immer `false`, `variant_condition` enthält nur Porträtformen (`bust`, `full_figure` …) |
+| `scores.csv` | je Methode `method`, `name`, `description`, `training_runs` (nur BERT); je Ebene (`depiction_f1`, `elements_micro_f1`, `elements_macro_f1`, `motifs_f1`) der Wert, `_low` und `_high` (95-%-Bereich) und `_sd_runs` (Standardabweichung über die BERT-Läufe); dazu `depiction_precision`, `depiction_recall` |
+| `differences.csv` | je Vergleich (`comparison`, z. B. „method 2 minus method 3“) Abstand, `_low` und `_high` je Ebene |
+| `bootstrap.json` | Grundlage beider Tabellen: `n_comments`, `n_with_depiction`, `n_samples` (Bootstrap-Stichproben), `seed`, `bert_runs`; `methods` und `differences` mit `value`, `low`, `high` je Ebene; `bert_across_runs` mit `mean`, `sd` und `runs` je Ebene |
+| `m4_bert_runs.json` | je Lauf `seed`, `model_sha256`, `silver_sha256` (Prüfsummen von Modell und Silberstandard), `training_minutes` (`null`: nicht erfasst) |
+
 ## Skripte
 
 | Skript | Funktion |

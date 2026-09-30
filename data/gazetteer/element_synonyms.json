@@ -1456,7 +1456,6 @@
       "Eroten",
       "Erot"
     ],
-    "de_note": "\"Erot\" is not a real German word - Stanza's German model lemmatizes the plural \"Eroten\" to \"Erot\" (mistakes the -en ending for a German plural suffix, same quirk as \"Stauros\"->\"Stauro\" in docs/edh_methoden.md), so the endswith() suffix match against \"Eroten\" alone would miss it; matched 2026-09-22.",
     "la": [],
     "en": [
       "putto"
@@ -2927,7 +2926,6 @@
       "vegetabil Schmuck",
       "vegetabil Fries"
     ],
-    "de_note": "multi-word forms are written with the bare adjective stem (\"floral Ornament\", not \"florales Ornament\"): every word of a multi-word form but the last matches as a word prefix, so the stem covers all inflections (\"floralen Ornamenten\", \"vegetabilem Schmuck\"), see matching.find_phrases(). Added 2026-09-24.",
     "la": [],
     "en": [
       "plant ornament"

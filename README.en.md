@@ -135,6 +135,53 @@ method results. Image elements and motifs are annotated; variants, counts
 and uncertainty markers are also annotated, but are not detected by any
 method and not evaluated.
 
+## Data fields
+
+**Corpus** (`edh_comments.json`): per inscription `id` (EDH number),
+`commentary`, `not_before` and `not_after` (dating in years as text,
+negative = BC; `null` = undated).
+
+**Vocabulary** (`gazetteer/`). All files are linked by English keys
+(`dove`, `bird_with_branch`).
+
+| File | Fields |
+|---|---|
+| `elements.json` | per element `label`, `iconclass_notation` (`null` if no match), `category` (category when the element forms a motif on its own); rarely `group` (`person`: persons merged in the lenient evaluation) and `attribute` (`true`: object a figure holds or wears) |
+| `element_synonyms.json` | per element search terms `de`, `la`, `en`; the methods search `de` only |
+| `categories.json` | tree: per category `label`, `iconclass_notation`, `children` |
+| `rules/motif_rules.json` | rules with `id`, `category` and `requires` (list with `element`, `min_count`, optional `max_count`, `take_all`: take all remaining instances, `shared`: check, do not consume). The first rule met wins; remaining elements become single motifs |
+| `rules/variant_conditions.json`, `…_synonyms.json` | variants (`label`) and their search terms; for annotation only, not used by any method |
+| `filters/signal_words.json` | words that alone indicate a representation ("Relief") |
+| `filters/stoplist.json` | `element` not searched as a single word, with `reason`; optional `methods` (only these methods) and `requires_context` (method 3 keeps it with one of these words in the same clause) |
+| `filters/false_friends.json` | `word` that contains a search term by chance ("Fassade"), with `reason` |
+| `filters/compound_exceptions.json` | `no_modifier`: compounds whose first part is not depicted ("Schafschere"); `modifier_replaces_head`: `modifier` replaces the elements in `heads` |
+
+**Gold standard** (`edh_devsample.json`, `edh_former_testsample.json`,
+`edh_testsample.json`), one entry per EDH number:
+
+| Field | Contents |
+|---|---|
+| `has_depiction` | `true` if the commentary mentions a representation |
+| `evidence` | supporting passage (only with a representation) |
+| `elements` | one entry per element type with `element` (key from `elements.json`), `count` (number, or `">1"` for a plural without a number), `variant_condition` (`null`, one or several variants from `variant_conditions.json`) and `uncertain` (`true` if the commentary marks the interpretation as uncertain) |
+| `motifs` | motifs with `elements` (element keys) and `category` (key from `categories.json`); only with a representation |
+
+`edh_devsample_word_markings.json`: per EDH number `sentences` with `tokens`
+(words) and `labels` (per word a list of element keys, mostly empty).
+`inscription_identifiers.csv`: `edh_id`, `subset` (sample), `edh_url`,
+`trismegistos_uri`, `edcs_uri` (empty if there is no link).
+
+**Method comparison** (`method_comparison/`). All values as proportions
+between 0 and 1.
+
+| File | Fields |
+|---|---|
+| `predictions/*.json` | as the gold standard, without `evidence`; in addition `matched_text` (matched passage, missing for derived elements). `uncertain` is always `false`, `variant_condition` holds portrait forms only (`bust`, `full_figure` …) |
+| `scores.csv` | per method `method`, `name`, `description`, `training_runs` (BERT only); per level (`depiction_f1`, `elements_micro_f1`, `elements_macro_f1`, `motifs_f1`) the value, `_low` and `_high` (95 % interval) and `_sd_runs` (standard deviation across the BERT runs); plus `depiction_precision`, `depiction_recall` |
+| `differences.csv` | per comparison (`comparison`, e.g. "method 2 minus method 3") the difference, `_low` and `_high` per level |
+| `bootstrap.json` | basis of both tables: `n_comments`, `n_with_depiction`, `n_samples` (bootstrap samples), `seed`, `bert_runs`; `methods` and `differences` with `value`, `low`, `high` per level; `bert_across_runs` with `mean`, `sd` and `runs` per level |
+| `m4_bert_runs.json` | per run `seed`, `model_sha256`, `silver_sha256` (checksums of model and silver standard), `training_minutes` (`null`: not recorded) |
+
 ## Scripts
 
 | Script | Function |
