@@ -1,5 +1,5 @@
 {
-  "title": "NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken: Vokabular, Goldstandard und Methodenvergleich geprüft am Datensatz der Epigraphischen Datenbank Heidelberg (EDH)",
+  "title": "NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken. Figürliche Darstellungen auf spätantiken Grabinschriften: Ikonographisches Vokabular, Goldstandard und Methodenvergleich am Datensatz der EDH",
   "upload_type": "dataset",
   "version": "1.0",
   "creators": [
@@ -8,7 +8,7 @@
       "affiliation": "Philipps-Universität Marburg"
     }
   ],
-  "description": "<p>A multilingual iconographic vocabulary (374 depicted elements, category tree, German/Latin/English search terms, 354 motif rules), aligned with Iconclass and the EAGLE vocabulary \"Decoration\"; a hand-annotated gold standard of 1,100 randomly drawn comments of the Epigraphic Database Heidelberg (EDH), with a concordance to Trismegistos and EDCS; and a comparison of four methods (dictionary matching, lemmatisation, dependency parsing, fine-tuned BERT) that extract iconographic motifs from the free-text comments, with the complete code to reproduce all reported scores. Part of a PhD project on figurative decoration on Late Antique funerary inscriptions.</p>",
+  "description": "<p>A multilingual iconographic vocabulary (374 depicted elements, category tree, German/Latin/English search terms, 354 motif rules), aligned with Iconclass and the EAGLE vocabulary \"Decoration\"; a hand-annotated gold standard of 1,100 randomly drawn comments of the Epigraphic Database Heidelberg (EDH), with a concordance to Trismegistos and EDCS; and a comparison of four methods (dictionary matching, lemmatisation, dependency parsing, fine-tuned BERT) that extract iconographic motifs from the free-text comments, with the complete code to reproduce all reported scores.</p>",
   "license": "cc-by-sa-4.0",
   "access_right": "open",
   "language": "deu",
@@ -51,5 +51,5 @@
       "resource_type": "dataset"
     }
   ],
-  "notes": "Produced within the HERMES research study 'NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken' (2026, Leibniz Institute of European History, IEG), funded by the German Federal Ministry of Education and Research and the European Union (NextGenerationEU): https://www.hermes-hub.de/forschen/forschungsstudien/2026/IEG/nlp-gest%C3%BCtzte-erschlie%C3%9Fung-von-metadaten-in-epigraphischen-datenbanken.html. Data in data/ and figures/: CC BY-SA 4.0 (LICENSE-DATA). Code in src/: MIT (LICENSE). Comment texts, EDH ids, datings, Trismegistos and EDCS links from the Epigraphic Database Heidelberg (CC BY-SA 4.0)."
+  "notes": "Produced within the HERMES research study programme (https://www.hermes-hub.de/formate/forschungsstudien/), funded by the German Federal Ministry of Research, Technology and Space (BMFTR) and the European Union (NextGenerationEU). Data in data/ and figures/: CC BY-SA 4.0 (LICENSE-DATA). Code in src/: MIT (LICENSE). Comment texts, EDH ids, datings, Trismegistos and EDCS links from the Epigraphic Database Heidelberg (CC BY-SA 4.0)."
 }

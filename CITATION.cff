@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this data or code, please cite it as below."
 type: dataset
-title: "NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken: Vokabular, Goldstandard und Methodenvergleich geprüft am Datensatz der Epigraphischen Datenbank Heidelberg (EDH)"
+title: "NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken. Figürliche Darstellungen auf spätantiken Grabinschriften: Ikonographisches Vokabular, Goldstandard und Methodenvergleich am Datensatz der EDH"
 version: "1.0"
 date-released: "2026-09-30"
 authors:
@@ -19,9 +19,8 @@ abstract: >-
   with a concordance to Trismegistos and EDCS; and a comparison of four
   methods (dictionary matching, lemmatisation, dependency parsing, fine-tuned
   BERT) that extract iconographic motifs from the free-text comments, with the
-  complete code to reproduce all reported scores. Part of a PhD project on
-  figurative decoration on Late Antique funerary inscriptions. Data in data/
-  and figures/: CC BY-SA 4.0; code in src/: MIT.
+  complete code to reproduce all reported scores. Data in data/ and figures/:
+  CC BY-SA 4.0; code in src/: MIT.
 keywords:
   - epigraphy
   - iconography
