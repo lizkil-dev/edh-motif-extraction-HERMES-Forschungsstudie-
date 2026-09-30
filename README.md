@@ -29,7 +29,7 @@ umfassende Analyse der frühchristlichen Bildkunst auf Inschriftenträgern.
 
 ## Inhalt
 
-Dieses Repositorium enthält dafür:
+Dieses Repositorium enthält:
 
 - ein mehrsprachiges **ikonographisches Vokabular**: 374 Bildelemente in
   einem Kategorienbaum, Suchbegriffe auf Deutsch, Latein und Englisch,
@@ -49,7 +49,7 @@ Als Datengrundlage dienen die Kommentarspalten der Epigraphischen Datenbank
 Heidelberg (EDH). Die EDH gilt als eine der etabliertesten digitalen
 Ressourcen der lateinischen Epigraphik. Sie folgt den FAIR-Prinzipien und
 stellt ihre Daten unter CC BY-SA 4.0 bereit. Ein eigenes Feld für figürliche
-Darstellungen gibt es nicht; Erwähnungen von Bildmotiven finden sich lediglich
+Darstellungen existiert nicht, Erwähnungen von Bildmotiven finden sich lediglich
 als Freitext in der Kommentarspalte, zusammen mit Bemerkungen zu
 Erhaltungszustand, Textinterpretation u. Ä.
 
