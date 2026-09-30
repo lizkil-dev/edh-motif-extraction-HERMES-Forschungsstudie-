@@ -1,5 +1,3 @@
-# edh-motif-extraction
-
 **NLP-gestützte Erschließung von Metadaten in epigraphischen Datenbanken**
 
 *Figürliche Darstellungen auf spätantiken Grabinschriften: Ikonographisches
